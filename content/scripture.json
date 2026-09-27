@@ -1,0 +1,262 @@
+{
+  "translation": "ESV",
+  "copyrightNotice": "Scripture quotations are from the ESV® Bible (The Holy Bible, English Standard Version®), © 2001 by Crossway, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.",
+
+  "pageAnchors": {
+    "home": [
+      { "reference": "James 4:8a", "text": "Draw near to God, and he will draw near to you." }
+    ],
+    "submit": [
+      { "reference": "Philippians 4:6-7", "text": "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." },
+      { "reference": "1 Peter 5:7", "text": "Casting all your anxieties on him, because he cares for you." }
+    ],
+    "prayerWall": [
+      { "reference": "Galatians 6:2", "text": "Bear one another's burdens, and so fulfill the law of Christ." },
+      { "reference": "James 5:16", "text": "Therefore, confess your sins to one another and pray for one another, that you may be healed. The prayer of a righteous person has great power as it is working." }
+    ],
+    "answered": [
+      { "reference": "Psalm 107:1", "text": "Oh give thanks to the LORD, for he is good, for his steadfast love endures forever!" },
+      { "reference": "Luke 17:15-16", "text": "Then one of them, when he saw that he was healed, turned back, praising God with a loud voice; and he fell on his face at Jesus' feet, giving him thanks. Now he was a Samaritan." }
+    ],
+    "scripture": [
+      { "reference": "Hebrews 4:12", "text": "For the word of God is living and active, sharper than any two-edged sword, piercing to the division of soul and of spirit, of joints and of marrow, and discerning the thoughts and intentions of the heart." }
+    ],
+    "about": [
+      { "reference": "Matthew 11:28", "text": "Come to me, all who labor and are heavy laden, and I will give you rest." }
+    ],
+    "watch": [
+      { "reference": "Romans 10:17", "text": "So faith comes from hearing, and hearing through the word of Christ." }
+    ],
+    "guide": [
+      { "reference": "Psalm 5:3", "text": "O LORD, in the morning you hear my voice; in the morning I prepare a sacrifice for you and watch." }
+    ]
+  },
+
+  "confirmation": [
+    { "reference": "Psalm 34:18", "text": "The LORD is near to the brokenhearted and saves the crushed in spirit." },
+    { "reference": "1 John 5:14", "text": "And this is the confidence that we have toward him, that if we ask anything according to his will he hears us." },
+    { "reference": "Jeremiah 33:3", "text": "Call to me and I will answer you, and will tell you great and hidden things that you have not known." },
+    { "reference": "Psalm 145:18", "text": "The LORD is near to all who call on him, to all who call on him in truth." },
+    { "reference": "Matthew 18:20", "text": "For where two or three are gathered in my name, there am I among them." }
+  ],
+
+  "daily": [
+    { "reference": "James 4:8a", "text": "Draw near to God, and he will draw near to you." },
+    { "reference": "Lamentations 3:22-23", "text": "The steadfast love of the LORD never ceases; his mercies never come to an end; they are new every morning; great is your faithfulness." },
+    { "reference": "Psalm 46:10", "text": "Be still, and know that I am God. I will be exalted among the nations, I will be exalted in the earth!" },
+    { "reference": "Psalm 118:24", "text": "This is the day that the LORD has made; let us rejoice and be glad in it." },
+    { "reference": "Romans 8:28", "text": "And we know that for those who love God all things work together for good, for those who are called according to his purpose." },
+    { "reference": "Psalm 121:1-2", "text": "I lift up my eyes to the hills. From where does my help come? My help comes from the LORD, who made heaven and earth." },
+    { "reference": "Matthew 7:7", "text": "Ask, and it will be given to you; seek, and you will find; knock, and it will be opened to you." },
+    { "reference": "1 Thessalonians 5:16-18", "text": "Rejoice always, pray without ceasing, give thanks in all circumstances; for this is the will of God in Christ Jesus for you." },
+    { "reference": "Hebrews 4:16", "text": "Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need." },
+    { "reference": "Jeremiah 33:3", "text": "Call to me and I will answer you, and will tell you great and hidden things that you have not known." },
+    { "reference": "Psalm 145:18", "text": "The LORD is near to all who call on him, to all who call on him in truth." },
+    { "reference": "Zephaniah 3:17", "text": "The LORD your God is in your midst, a mighty one who will save; he will rejoice over you with gladness; he will quiet you by his love; he will exult over you with loud singing." },
+    { "reference": "Romans 15:13", "text": "May the God of hope fill you with all joy and peace in believing, so that by the power of the Holy Spirit you may abound in hope." },
+    { "reference": "Numbers 6:24-26", "text": "The LORD bless you and keep you; the LORD make his face to shine upon you and be gracious to you; the LORD lift up his countenance upon you and give you peace." },
+    { "reference": "Psalm 37:4", "text": "Delight yourself in the LORD, and he will give you the desires of your heart." },
+    { "reference": "Matthew 11:28", "text": "Come to me, all who labor and are heavy laden, and I will give you rest." },
+    { "reference": "Matthew 11:29", "text": "Take my yoke upon you, and learn from me, for I am gentle and lowly in heart, and you will find rest for your souls." },
+    { "reference": "John 10:10b", "text": "I came that they may have life and have it abundantly." },
+    { "reference": "John 15:5", "text": "I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing." },
+    { "reference": "1 John 4:19", "text": "We love because he first loved us." },
+    { "reference": "Psalm 139:14", "text": "I praise you, for I am fearfully and wonderfully made. Wonderful are your works; my soul knows it very well." },
+    { "reference": "Deuteronomy 31:6", "text": "Be strong and courageous. Do not fear or be in dread of them, for it is the LORD your God who goes with you. He will not leave you or forsake you." },
+    { "reference": "Psalm 91:1-2", "text": "He who dwells in the shelter of the Most High will abide in the shadow of the Almighty. I will say to the LORD, \"My refuge and my fortress, my God, in whom I trust.\"" },
+    { "reference": "Isaiah 43:2", "text": "When you pass through the waters, I will be with you; and through the rivers, they shall not overwhelm you; when you walk through fire you shall not be burned, and the flame shall not consume you." },
+    { "reference": "Micah 6:8", "text": "He has told you, O man, what is good; and what does the LORD require of you but to do justice, and to love kindness, and to walk humbly with your God?" },
+    { "reference": "Psalm 16:11", "text": "You make known to me the path of life; in your presence there is fullness of joy; at your right hand are pleasures forevermore." },
+    { "reference": "Romans 12:12", "text": "Rejoice in hope, be patient in tribulation, be constant in prayer." },
+    { "reference": "1 Chronicles 16:11", "text": "Seek the LORD and his strength; seek his presence continually!" },
+    { "reference": "Psalm 55:22", "text": "Cast your burden on the LORD, and he will sustain you; he will never permit the righteous to be moved." },
+    { "reference": "John 16:33", "text": "I have said these things to you, that in me you may have peace. In the world you will have tribulation. But take heart; I have overcome the world." },
+    { "reference": "Matthew 18:20", "text": "For where two or three are gathered in my name, there am I among them." },
+    { "reference": "1 John 5:14", "text": "And this is the confidence that we have toward him, that if we ask anything according to his will he hears us." },
+    { "reference": "Psalm 5:3", "text": "O LORD, in the morning you hear my voice; in the morning I prepare a sacrifice for you and watch." },
+    { "reference": "Psalm 4:8", "text": "In peace I will both lie down and sleep; for you alone, O LORD, make me dwell in safety." },
+    { "reference": "Romans 12:2", "text": "Do not be conformed to this world, but be transformed by the renewal of your mind, that by testing you may discern what is the will of God, what is good and acceptable and perfect." },
+    { "reference": "Galatians 5:22-23", "text": "But the fruit of the Spirit is love, joy, peace, patience, kindness, goodness, faithfulness, gentleness, self-control; against such things there is no law." },
+    { "reference": "Psalm 19:14", "text": "Let the words of my mouth and the meditation of my heart be acceptable in your sight, O LORD, my rock and my redeemer." },
+    { "reference": "Philippians 4:6-7", "text": "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus." },
+    { "reference": "1 Peter 5:7", "text": "Casting all your anxieties on him, because he cares for you." },
+    { "reference": "Isaiah 41:10", "text": "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand." },
+    { "reference": "Psalm 34:18", "text": "The LORD is near to the brokenhearted and saves the crushed in spirit." },
+    { "reference": "Proverbs 3:5-6", "text": "Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths." },
+    { "reference": "Jeremiah 29:11", "text": "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." },
+    { "reference": "Isaiah 40:31", "text": "But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint." },
+    { "reference": "Philippians 4:13", "text": "I can do all things through him who strengthens me." },
+    { "reference": "2 Corinthians 12:9a", "text": "But he said to me, \"My grace is sufficient for you, for my power is made perfect in weakness.\"" },
+    { "reference": "Psalm 46:1", "text": "God is our refuge and strength, a very present help in trouble." },
+    { "reference": "John 14:27", "text": "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid." },
+    { "reference": "Psalm 23:1", "text": "The LORD is my shepherd; I shall not want." },
+    { "reference": "John 3:16", "text": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life." },
+    { "reference": "Romans 8:1", "text": "There is therefore now no condemnation for those who are in Christ Jesus." },
+    { "reference": "2 Corinthians 5:17", "text": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come." },
+    { "reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness." },
+    { "reference": "Psalm 27:1", "text": "The LORD is my light and my salvation; whom shall I fear? The LORD is the stronghold of my life; of whom shall I be afraid?" },
+    { "reference": "Joshua 1:9", "text": "Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go." },
+    { "reference": "Isaiah 26:3", "text": "You keep him in perfect peace whose mind is stayed on you, because he trusts in you." },
+    { "reference": "Psalm 119:105", "text": "Your word is a lamp to my feet and a light to my path." },
+    { "reference": "Psalm 147:3", "text": "He heals the brokenhearted and binds up their wounds." },
+    { "reference": "Philippians 4:19", "text": "And my God will supply every need of yours according to his riches in glory in Christ Jesus." },
+    { "reference": "Psalm 73:26", "text": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever." },
+    { "reference": "Romans 5:8", "text": "But God shows his love for us in that while we were still sinners, Christ died for us." },
+    { "reference": "Psalm 103:12", "text": "As far as the east is from the west, so far does he remove our transgressions from us." }
+  ],
+
+  "needs": [
+    {
+      "id": "anxiety",
+      "title": "Anxiety",
+      "intro": "When your mind will not settle, bring the worry to God one piece at a time.",
+      "verses": [
+        { "reference": "Philippians 4:6-7", "text": "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.", "howToPray": "Name each worry out loud, thank God for one good thing, and ask Him to guard your heart." },
+        { "reference": "1 Peter 5:7", "text": "Casting all your anxieties on him, because he cares for you.", "howToPray": "Picture handing each burden to Him, and say, \"You care for me, so I give this to You.\"" },
+        { "reference": "Matthew 6:34", "text": "Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble.", "howToPray": "Ask God only for what you need today, and leave tomorrow in His hands." },
+        { "reference": "John 14:27", "text": "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.", "howToPray": "Ask Jesus for His peace, not the world's, and receive it before you ask for anything else." },
+        { "reference": "Isaiah 26:3", "text": "You keep him in perfect peace whose mind is stayed on you, because he trusts in you.", "howToPray": "Each time your thoughts race, pull them back with one sentence: \"Lord, I trust You.\"" },
+        { "reference": "Psalm 94:19", "text": "When the cares of my heart are many, your consolations cheer my soul.", "howToPray": "Tell God honestly how many cares you carry, then ask Him to comfort your soul." }
+      ]
+    },
+    {
+      "id": "fear",
+      "title": "Fear",
+      "intro": "Fear shrinks when you remember who is standing with you.",
+      "verses": [
+        { "reference": "Isaiah 41:10", "text": "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand.", "howToPray": "Read it back to God as a promise: \"You are with me, You will strengthen me, You will hold me up.\"" },
+        { "reference": "Psalm 56:3", "text": "When I am afraid, I put my trust in you.", "howToPray": "Make this your one-line prayer the moment fear shows up." },
+        { "reference": "2 Timothy 1:7", "text": "For God gave us a spirit not of fear but of power and love and self-control.", "howToPray": "Ask God to replace your fear with His power, His love, and a steady mind." },
+        { "reference": "Psalm 27:1", "text": "The LORD is my light and my salvation; whom shall I fear? The LORD is the stronghold of my life; of whom shall I be afraid?", "howToPray": "Name what you fear, then answer it with this verse." },
+        { "reference": "Joshua 1:9", "text": "Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.", "howToPray": "Tell God where you are going today and thank Him that He is already there." },
+        { "reference": "Psalm 23:4", "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.", "howToPray": "Describe your valley to God and thank Him that you are not walking it alone." },
+        { "reference": "1 John 4:18a", "text": "There is no fear in love, but perfect love casts out fear.", "howToPray": "Ask God to show you how much He loves you until fear has less room." }
+      ]
+    },
+    {
+      "id": "grief",
+      "title": "Grief",
+      "intro": "God does not rush your sorrow. He draws near to it.",
+      "verses": [
+        { "reference": "Psalm 34:18", "text": "The LORD is near to the brokenhearted and saves the crushed in spirit.", "howToPray": "Tell God exactly where it hurts, and ask Him to be near you right there." },
+        { "reference": "Matthew 5:4", "text": "Blessed are those who mourn, for they shall be comforted.", "howToPray": "Give yourself permission to grieve, and ask God for the comfort He promised." },
+        { "reference": "Psalm 147:3", "text": "He heals the brokenhearted and binds up their wounds.", "howToPray": "Ask God to bind up the wound, even if it takes time to heal." },
+        { "reference": "2 Corinthians 1:3-4", "text": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God.", "howToPray": "Call Him the God of all comfort, and ask Him to comfort you today." },
+        { "reference": "John 11:25-26", "text": "Jesus said to her, \"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?\"", "howToPray": "Answer Jesus' question honestly, and ask Him to strengthen your hope." },
+        { "reference": "Revelation 21:4", "text": "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.", "howToPray": "Thank God that this sorrow is not the end of the story." }
+      ]
+    },
+    {
+      "id": "healing",
+      "title": "Healing",
+      "intro": "Ask boldly, trust fully, and let God be God.",
+      "verses": [
+        { "reference": "Jeremiah 17:14", "text": "Heal me, O LORD, and I shall be healed; save me, and I shall be saved, for you are my praise.", "howToPray": "Pray it word for word, then name the part of you that needs healing." },
+        { "reference": "Psalm 103:2-3", "text": "Bless the LORD, O my soul, and forget not all his benefits, who forgives all your iniquity, who heals all your diseases.", "howToPray": "Start by remembering what He has already done, then ask for what you need now." },
+        { "reference": "James 5:14-15", "text": "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. And the prayer of faith will save the one who is sick, and the Lord will raise him up. And if he has committed sins, he will be forgiven.", "howToPray": "Ask God for healing, and ask your church to pray with you too." },
+        { "reference": "Isaiah 53:5", "text": "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.", "howToPray": "Thank Jesus for what He carried for you, and rest your need on His finished work." },
+        { "reference": "Psalm 30:2", "text": "O LORD my God, I cried to you for help, and you have healed me.", "howToPray": "Cry out plainly for help, and thank Him ahead of time for hearing you." },
+        { "reference": "3 John 2", "text": "Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.", "howToPray": "Use this to pray for someone else's body and soul by name." }
+      ]
+    },
+    {
+      "id": "provision",
+      "title": "Provision",
+      "intro": "Your Father knows what you need before you ask.",
+      "verses": [
+        { "reference": "Philippians 4:19", "text": "And my God will supply every need of yours according to his riches in glory in Christ Jesus.", "howToPray": "List your real needs, not your wants, and hand the list to Him." },
+        { "reference": "Matthew 6:31-33", "text": "Therefore do not be anxious, saying, 'What shall we eat?' or 'What shall we drink?' or 'What shall we wear?' For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. But seek first the kingdom of God and his righteousness, and all these things will be added to you.", "howToPray": "Ask God what seeking Him first looks like today, then trust Him with the rest." },
+        { "reference": "Psalm 23:1", "text": "The LORD is my shepherd; I shall not want.", "howToPray": "Say it slowly, and thank Him for one way He has provided this week." },
+        { "reference": "Matthew 6:11", "text": "Give us this day our daily bread.", "howToPray": "Ask for today's provision only, and let that be enough." },
+        { "reference": "2 Corinthians 9:8", "text": "And God is able to make all grace abound to you, so that having all sufficiency in all things at all times, you may abound in every good work.", "howToPray": "Ask God for enough to meet your needs and to bless someone else." },
+        { "reference": "Hebrews 13:5", "text": "Keep your life free from love of money, and be content with what you have, for he has said, \"I will never leave you nor forsake you.\"", "howToPray": "Ask God for contentment, and thank Him that He will never leave you." }
+      ]
+    },
+    {
+      "id": "direction",
+      "title": "Direction",
+      "intro": "You do not need the whole map. You need the next step.",
+      "verses": [
+        { "reference": "Proverbs 3:5-6", "text": "Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.", "howToPray": "Tell God the decision in front of you, and admit where your own understanding runs out." },
+        { "reference": "Psalm 32:8", "text": "I will instruct you and teach you in the way you should go; I will counsel you with my eye upon you.", "howToPray": "Ask Him to teach you, then sit quietly for a minute and listen." },
+        { "reference": "James 1:5", "text": "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.", "howToPray": "Ask for wisdom plainly and specifically. He gives it without scolding." },
+        { "reference": "Psalm 119:105", "text": "Your word is a lamp to my feet and a light to my path.", "howToPray": "Ask God to light the next step, not the whole road." },
+        { "reference": "Isaiah 30:21", "text": "And your ears shall hear a word behind you, saying, \"This is the way, walk in it,\" when you turn to the right or when you turn to the left.", "howToPray": "Ask God to make His voice clear, and to give you the courage to follow it." },
+        { "reference": "Jeremiah 29:11", "text": "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.", "howToPray": "Thank God that He sees your future, and ask Him to lead you into it." },
+        { "reference": "Proverbs 16:9", "text": "The heart of man plans his way, but the LORD establishes his steps.", "howToPray": "Hold your plans with an open hand and ask God to establish your steps." }
+      ]
+    },
+    {
+      "id": "forgiveness",
+      "title": "Forgiveness",
+      "intro": "Receive the forgiveness God offers, and pass it on.",
+      "verses": [
+        { "reference": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.", "howToPray": "Name the sin honestly, then thank Him that He is faithful to forgive." },
+        { "reference": "Psalm 51:10", "text": "Create in me a clean heart, O God, and renew a right spirit within me.", "howToPray": "Pray this line slowly and mean every word." },
+        { "reference": "Psalm 103:12", "text": "As far as the east is from the west, so far does he remove our transgressions from us.", "howToPray": "When old guilt returns, thank God that He has already removed it." },
+        { "reference": "Romans 8:1", "text": "There is therefore now no condemnation for those who are in Christ Jesus.", "howToPray": "Tell God the voice of condemnation you keep hearing, and choose His word over it." },
+        { "reference": "Ephesians 4:32", "text": "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.", "howToPray": "Name the person you need to forgive, and ask God for a tender heart toward them." },
+        { "reference": "Colossians 3:13", "text": "Bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.", "howToPray": "Remember how much you have been forgiven, then release the debt someone owes you." },
+        { "reference": "Isaiah 1:18", "text": "Come now, let us reason together, says the LORD: though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool.", "howToPray": "Come to God just as you are, and thank Him that no stain is too deep for Him." }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Marriage and Family",
+      "intro": "Invite God into the relationships closest to your heart.",
+      "verses": [
+        { "reference": "Joshua 24:15b", "text": "But as for me and my house, we will serve the LORD.", "howToPray": "Dedicate your home to God again today, one person at a time." },
+        { "reference": "1 Corinthians 13:4-7", "text": "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.", "howToPray": "Read it with your name in place of \"love,\" and ask God to grow what is missing." },
+        { "reference": "Ephesians 4:2-3", "text": "With all humility and gentleness, with patience, bearing with one another in love, eager to maintain the unity of the Spirit in the bond of peace.", "howToPray": "Ask God for patience and gentleness in the conversation you are dreading." },
+        { "reference": "Colossians 3:14", "text": "And above all these put on love, which binds everything together in perfect harmony.", "howToPray": "Ask God to help you choose love first in your home today." },
+        { "reference": "Psalm 127:1", "text": "Unless the LORD builds the house, those who build it labor in vain. Unless the LORD watches over the city, the watchman stays awake in vain.", "howToPray": "Ask God to build and guard your family, and let go of trying to do it alone." },
+        { "reference": "Proverbs 22:6", "text": "Train up a child in the way he should go; even when he is old he will not depart from it.", "howToPray": "Pray for each child or grandchild by name and for the path God has for them." },
+        { "reference": "Isaiah 54:13", "text": "All your children shall be taught by the LORD, and great shall be the peace of your children.", "howToPray": "Ask God to teach your children Himself and to fill them with His peace." }
+      ]
+    },
+    {
+      "id": "salvation",
+      "title": "Salvation",
+      "intro": "The good news is simple enough for a child and deep enough for a lifetime.",
+      "verses": [
+        { "reference": "John 3:16", "text": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.", "howToPray": "Put your own name in place of \"the world\" and thank God for His love." },
+        { "reference": "Romans 3:23", "text": "For all have sinned and fall short of the glory of God.", "howToPray": "Admit honestly to God that you need a Savior." },
+        { "reference": "Romans 6:23", "text": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.", "howToPray": "Ask God for the free gift, knowing you cannot earn it." },
+        { "reference": "Romans 5:8", "text": "But God shows his love for us in that while we were still sinners, Christ died for us.", "howToPray": "Thank Jesus that He did not wait for you to be good enough." },
+        { "reference": "Romans 10:9", "text": "If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.", "howToPray": "Say out loud, \"Jesus is Lord,\" and tell God you believe He raised Jesus from the dead." },
+        { "reference": "Ephesians 2:8-9", "text": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.", "howToPray": "Stop trying to earn God's love and simply receive His grace." },
+        { "reference": "John 14:6", "text": "Jesus said to him, \"I am the way, and the truth, and the life. No one comes to the Father except through me.\"", "howToPray": "Ask Jesus to be your way to the Father." },
+        { "reference": "2 Corinthians 5:17", "text": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.", "howToPray": "Thank God for the new life He is making in you, starting today." }
+      ]
+    },
+    {
+      "id": "strength",
+      "title": "Strength",
+      "intro": "When you are running on empty, His strength is not.",
+      "verses": [
+        { "reference": "Isaiah 40:31", "text": "But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint.", "howToPray": "Wait quietly before God for two minutes, and ask Him to renew you." },
+        { "reference": "Isaiah 40:29", "text": "He gives power to the faint, and to him who has no might he increases strength.", "howToPray": "Tell God you are tired, and ask Him for power you do not have." },
+        { "reference": "Philippians 4:13", "text": "I can do all things through him who strengthens me.", "howToPray": "Name the hard thing ahead of you and ask Christ to strengthen you for it." },
+        { "reference": "2 Corinthians 12:9", "text": "But he said to me, \"My grace is sufficient for you, for my power is made perfect in weakness.\" Therefore I will boast all the more gladly of my weaknesses, so that the power of Christ may rest upon me.", "howToPray": "Admit your weakness to God and invite His power to rest on you." },
+        { "reference": "Psalm 46:1", "text": "God is our refuge and strength, a very present help in trouble.", "howToPray": "Run to God first, before you run anywhere else." },
+        { "reference": "Nehemiah 8:10b", "text": "The joy of the LORD is your strength.", "howToPray": "Ask God to restore your joy, because that is where your strength comes from." },
+        { "reference": "Psalm 73:26", "text": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever.", "howToPray": "Thank God that He is enough, even when your body and heart feel weak." }
+      ]
+    }
+  ],
+
+  "firstTimePrayer": {
+    "title": "How to Pray for the First Time",
+    "intro": "Prayer is simply talking with God. You do not need special words, a church building, or a perfect life. God already knows you and He wants to hear from you.",
+    "steps": [
+      "Find a quiet spot and take a slow breath. Tell God, \"I am here.\"",
+      "Be honest. Tell Him what you are feeling, even if it is doubt or fear.",
+      "Thank Him for one thing, however small.",
+      "Ask Him for what you need, and for what someone you love needs.",
+      "Close in the name of Jesus, the One who opens the way to the Father."
+    ],
+    "salvationIntro": "If you have never asked Jesus to be your Savior, you can do that right now. There is nothing magic about these words. What matters is your heart. If you mean it, pray this:",
+    "salvationPrayer": "Father, I come to You as I am. I know I have sinned and I cannot fix that on my own. I believe Jesus is Your Son, that He died on the cross for my sins, and that You raised Him from the dead. Jesus, I ask You to forgive me and to be the Lord of my life. I receive Your gift of grace. Fill me with Your Holy Spirit and help me follow You every day. Thank You for loving me and bringing me home. In Jesus' name, amen.",
+    "afterPrayer": "If you prayed that prayer, welcome to the family of God. Tell someone you trust, find a Bible-teaching church near you, and start reading the Gospel of John. We would love to hear from you too."
+  }
+}
