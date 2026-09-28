@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/Scripture";
 import { SITE } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Privacy Policy",
-  description: `How ${SITE.name} handles your information, in plain English.`,
-  alternates: { canonical: "/privacy" },
-};
+  description: "How Closer to the Father handles prayer requests, emails, and your privacy, in plain English. We never sell your information or show ads.",
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (

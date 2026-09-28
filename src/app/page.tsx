@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Scripture } from "@/components/Scripture";
 import { YouTube } from "@/components/YouTube";
@@ -5,10 +6,18 @@ import { CandleIcon, HandsIcon, HeartIcon, LogoMark, MoonIcon, PlayIcon, SunIcon
 import { SCRIPTURE, SITE, verseOfTheDay, youtubeLinks } from "@/lib/content";
 import { formatNumber } from "@/lib/format";
 import { safe } from "@/lib/safe";
+import { pageMetadata } from "@/lib/seo";
+import { SITE_URL } from "@/lib/site-url";
 import { getStore } from "@/lib/store";
 import { getLatestVideo } from "@/lib/youtube";
 
 export const revalidate = 60;
+
+export const metadata: Metadata = pageMetadata({
+  title: `${SITE.name} | Free Prayer Requests and Prayer Wall`,
+  description: SITE.description,
+  path: "/",
+});
 
 export default async function HomePage() {
   const store = getStore();
@@ -20,8 +29,33 @@ export default async function HomePage() {
   const yt = youtubeLinks();
   const today = verseOfTheDay();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": `${SITE_URL}/#organization`,
+        name: SITE.name,
+        url: SITE_URL,
+        logo: `${SITE_URL}/icons/icon-512.png`,
+        description: SITE.description,
+        sameAs: Array.from(new Set([yt.channel, ...SITE.social.map((s) => s.url)])),
+      },
+      {
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        name: SITE.name,
+        url: SITE_URL,
+        description: SITE.description,
+        inLanguage: "en-US",
+        publisher: { "@id": `${SITE_URL}/#organization` },
+      },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       {/* Hero */}
       <section className="glow">
         <div className="mx-auto max-w-3xl px-4 pt-12 pb-14 text-center sm:pt-20 sm:pb-20">

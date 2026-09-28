@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/Scripture";
 import { YouTube } from "@/components/YouTube";
 import { MoonIcon, PlayIcon, SunIcon } from "@/components/icons";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: "Watch Guided Prayers",
-  description: "Guided prayers and daily devotionals from the Closer to the Father YouTube channel. Seven minutes a day.",
-  alternates: { canonical: "/watch" },
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Watch Guided Prayers and Daily Devotionals",
+  description: "Guided prayers and short daily devotionals from the Closer to the Father YouTube channel. Seven minutes a day, one step closer to Him.",
+  path: "/watch",
+});
 
 export default function WatchPage() {
   const yt = youtubeLinks();

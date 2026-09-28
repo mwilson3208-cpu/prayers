@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { PrayerCard } from "@/components/PrayerCard";
 import { Scripture } from "@/components/Scripture";
 import { SCRIPTURE } from "@/lib/content";
+import { clip, prayerTitle } from "@/lib/format";
+import { pageMetadata } from "@/lib/seo";
 import { getStore } from "@/lib/store";
 import { isUuid } from "@/lib/validate";
 
@@ -16,15 +18,14 @@ async function load(id: string) {
 
 export async function generateMetadata({ params }: PageProps<"/prayer-wall/[id]">): Promise<Metadata> {
   const prayer = await load((await params).id).catch(() => null);
-  if (!prayer) return { title: "Prayer request" };
-  const who = prayer.name === "Anonymous" ? "someone" : prayer.name;
-  const excerpt = prayer.request.length > 150 ? `${prayer.request.slice(0, 147)}...` : prayer.request;
-  return {
-    title: `Pray for ${who}`,
-    description: excerpt,
-    alternates: { canonical: `/prayer-wall/${prayer.id}` },
-    openGraph: { title: `Will you pray for ${who}?`, description: excerpt, url: `/prayer-wall/${prayer.id}` },
-  };
+  if (!prayer) return { title: "Prayer request", robots: { index: false } };
+  return pageMetadata({
+    title: prayerTitle(prayer.name, prayer.request),
+    description: clip(prayer.request, 155),
+    path: `/prayer-wall/${prayer.id}`,
+    shareTitle: `Will you pray for ${prayer.name === "Anonymous" ? "this request" : prayer.name}?`,
+    image: false, // this route has its own opengraph-image
+  });
 }
 
 export default async function PrayerPage({ params }: PageProps<"/prayer-wall/[id]">) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { Feed } from "@/components/Feed";
 import { PageHeader } from "@/components/Scripture";
 import { TestimonyForm } from "@/components/TestimonyForm";
@@ -9,11 +10,11 @@ import { getStore } from "@/lib/store";
 
 export const revalidate = 60;
 
-export const metadata: Metadata = {
-  title: "Answered Prayers",
-  description: "Give thanks to God for answered prayer. Read testimonies of God's faithfulness and share your own.",
-  alternates: { canonical: "/answered" },
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Answered Prayers and Testimonies",
+  description: "Read true stories of answered prayer and give thanks to God for His faithfulness. Share how God answered your prayer.",
+  path: "/answered",
+});
 
 export default async function AnsweredPage() {
   const initial = await safe(() => getStore().listTestimonies({ limit: PAGE_SIZE }), { items: [], nextCursor: null }, "answered");

@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Bible Verses to Pray by Need",
-  description:
-    "Bible verses for anxiety, fear, grief, healing, provision, direction, forgiveness, family, salvation, and strength, with a simple way to pray each one.",
-  alternates: { canonical: "/scripture" },
-};
+  description: "Bible verses for anxiety, fear, grief, healing, provision, direction, forgiveness, family, salvation, and strength, with a simple way to pray each one.",
+  path: "/scripture",
+});
 
 export default function ScripturePage() {
   const first = SCRIPTURE.firstTimePrayer;
