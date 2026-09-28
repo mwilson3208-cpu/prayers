@@ -12,6 +12,10 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com" }],
   },
+  async redirects() {
+    // The guide landing page moved to a short, easy-to-say address.
+    return [{ source: "/guide", destination: "/7days", permanent: true }];
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },

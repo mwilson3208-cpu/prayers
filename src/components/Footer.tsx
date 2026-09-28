@@ -8,7 +8,7 @@ export function Footer() {
   return (
     <footer className="mt-20 border-t border-line bg-bg-deep">
       <div className="mx-auto max-w-6xl px-4 py-12">
-        <HideOn prefix="/guide">
+        <HideOn prefixes={["/guide", "/7days"]}>
           <section aria-labelledby="guide-heading" className="card mb-12 grid gap-6 md:grid-cols-2 md:items-center">
             <div>
               <p className="eyebrow">Free for you</p>
@@ -33,7 +33,7 @@ export function Footer() {
                 ["/prayer-wall", "Prayer Wall"],
                 ["/answered", "Give Thanks"],
                 ["/scripture", "Scripture"],
-                ["/guide", "7-Day Prayer Guide"],
+                ["/7days", "7-Day Prayer Guide"],
                 ["/about", "About and Contact"],
               ].map(([href, label]) => (
                 <li key={href}>
