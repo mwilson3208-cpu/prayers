@@ -116,7 +116,7 @@ All of the words most likely to change live in the `content/` folder. Edit them 
 | File | What is in it |
 | --- | --- |
 | `content/scripture.json` | Every verse on the site: page verses, 62 daily verses, the 10 needs on the Scripture page, and the first-time prayer |
-| `content/site.json` | Name, tagline, mission, YouTube IDs, social links, About page text, statement of faith |
+| `content/site.json` | Name, tagline, mission, YouTube IDs, social links, About page text, statement of faith, and `notifications.guideSignupAlertTo` (who gets an email each time someone signs up for the 7-Day Prayer Guide; separate several addresses with commas) |
 | `content/guide.json` | Title, day list, and file path of the 7-Day Prayer Guide. To replace the PDF, upload a new file to `public/downloads/` with the same name. |
 | `content/seed-data.json` | Sample prayers (used for demo mode and `supabase/seed.sql`) |
 

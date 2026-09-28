@@ -24,7 +24,7 @@ ${footer}
 </body></html>`;
 }
 
-type Mail = { to: string; subject: string; html: string; text: string; unsubscribeToken?: string; replyTo?: string };
+type Mail = { to: string | string[]; subject: string; html: string; text: string; unsubscribeToken?: string; replyTo?: string };
 
 export async function sendEmail(mail: Mail): Promise<boolean> {
   if (!env.resendKey) {
@@ -41,7 +41,7 @@ export async function sendEmail(mail: Mail): Promise<boolean> {
       headers: { Authorization: `Bearer ${env.resendKey}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: env.emailFrom,
-        to: [mail.to],
+        to: Array.isArray(mail.to) ? mail.to : [mail.to],
         subject: mail.subject,
         html: layout(mail.html, mail.unsubscribeToken),
         text: mail.text + (mail.unsubscribeToken ? `\n\nUnsubscribe: ${unsubscribeUrl(mail.unsubscribeToken)}` : ""),
@@ -119,5 +119,29 @@ export async function sendAdminAlert(subject: string, lines: [string, string][],
     replyTo,
     html: `${banner}${rows}<p><a href="${env.siteUrl}/admin" style="color:#8a6414">Open the admin dashboard</a></p>`,
     text: `${urgent ? "URGENT: possible crisis.\n\n" : ""}${lines.map(([k, v]) => `${k}: ${v}`).join("\n\n")}\n\nAdmin: ${env.siteUrl}/admin`,
+  });
+}
+
+/** Tells the ministry team each time someone signs up for the guide. */
+export function sendGuideSignupAlert(subscriber: string, source: "footer" | "guide", isNew: boolean) {
+  const to = String(SITE.notifications?.guideSignupAlertTo ?? "")
+    .split(",")
+    .map((a) => a.trim())
+    .filter(Boolean);
+  if (!to.length) return Promise.resolve(false);
+  const where = source === "guide" ? "the 7-Day Prayer Guide page (/7days)" : "the sign-up box at the bottom of the website";
+  const status = isNew ? "New subscriber" : "Already on the list (downloaded the guide again)";
+  const when = new Date().toLocaleString("en-US", { timeZone: "America/New_York", dateStyle: "medium", timeStyle: "short" });
+  return sendEmail({
+    to,
+    replyTo: subscriber,
+    subject: `${isNew ? "New" : "Repeat"} 7-Day Prayer Guide sign-up: ${subscriber}`,
+    html: `<p>Someone just signed up for the free 7-Day Prayer Guide.</p>
+<p style="margin:0 0 10px"><strong>Email:</strong><br><a href="mailto:${esc(subscriber)}" style="color:#8a6414">${esc(subscriber)}</a></p>
+<p style="margin:0 0 10px"><strong>Signed up on:</strong><br>${esc(where)}</p>
+<p style="margin:0 0 10px"><strong>Status:</strong><br>${esc(status)}</p>
+<p style="margin:0 0 10px"><strong>When:</strong><br>${esc(when)} (Eastern)</p>
+<p>Reply to this email to write to them directly. <a href="${env.siteUrl}/admin?tab=subscribers" style="color:#8a6414">See all subscribers</a></p>`,
+    text: `Someone just signed up for the free 7-Day Prayer Guide.\n\nEmail: ${subscriber}\nSigned up on: ${where}\nStatus: ${status}\nWhen: ${when} (Eastern)\n\nAll subscribers: ${env.siteUrl}/admin?tab=subscribers`,
   });
 }

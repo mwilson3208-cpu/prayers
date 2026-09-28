@@ -3,7 +3,6 @@
   "tagline": "Seven minutes a day. One step closer to Him.",
   "mission": "A free place to pray, be prayed for, and give thanks, so more people come to Jesus and closer to the Father.",
   "description": "Submit a prayer request, pray for others, and give thanks to God for answered prayers. The free online home of the Closer to the Father guided prayer and daily devotional channel.",
-
   "youtube": {
     "channelId": "UC5INMtGtvbf34D7gkYbbmBQ",
     "channelUrl": "https://www.youtube.com/channel/UC5INMtGtvbf34D7gkYbbmBQ",
@@ -12,11 +11,12 @@
     "morningPlaylistId": "",
     "nightPlaylistId": ""
   },
-
   "social": [
-    { "label": "YouTube", "url": "https://www.youtube.com/channel/UC5INMtGtvbf34D7gkYbbmBQ" }
+    {
+      "label": "YouTube",
+      "url": "https://www.youtube.com/channel/UC5INMtGtvbf34D7gkYbbmBQ"
+    }
   ],
-
   "about": {
     "whoRunsIt": "Closer to the Father is run by the same small team behind the YouTube channel. We are ordinary believers who love Jesus, love prayer, and want to help people spend a few honest minutes with God every day. Every request that comes through this site is read by a real person and prayed over.",
     "whyFree": "Prayer should never have a price tag. Jesus freely gave, so we freely give. There are no ads, no paid memberships, and no selling of your information. The site runs on free tools so it can stay online for years without asking you for anything.",
@@ -27,5 +27,9 @@
       "Salvation is a free gift received by grace through faith in Jesus, not earned by our works.",
       "The Holy Spirit lives in every believer, helping us pray, grow, and follow Jesus."
     ]
+  },
+  "notifications": {
+    "_note": "Where to send an email every time someone signs up for the 7-Day Prayer Guide. Separate several addresses with commas. Leave empty to turn this off.",
+    "guideSignupAlertTo": "success@entrepreneurpowernetwork.com"
   }
 }

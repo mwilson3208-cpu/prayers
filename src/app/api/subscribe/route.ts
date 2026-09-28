@@ -1,6 +1,6 @@
 import { after } from "next/server";
 import { fail, ok, readJson } from "@/lib/api";
-import { sendWelcomeGuide } from "@/lib/email";
+import { sendGuideSignupAlert, sendWelcomeGuide } from "@/lib/email";
 import { getStore } from "@/lib/store";
 import { clientIp } from "@/lib/security";
 import { verifyHuman } from "@/lib/turnstile";
@@ -19,6 +19,9 @@ export async function POST(req: Request) {
 
   const source = body.source === "guide" ? "guide" : "footer";
   const { token, isNew } = await getStore().addSubscriber(email, source);
-  if (isNew) after(() => sendWelcomeGuide(email, token));
+  after(async () => {
+    if (isNew) await sendWelcomeGuide(email, token);
+    await sendGuideSignupAlert(email, source, isNew);
+  });
   return ok();
 }
