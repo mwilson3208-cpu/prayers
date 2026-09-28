@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
+import { HideOn } from "./HideOn";
 import { NewsletterForm } from "./NewsletterForm";
 
 export function Footer() {
@@ -7,16 +8,18 @@ export function Footer() {
   return (
     <footer className="mt-20 border-t border-line bg-bg-deep">
       <div className="mx-auto max-w-6xl px-4 py-12">
-        <section aria-labelledby="guide-heading" className="card mb-12 grid gap-6 md:grid-cols-2 md:items-center">
-          <div>
-            <p className="eyebrow">Free for you</p>
-            <h2 id="guide-heading" className="mt-2 text-2xl sm:text-3xl">
-              The 7-Day Prayer Guide
-            </h2>
-            <p className="mt-3 text-muted">Seven minutes a day for seven days. One verse, one focus, one short prayer each day.</p>
-          </div>
-          <NewsletterForm />
-        </section>
+        <HideOn prefix="/guide">
+          <section aria-labelledby="guide-heading" className="card mb-12 grid gap-6 md:grid-cols-2 md:items-center">
+            <div>
+              <p className="eyebrow">Free for you</p>
+              <h2 id="guide-heading" className="mt-2 text-2xl sm:text-3xl">
+                The 7-Day Prayer Guide
+              </h2>
+              <p className="mt-3 text-muted">Seven days, seven minutes each. One verse, one teaching, one guided prayer, and one action each day. Free PDF download.</p>
+            </div>
+            <NewsletterForm />
+          </section>
+        </HideOn>
 
         <div className="grid gap-10 sm:grid-cols-3">
           <div>

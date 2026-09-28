@@ -20,7 +20,7 @@ The site runs entirely on free plans: Vercel (hosting), Supabase (database), Clo
 | Scripture | `/scripture` | Verses by need, how to pray each one, first-time prayer |
 | Watch | `/watch` | Channel uploads playlist and subscribe button |
 | About | `/about` | Mission, statement of faith, contact form |
-| 7-Day Prayer Guide | `/guide` | Free guide sent to newsletter subscribers |
+| 7-Day Prayer Guide | `/guide` | Email sign-up for the free PDF guide. After signing up, visitors go to `/guide/thank-you` to download it and are invited to the YouTube channel. |
 | Privacy, Terms | `/privacy`, `/terms` | Plain-English policies |
 | Admin | `/admin` | Password-protected moderation dashboard |
 
@@ -117,7 +117,7 @@ All of the words most likely to change live in the `content/` folder. Edit them 
 | --- | --- |
 | `content/scripture.json` | Every verse on the site: page verses, 62 daily verses, the 10 needs on the Scripture page, and the first-time prayer |
 | `content/site.json` | Name, tagline, mission, YouTube IDs, social links, About page text, statement of faith |
-| `content/guide.json` | The 7-Day Prayer Guide |
+| `content/guide.json` | Title, day list, and file path of the 7-Day Prayer Guide. To replace the PDF, upload a new file to `public/downloads/` with the same name. |
 | `content/seed-data.json` | Sample prayers (used for demo mode and `supabase/seed.sql`) |
 
 Tip: JSON is picky. Keep the quotation marks and commas exactly as they are, and if you need a quote mark inside text, type `\"`. If a change breaks the site, Vercel keeps the previous version online and shows the error in the Deployments tab.
