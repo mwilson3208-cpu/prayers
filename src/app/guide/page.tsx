@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { PageHeader, Scripture } from "@/components/Scripture";
 import { GUIDE, SCRIPTURE, youtubeLinks } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Free 7-Day Prayer Guide",
-  description: GUIDE.subtitle,
-  alternates: { canonical: "/guide" },
-};
+  description: "A free 7-day prayer guide: one verse, one focus, and one short prayer each day. Seven minutes a day to build a daily habit of prayer.",
+  path: "/guide",
+});
 
 export default function GuidePage() {
   return (

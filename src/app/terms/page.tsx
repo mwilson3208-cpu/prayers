@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/Scripture";
 import { SITE } from "@/lib/content";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMetadata({
   title: "Terms of Use",
-  description: `The simple rules for using ${SITE.name}.`,
-  alternates: { canonical: "/terms" },
-};
+  description: "The simple rules for sharing prayer requests and testimonies on Closer to the Father, in plain English.",
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

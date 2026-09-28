@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   description: SITE.description,
   applicationName: SITE.name,
   keywords: ["prayer request", "prayer wall", "pray for me", "answered prayer", "daily devotional", "guided prayer", "Bible verses"],
-  openGraph: { type: "website", siteName: SITE.name, locale: "en_US", url: "/" },
+  openGraph: { type: "website", siteName: SITE.name, locale: "en_US" },
   twitter: { card: "summary_large_image" },
   appleWebApp: { capable: true, title: SITE.name, statusBarStyle: "black-translucent" },
   icons: {

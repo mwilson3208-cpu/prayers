@@ -52,7 +52,7 @@ If you are reading this on GitHub, this step is done. Otherwise create a free ac
 
 1. Go to [dash.cloudflare.com](https://dash.cloudflare.com) and sign up (free).
 2. In the left menu, click **Turnstile**, then **Add widget**.
-3. Name it `Closer to the Father`. Under hostnames, add your domain (for example `closertothefather.org`) and also `vercel.app`. Choose **Managed** mode. Click **Create**.
+3. Name it `Closer to the Father`. Under hostnames, add your domain (for example `closertothefather.com`) and also `vercel.app`. Choose **Managed** mode. Click **Create**.
 4. Copy the **Site Key** and the **Secret Key**.
 
 ### Step 4. Set up email (Resend, optional but recommended)
@@ -71,7 +71,7 @@ Without this step the site still works, but no emails are sent.
 
 | Name | Value |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Your site address, like `https://closertothefather.org` (no slash at the end) |
+| `NEXT_PUBLIC_SITE_URL` | Your site address, like `https://closertothefather.com` (no slash at the end) |
 | `SUPABASE_URL` | Project URL from Step 2 |
 | `SUPABASE_SERVICE_ROLE_KEY` | service_role key from Step 2 |
 | `ADMIN_PASSWORD` | The password you will use at `/admin` (12 or more characters) |
@@ -79,7 +79,7 @@ Without this step the site still works, but no emails are sent.
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Site Key from Step 3 |
 | `TURNSTILE_SECRET_KEY` | Secret Key from Step 3 |
 | `RESEND_API_KEY` | API key from Step 4 (optional) |
-| `EMAIL_FROM` | For example `Closer to the Father <prayer@closertothefather.org>` |
+| `EMAIL_FROM` | For example `Closer to the Father <prayer@closertothefather.com>` |
 | `ADMIN_EMAIL` | Your email, for new-submission alerts |
 | `CRON_SECRET` | Another long random string |
 | `HASH_SALT` | Another long random string (optional) |

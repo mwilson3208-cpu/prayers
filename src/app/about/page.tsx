@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import { ContactForm } from "@/components/ContactForm";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import { SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
 
-export const metadata: Metadata = {
-  title: "About",
-  description: `Why ${SITE.name} exists, who runs it, what we believe, and how to reach us.`,
-  alternates: { canonical: "/about" },
-};
+export const metadata: Metadata = pageMetadata({
+  title: "About Our Prayer Ministry",
+  description: "Why Closer to the Father exists, who runs it, what we believe, and how to contact our prayer team.",
+  path: "/about",
+});
 
 export default function AboutPage() {
   const yt = youtubeLinks();

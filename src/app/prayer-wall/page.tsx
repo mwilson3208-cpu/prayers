@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { Feed } from "@/components/Feed";
 import { PageHeader } from "@/components/Scripture";
@@ -7,11 +8,11 @@ import { SCRIPTURE } from "@/lib/content";
 import { safe } from "@/lib/safe";
 import { getStore } from "@/lib/store";
 
-export const metadata: Metadata = {
-  title: "Prayer Wall",
-  description: "Pray for real people and their real needs. Tap \"I prayed for this\" to let them know they are not alone.",
-  alternates: { canonical: "/prayer-wall" },
-};
+export const metadata: Metadata = pageMetadata({
+  title: "Prayer Wall: Pray for Others",
+  description: `Pray for real people with real needs. Read prayer requests, pray over them, and tap "I prayed for this" so they know they are not alone.`,
+  path: "/prayer-wall",
+});
 
 export default async function PrayerWallPage({ searchParams }: PageProps<"/prayer-wall">) {
   const sp = await searchParams;
