@@ -8,6 +8,7 @@ export const NAV = [
   { href: "/submit", label: "Submit a Prayer" },
   { href: "/prayer-wall", label: "Prayer Wall" },
   { href: "/answered", label: "Give Thanks" },
+  { href: "/7days", label: "Prayer Guide" },
   { href: "/scripture", label: "Scripture" },
   { href: "/watch", label: "Watch" },
   { href: "/about", label: "About" },

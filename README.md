@@ -20,7 +20,7 @@ The site runs entirely on free plans: Vercel (hosting), Supabase (database), Clo
 | Scripture | `/scripture` | Verses by need, how to pray each one, first-time prayer |
 | Watch | `/watch` | Channel uploads playlist and subscribe button |
 | About | `/about` | Mission, statement of faith, contact form |
-| 7-Day Prayer Guide | `/guide` | Email sign-up for the free PDF guide. After signing up, visitors go to `/guide/thank-you` to download it and are invited to the YouTube channel. |
+| 7-Day Prayer Guide | `/7days` | Landing page for the free PDF guide (share this link). After signing up, visitors go to `/guide/thank-you` to download it and are invited to the YouTube channel. The old `/guide` address redirects here. |
 | Privacy, Terms | `/privacy`, `/terms` | Plain-English policies |
 | Admin | `/admin` | Password-protected moderation dashboard |
 
