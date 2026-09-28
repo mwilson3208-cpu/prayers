@@ -17,7 +17,8 @@ export async function POST(req: Request) {
     return fail("We could not confirm you are a person. Please refresh and try again.", 403);
   }
 
-  const { token, isNew } = await getStore().addSubscriber(email, "footer");
+  const source = body.source === "guide" ? "guide" : "footer";
+  const { token, isNew } = await getStore().addSubscriber(email, source);
   if (isNew) after(() => sendWelcomeGuide(email, token));
   return ok();
 }

@@ -1,6 +1,6 @@
 import "server-only";
 import { env } from "./env";
-import { SITE } from "./content";
+import { GUIDE, SITE } from "./content";
 
 // Sends email through Resend's HTTP API (no extra package needed).
 // When RESEND_API_KEY is empty, emails are written to the server log instead.
@@ -99,9 +99,9 @@ export function sendWelcomeGuide(to: string, token: string) {
     unsubscribeToken: token,
     html: `<p>Welcome. We are so glad you are here.</p>
 <p>Your 7-Day Prayer Guide is ready. Seven minutes a day, seven days, one step closer to Him.</p>
-<p><a href="${env.siteUrl}/guide" style="display:inline-block;background:#d4a853;color:#0b1d3a;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold">Open the 7-Day Prayer Guide</a></p>
+<p><a href="${env.siteUrl}${GUIDE.file}" style="display:inline-block;background:#d4a853;color:#0b1d3a;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold">Download the 7-Day Prayer Guide</a></p>
 <p>You can also pray along every day on our <a href="${SITE.youtube.channelUrl}" style="color:#8a6414">YouTube channel</a>.</p>`,
-    text: `Welcome. Your 7-Day Prayer Guide is ready: ${env.siteUrl}/guide\n\nPray along every day on YouTube: ${SITE.youtube.channelUrl}`,
+    text: `Welcome. Your 7-Day Prayer Guide is ready: ${env.siteUrl}${GUIDE.file}\n\nPray along every day on YouTube: ${SITE.youtube.channelUrl}`,
   });
 }
 

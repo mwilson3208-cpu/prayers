@@ -1,52 +1,43 @@
 import type { Metadata } from "next";
+import { NewsletterForm } from "@/components/NewsletterForm";
+import { PageHeader } from "@/components/Scripture";
+import { GUIDE, SCRIPTURE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
-import Link from "next/link";
-import { PageHeader, Scripture } from "@/components/Scripture";
-import { GUIDE, SCRIPTURE, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
   title: "Free 7-Day Prayer Guide",
-  description: "A free 7-day prayer guide: one verse, one focus, and one short prayer each day. Seven minutes a day to build a daily habit of prayer.",
+  description:
+    "Download the free 7-day prayer guide: one verse, one short teaching, one guided prayer, and one action each day. Seven minutes a day to build a prayer habit you can keep.",
   path: "/guide",
 });
 
 export default function GuidePage() {
   return (
     <>
-      <PageHeader eyebrow="Free guide" title={GUIDE.title} lead={GUIDE.subtitle} verses={SCRIPTURE.pageAnchors.guide} />
+      <PageHeader eyebrow="Free prayer guide" title={GUIDE.title} lead={GUIDE.subtitle} verses={SCRIPTURE.pageAnchors.guide} />
       <div className="mx-auto max-w-3xl px-4">
-        <p className="text-lg">{GUIDE.intro}</p>
-        <div className="card mt-8">
-          <h2 className="text-2xl">How to use this guide</h2>
-          <ol className="mt-4 list-decimal space-y-2 pl-6">
-            {GUIDE.howToUse.map((s) => (
-              <li key={s}>{s}</li>
-            ))}
-          </ol>
-        </div>
-        <ol className="mt-10 space-y-6">
-          {GUIDE.days.map((d) => (
-            <li key={d.day} id={`day-${d.day}`} className="card scroll-mt-24">
-              <p className="eyebrow">Day {d.day}</p>
-              <h2 className="mt-1 text-3xl">{d.theme}</h2>
-              <Scripture verse={{ reference: d.reference, text: d.verse }} size="sm" className="mt-5" />
-              <p className="mt-5">
-                <span className="font-semibold">Focus: </span>
-                {d.focus}
-              </p>
-              <p className="mt-4 rounded-xl bg-bg/60 p-4 font-serif text-lg italic">{d.prayer}</p>
+        <section aria-labelledby="get-guide" className="card border-accent/50 sm:p-8">
+          <h2 id="get-guide" className="text-2xl sm:text-3xl">
+            Get the guide free
+          </h2>
+          <p className="mt-2 text-muted">Enter your email and you can download it right away. We will also email you a copy.</p>
+          <div className="mt-5">
+            <NewsletterForm source="guide" size="lg" />
+          </div>
+          <p className="mt-4 text-sm text-muted">{GUIDE.fileDescription}. No spam. Unsubscribe any time.</p>
+        </section>
+
+        <p className="mt-10 text-lg">{GUIDE.intro}</p>
+
+        <h2 className="mt-10 text-2xl">The path</h2>
+        <ol className="mt-4 space-y-3">
+          {GUIDE.days.map((title, i) => (
+            <li key={title} className="flex items-center gap-4 rounded-xl border border-line bg-surface px-4 py-3">
+              <span className="w-16 shrink-0 font-semibold text-accent-ink">Day {i + 1}</span>
+              <span className="font-serif text-lg">{title}</span>
             </li>
           ))}
         </ol>
-        <p className="mt-10 text-lg">{GUIDE.closing}</p>
-        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-          <a href={youtubeLinks().channel} target="_blank" rel="noopener noreferrer" className="btn-primary">
-            Pray along on YouTube
-          </a>
-          <Link href="/prayer-wall" className="btn-secondary">
-            Visit the prayer wall
-          </Link>
-        </div>
       </div>
     </>
   );
