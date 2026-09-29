@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { MenuIcon } from "./icons";
 
-/** Simple dropdown menu for phones. Closes after navigating or tapping outside. */
+/** Simple dropdown menu for phones. Closes after tapping a link, tapping outside, or pressing Escape. */
 export function MobileMenu({ items }: { items: { href: string; label: string }[] }) {
   const ref = useRef<HTMLDetailsElement>(null);
   const pathname = usePathname();
@@ -18,8 +18,18 @@ export function MobileMenu({ items }: { items: { href: string; label: string }[]
     const close = (e: MouseEvent) => {
       if (ref.current?.open && !ref.current.contains(e.target as Node)) ref.current.open = false;
     };
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape" && ref.current?.open) {
+        ref.current.open = false;
+        ref.current.querySelector("summary")?.focus();
+      }
+    };
     document.addEventListener("click", close);
-    return () => document.removeEventListener("click", close);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("click", close);
+      document.removeEventListener("keydown", onKey);
+    };
   }, []);
 
   return (
@@ -34,6 +44,9 @@ export function MobileMenu({ items }: { items: { href: string; label: string }[]
               <Link
                 href={item.href}
                 aria-current={pathname === item.href ? "page" : undefined}
+                onClick={() => {
+                  if (ref.current) ref.current.open = false;
+                }}
                 className="flex min-h-12 items-center rounded-xl px-4 text-lg hover:bg-surface-2 aria-[current=page]:text-accent-ink"
               >
                 {item.label}
