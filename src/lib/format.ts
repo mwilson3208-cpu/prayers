@@ -23,5 +23,13 @@ export function clip(text: string, max: number): string {
 /** Unique, readable page title for a prayer request. */
 export function prayerTitle(name: string, request: string): string {
   const who = name === "Anonymous" ? "Prayer request" : `Pray for ${name}`;
-  return `${who}: ${clip(request, 42)}`;
+  return `${who}: ${clip(request, 58 - who.length)}`;
+}
+
+/**
+ * Inner quotations inside a verse become single curly quotes, so a verse shown
+ * inside double quotes reads “…said, ‘I am…’” instead of “…said, "I am…"”.
+ */
+export function nestQuotes(text: string): string {
+  return text.replace(/"([^"]*)"/g, "‘$1’");
 }

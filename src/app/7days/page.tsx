@@ -1,15 +1,16 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { NewsletterForm } from "@/components/NewsletterForm";
+import { JsonLd } from "@/components/JsonLd";
 import { Scripture } from "@/components/Scripture";
 import { CheckIcon } from "@/components/icons";
 import { GUIDE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Free 7-Day Prayer Guide: Seven Minutes a Day",
+  title: "Free 7-Day Prayer Guide",
   description:
-    "Build a prayer life you can keep in seven minutes a day. Get the free 7-Day Prayer Guide: one verse, one short teaching, one guided prayer, and one simple action each day. Instant download.",
+    "Build a prayer life you can keep in seven minutes a day. One verse, one short teaching, one guided prayer, and one action each day. Free instant download.",
   path: "/7days",
   shareTitle: "Free 7-Day Prayer Guide: Seven minutes a day. One step closer to Him.",
   image: false, // this route has its own share image with the guide cover
@@ -69,19 +70,29 @@ function CtaBox({ id }: { id: string }) {
 export default function SevenDaysPage() {
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: FAQ.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+        }}
+      />
       {/* Hero */}
       <section className="glow">
-        <div className="mx-auto grid max-w-6xl gap-10 px-4 pt-10 pb-14 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-14">
-          <div>
+        <div className="mx-auto grid max-w-6xl gap-6 px-4 pt-10 pb-14 sm:pt-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:gap-14">
+          {/* One cover image: small above the headline on phones, large on the right on desktop. */}
+          <div className="lg:order-last">
             <Image
               src="/images/prayer-guide-cover.jpg"
               alt="Cover of 7 Days to a Closer Walk With the Father, a sunrise over a path through the hills"
               width={900}
               height={1165}
               priority
-              sizes="160px"
-              className="mb-6 w-36 -rotate-2 rounded-md shadow-2xl shadow-black/50 sm:w-40 lg:hidden"
+              sizes="(min-width: 1024px) 420px, 160px"
+              className="w-36 -rotate-2 rounded-md shadow-2xl shadow-black/50 sm:w-40 lg:mx-auto lg:w-full lg:max-w-md lg:rounded-lg"
             />
+          </div>
+          <div>
             <p className="eyebrow">Free 7-Day Prayer Guide</p>
             <h1 className="mt-3 text-4xl leading-tight sm:text-5xl lg:text-6xl">Build a prayer life you can actually keep.</h1>
             <p className="mt-5 text-lg text-muted sm:text-xl">
@@ -92,17 +103,6 @@ export default function SevenDaysPage() {
             <div className="mt-8">
               <CtaBox id="cta-top" />
             </div>
-          </div>
-          <div className="hidden lg:block">
-            <Image
-              src="/images/prayer-guide-cover.jpg"
-              alt="Cover of 7 Days to a Closer Walk With the Father, a sunrise over a path through the hills"
-              width={900}
-              height={1165}
-              priority
-              sizes="420px"
-              className="mx-auto w-full max-w-md -rotate-2 rounded-lg shadow-2xl shadow-black/50"
-            />
           </div>
         </div>
       </section>

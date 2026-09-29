@@ -12,6 +12,7 @@ export function pageMetadata({
   path,
   shareTitle,
   image = true,
+  absoluteTitle = false,
 }: {
   title: string;
   description: string;
@@ -19,11 +20,13 @@ export function pageMetadata({
   shareTitle?: string;
   /** Set false when the route has its own opengraph-image file. */
   image?: boolean;
+  /** Use the title exactly as given, without the " | Closer to the Father" suffix. */
+  absoluteTitle?: boolean;
 }): Metadata {
   const ogTitle = shareTitle ?? (path === "/" ? title : `${title} | ${SITE.name}`);
   const images = image ? [{ url: "/opengraph-image", width: 1200, height: 630, alt: `${SITE.name}: ${SITE.tagline}` }] : undefined;
   return {
-    title: path === "/" ? { absolute: title } : title,
+    title: path === "/" || absoluteTitle ? { absolute: title } : title,
     description,
     alternates: { canonical: path },
     openGraph: {

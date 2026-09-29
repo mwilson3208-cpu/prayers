@@ -4,6 +4,7 @@ import Link from "next/link";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
+import { nestQuotes } from "@/lib/format";
 
 export const metadata: Metadata = pageMetadata({
   title: "Bible Verses to Pray by Need",
@@ -18,7 +19,7 @@ export default function ScripturePage() {
       <PageHeader
         eyebrow="Pray God's Word back to Him"
         title="Scripture for What You Are Facing"
-        lead="Find what you are walking through, read the verses slowly, and use the short note under each one to turn it into prayer."
+        lead="Choose what you are walking through. Each topic has hand-picked Bible verses and a simple way to pray every one of them."
         verses={SCRIPTURE.pageAnchors.scripture}
       />
       <div className="mx-auto max-w-3xl px-4">
@@ -27,9 +28,9 @@ export default function ScripturePage() {
           <ul className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-3">
             {SCRIPTURE.needs.map((n) => (
               <li key={n.id}>
-                <a href={`#${n.id}`} className="flex min-h-11 items-center rounded-lg px-2 text-accent-ink underline-offset-4 hover:underline">
+                <Link href={`/scripture/${n.id}`} className="flex min-h-11 items-center rounded-lg px-2 text-accent-ink underline-offset-4 hover:underline">
                   {n.title}
-                </a>
+                </Link>
               </li>
             ))}
             <li>
@@ -40,26 +41,26 @@ export default function ScripturePage() {
           </ul>
         </nav>
 
-        {SCRIPTURE.needs.map((need) => (
-          <section key={need.id} id={need.id} aria-labelledby={`${need.id}-h`} className="mt-14 scroll-mt-24">
-            <h2 id={`${need.id}-h`} className="text-3xl">
-              {need.title}
-            </h2>
-            <p className="mt-2 text-muted">{need.intro}</p>
-            <ul className="mt-6 space-y-4">
-              {need.verses.map((v) => (
-                <li key={v.reference} className="card">
-                  <p className="font-serif text-xl leading-snug italic">&ldquo;{v.text}&rdquo;</p>
-                  <p className="mt-2 font-semibold text-accent-ink">{v.reference}</p>
-                  <p className="mt-3 border-t border-line pt-3 text-base">
-                    <span className="font-semibold">Pray it: </span>
-                    {v.howToPray}
-                  </p>
-                </li>
-              ))}
-            </ul>
-          </section>
-        ))}
+        <ul className="mt-10 grid gap-5 sm:grid-cols-2">
+          {SCRIPTURE.needs.map((need) => {
+            const v = need.verses[0];
+            return (
+              <li key={need.id} id={need.id} className="card flex scroll-mt-24 flex-col">
+                <h2 className="text-2xl">
+                  <Link href={`/scripture/${need.id}`} className="hover:underline">
+                    {need.heading}
+                  </Link>
+                </h2>
+                <p className="mt-2 text-muted">{need.intro}</p>
+                <p className="mt-4 font-serif text-lg italic leading-snug">&ldquo;{nestQuotes(v.text)}&rdquo;</p>
+                <p className="mt-1 text-sm font-semibold text-accent-ink">{v.reference}</p>
+                <Link href={`/scripture/${need.id}`} className="btn-secondary mt-5 self-start">
+                  See all {need.verses.length} verses for {need.title.toLowerCase()}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
 
         <section id="first-prayer" aria-labelledby="first-h" className="mt-16 scroll-mt-24">
           <div className="card glow border-accent/50 sm:p-8">

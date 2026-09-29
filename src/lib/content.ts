@@ -4,7 +4,18 @@ import guide from "@content/guide.json";
 
 export type Verse = { reference: string; text: string };
 export type NeedVerse = Verse & { howToPray: string };
-export type Need = { id: string; title: string; intro: string; verses: NeedVerse[] };
+export type Need = {
+  id: string;
+  title: string;
+  /** Page heading and search phrase, e.g. "Bible Verses for Anxiety". */
+  heading: string;
+  /** Lowercase topic used inside sentences, e.g. "anxiety". */
+  keyword: string;
+  /** Submit-form category that fits this need. */
+  prayerCategory: string;
+  intro: string;
+  verses: NeedVerse[];
+};
 
 export const SCRIPTURE = scripture as {
   translation: string;
@@ -48,4 +59,8 @@ export function youtubeLinks() {
     morning: yt.morningPlaylistId ? `https://www.youtube.com/playlist?list=${yt.morningPlaylistId}` : `${channel}/playlists`,
     night: yt.nightPlaylistId ? `https://www.youtube.com/playlist?list=${yt.nightPlaylistId}` : `${channel}/playlists`,
   };
+}
+
+export function getNeed(id: string): Need | undefined {
+  return SCRIPTURE.needs.find((n) => n.id === id);
 }
