@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { CATEGORIES, LIMITS } from "@/lib/constants";
+import { CATEGORIES, isCategory, LIMITS } from "@/lib/constants";
 import type { Verse } from "@/lib/content";
 import { mentionsCrisis } from "@/lib/crisis";
 import { postJson } from "./client-utils";
@@ -32,6 +32,12 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
   useEffect(() => {
     if (done) topRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   }, [done]);
+
+  // Links like /submit?category=Grief (from the Scripture pages) preselect the category.
+  useEffect(() => {
+    const fromUrl = new URLSearchParams(window.location.search).get("category");
+    if (isCategory(fromUrl)) setCategory(fromUrl);
+  }, []);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();

@@ -25,6 +25,7 @@ export async function generateMetadata({ params }: PageProps<"/prayer-wall/[id]"
     path: `/prayer-wall/${prayer.id}`,
     shareTitle: `Will you pray for ${prayer.name === "Anonymous" ? "this request" : prayer.name}?`,
     image: false, // this route has its own opengraph-image
+    absoluteTitle: true, // already unique and descriptive; skip the site-name suffix to stay under 60 characters
   });
 }
 

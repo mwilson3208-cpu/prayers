@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { SCRIPTURE } from "@/lib/content";
 import { safe } from "@/lib/safe";
 import { SITE_URL } from "@/lib/site-url";
 import { getStore } from "@/lib/store";
@@ -21,6 +22,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const prayers = await safe(() => getStore().listApprovedPrayerIds(500), [], "sitemap");
   return [
     ...pages.map(([path, priority, changeFrequency]) => ({ url: `${SITE_URL}${path}`, priority, changeFrequency })),
+    ...SCRIPTURE.needs.map((n) => ({ url: `${SITE_URL}/scripture/${n.id}`, priority: 0.8, changeFrequency: "monthly" as const })),
     ...prayers.map((p) => ({ url: `${SITE_URL}/prayer-wall/${p.id}`, lastModified: p.createdAt, priority: 0.4 })),
   ];
 }

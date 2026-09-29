@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Scripture } from "@/components/Scripture";
 import { YouTube } from "@/components/YouTube";
@@ -126,14 +127,28 @@ export default async function HomePage() {
             Scripture of the day
           </p>
           <Scripture verse={today} size="lg" className="mt-4" />
-          <p className="mt-6 text-base text-muted">
-            Read it slowly twice. Then tell God one thing it stirs in you.{" "}
-            <Link href="/scripture" className="text-accent-ink underline underline-offset-4">
-              Find Scripture for what you are facing
-            </Link>
-            .
-          </p>
+          <p className="mt-6 text-base text-muted">Read it slowly twice. Then tell God one thing it stirs in you.</p>
         </div>
+      </section>
+
+      {/* Scripture by need: internal links to each topic page */}
+      <section aria-labelledby="needs-heading" className="mx-auto mt-16 max-w-5xl px-4">
+        <p className="eyebrow">Scripture to pray</p>
+        <h2 id="needs-heading" className="mt-2 text-3xl">
+          Bible verses for what you are facing
+        </h2>
+        <ul className="mt-6 flex flex-wrap gap-2">
+          {SCRIPTURE.needs.map((n) => (
+            <li key={n.id}>
+              <Link
+                href={`/scripture/${n.id}`}
+                className="inline-flex min-h-11 items-center rounded-full border border-line bg-surface px-4 text-base hover:border-accent/60"
+              >
+                {n.title}
+              </Link>
+            </li>
+          ))}
+        </ul>
       </section>
 
       {/* Pray with us daily */}
@@ -155,6 +170,32 @@ export default async function HomePage() {
             <p className="mt-2 text-muted">Lay down the day, release your worries, and rest in His peace before sleep.</p>
             <p className="mt-4 font-semibold text-accent-ink group-hover:underline">Open the playlist</p>
           </a>
+        </div>
+      </section>
+
+      {/* Free guide */}
+      <section aria-labelledby="guide-heading-home" className="mx-auto mt-16 max-w-5xl px-4">
+        <div className="card glow grid items-center gap-6 sm:grid-cols-[auto_1fr] sm:p-8">
+          <Image
+            src="/images/prayer-guide-cover.jpg"
+            alt="Cover of the free 7-Day Prayer Guide"
+            width={900}
+            height={1165}
+            sizes="160px"
+            className="w-32 -rotate-2 rounded-md shadow-xl shadow-black/40 sm:w-40"
+          />
+          <div>
+            <p className="eyebrow">Free download</p>
+            <h2 id="guide-heading-home" className="mt-2 text-3xl">
+              7 Days to a Closer Walk With the Father
+            </h2>
+            <p className="mt-3 text-muted">
+              Seven minutes a day. One verse, one short teaching, one guided prayer, and one simple action each morning.
+            </p>
+            <Link href="/7days" className="btn-primary mt-5">
+              Get the free prayer guide
+            </Link>
+          </div>
         </div>
       </section>
 

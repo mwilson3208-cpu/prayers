@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { pageMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/Scripture";
 import { YouTube } from "@/components/YouTube";
@@ -6,7 +7,7 @@ import { MoonIcon, PlayIcon, SunIcon } from "@/components/icons";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Watch Guided Prayers and Daily Devotionals",
+  title: "Guided Prayers and Daily Devotionals",
   description: "Guided prayers and short daily devotionals from the Closer to the Father YouTube channel. Seven minutes a day, one step closer to Him.",
   path: "/watch",
 });
@@ -31,6 +32,52 @@ export default function WatchPage() {
             Open the channel
           </a>
         </div>
+
+        <section aria-labelledby="what-to-expect" className="mt-16">
+          <h2 id="what-to-expect" className="text-3xl">
+            What you will find on the channel
+          </h2>
+          <p className="mt-4 text-lg text-muted">
+            Closer to the Father is a guided prayer and daily devotional channel. Every video is built to help you spend a few
+            honest minutes with God, even on your busiest day. You do not need to know what to say. Press play, and we will pray
+            through it together.
+          </p>
+          <ul className="mt-6 grid gap-4 sm:grid-cols-3">
+            {[
+              ["Guided prayers", "Short prayers you can pray along with, word for word, for peace, healing, strength, and more."],
+              ["Daily devotionals", "One verse and one simple thought to carry into your day. Most take about seven minutes."],
+              ["Prayers for real life", "Prayers for anxiety, grief, family, finances, and the moments you do not have words for."],
+            ].map(([title, text]) => (
+              <li key={title} className="card">
+                <h3 className="text-xl">{title}</h3>
+                <p className="mt-2 text-muted">{text}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section aria-labelledby="how-to-pray-along" className="mt-16">
+          <h2 id="how-to-pray-along" className="text-3xl">
+            How to pray along
+          </h2>
+          <ol className="mt-5 list-decimal space-y-2 pl-6 text-lg">
+            <li>Find a quiet spot and put your phone face down once the video starts.</li>
+            <li>Read or listen to the verse, then pray each line out loud or in your heart.</li>
+            <li>When the video ends, sit for one more minute and tell God what is on your mind.</li>
+            <li>Come back tomorrow. Seven minutes a day adds up to a closer walk with Him.</li>
+          </ol>
+          <p className="mt-6 text-muted">
+            Want Scripture for something specific?{" "}
+            <Link href="/scripture" className="text-accent-ink underline underline-offset-4">
+              Find Bible verses for what you are facing
+            </Link>
+            , or get the{" "}
+            <Link href="/7days" className="text-accent-ink underline underline-offset-4">
+              free 7-Day Prayer Guide
+            </Link>
+            .
+          </p>
+        </section>
 
         <h2 className="mt-16 text-3xl">Pray with us daily</h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-2">

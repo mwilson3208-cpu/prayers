@@ -1,4 +1,5 @@
 import type { Verse } from "@/lib/content";
+import { nestQuotes } from "@/lib/format";
 
 /** A verse shown as the reason a page exists, not as decoration. */
 export function Scripture({ verse, size = "md", className = "" }: { verse: Verse; size?: "sm" | "md" | "lg"; className?: string }) {
@@ -6,7 +7,7 @@ export function Scripture({ verse, size = "md", className = "" }: { verse: Verse
   return (
     <figure className={`border-l-2 border-accent pl-4 sm:pl-5 ${className}`}>
       <blockquote className={`font-serif italic leading-snug text-fg ${text}`}>
-        <p>&ldquo;{verse.text}&rdquo;</p>
+        <p>&ldquo;{nestQuotes(verse.text)}&rdquo;</p>
       </blockquote>
       <figcaption className="mt-2 text-base font-semibold text-accent-ink">{verse.reference}</figcaption>
     </figure>
