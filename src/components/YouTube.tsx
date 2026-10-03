@@ -7,7 +7,18 @@ import { PlayIcon } from "./icons";
  * Click-to-load YouTube player. Shows a lightweight preview first so the
  * page stays fast on phones, then loads the real player when tapped.
  */
-export function YouTube({ videoId, playlistId, title }: { videoId?: string; playlistId?: string; title: string }) {
+export function YouTube({
+  videoId,
+  playlistId,
+  title,
+  thumbnailAlt = "",
+}: {
+  videoId?: string;
+  playlistId?: string;
+  title: string;
+  /** Alt text for the preview image. Empty by default because the button already names the video. */
+  thumbnailAlt?: string;
+}) {
   const [active, setActive] = useState(false);
   const src = videoId
     ? `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&rel=0`
@@ -35,7 +46,7 @@ export function YouTube({ videoId, playlistId, title }: { videoId?: string; play
             // eslint-disable-next-line @next/next/no-img-element
             <img
               src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}
-              alt=""
+              alt={thumbnailAlt}
               loading="lazy"
               decoding="async"
               className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity group-hover:opacity-100"

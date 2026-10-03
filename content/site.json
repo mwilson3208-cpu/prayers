@@ -11,6 +11,14 @@
     "morningPlaylistId": "",
     "nightPlaylistId": ""
   },
+  "featuredVideo": {
+    "_note": "The featured guided prayer video. Once title and uploadDate (YYYY-MM-DD) are filled in, it shows on the homepage and the Watch page and is described to Google as a video.",
+    "id": "yn7mhylI0Dc",
+    "title": "",
+    "uploadDate": "",
+    "description": "A guided prayer from Closer to the Father. Press play, slow down, and pray along.",
+    "thumbnailAlt": "Welcome to Closer to the Father guided prayer video"
+  },
   "social": [
     {
       "label": "YouTube",

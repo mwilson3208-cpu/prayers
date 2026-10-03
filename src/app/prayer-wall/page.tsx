@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import { Feed } from "@/components/Feed";
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { CATEGORIES, isCategory, PAGE_SIZE } from "@/lib/constants";
 import { SCRIPTURE } from "@/lib/content";
@@ -30,6 +31,7 @@ export default async function PrayerWallPage({ searchParams }: PageProps<"/praye
 
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "Prayer Wall", path: "/prayer-wall" }]} />
       <PageHeader
         eyebrow="Pray for others"
         title="Prayer Wall"

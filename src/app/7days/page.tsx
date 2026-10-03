@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { NewsletterForm } from "@/components/NewsletterForm";
-import { JsonLd } from "@/components/JsonLd";
+import { BreadcrumbJsonLd, JsonLd } from "@/components/JsonLd";
 import { Scripture } from "@/components/Scripture";
 import { CheckIcon } from "@/components/icons";
 import { GUIDE, SITE } from "@/lib/content";
@@ -70,6 +70,7 @@ function CtaBox({ id }: { id: string }) {
 export default function SevenDaysPage() {
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "Prayer Guide", path: "/7days" }]} />
       <JsonLd
         data={{
           "@context": "https://schema.org",

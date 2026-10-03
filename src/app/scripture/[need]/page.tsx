@@ -18,8 +18,8 @@ export async function generateMetadata({ params }: PageProps<"/scripture/[need]"
   if (!need) return {};
   const count = need.verses.length;
   return pageMetadata({
-    title: `${need.heading}: ${count} Verses to Pray`,
-    absoluteTitle: true, // keeps every topic title under 60 characters
+    // The layout adds " | Closer to the Father"; metaTitle keeps long topics under 60 characters.
+    title: need.metaTitle ?? need.heading,
     description: clip(`${count} ${need.heading.replace(/^Bible Verses/, "Bible verses")}, each with a simple way to pray it. ${need.intro}`, 158),
     path: `/scripture/${need.id}`,
   });
@@ -85,7 +85,15 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
             You do not have to carry this alone
           </h2>
           <p className="mt-3 text-muted">
-            Share what you are facing and real people will pray for you. Keep it private or post it on the prayer wall.
+            Share what you are facing when you{" "}
+            <Link href="/submit" className="text-accent-ink underline underline-offset-4">
+              submit a prayer request
+            </Link>
+            , and real people will pray for you. Keep it private or post it on the{" "}
+            <Link href="/prayer-wall" className="text-accent-ink underline underline-offset-4">
+              prayer wall
+            </Link>
+            .
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:flex-row">
             <Link href={`/submit?category=${encodeURIComponent(need.prayerCategory)}`} className="btn-primary">

@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Faq } from "@/components/Faq";
+import { FeaturedVideoJsonLd } from "@/components/JsonLd";
 import { Scripture } from "@/components/Scripture";
 import { YouTube } from "@/components/YouTube";
 import { CandleIcon, HandsIcon, HeartIcon, LogoMark, MoonIcon, PlayIcon, SunIcon } from "@/components/icons";
-import { SCRIPTURE, SITE, verseOfTheDay, youtubeLinks } from "@/lib/content";
+import { SCRIPTURE, SITE, featuredVideo, verseOfTheDay, youtubeLinks } from "@/lib/content";
 import { formatNumber } from "@/lib/format";
 import { safe } from "@/lib/safe";
 import { pageMetadata } from "@/lib/seo";
@@ -16,7 +18,8 @@ export const revalidate = 60;
 
 export const metadata: Metadata = pageMetadata({
   title: `${SITE.name} | Free Prayer Requests and Prayer Wall`,
-  description: SITE.description,
+  description:
+    "You were never meant to carry it alone. Share a prayer request, pray for others on our free prayer wall, and give thanks for answered prayer. Real people pray every request.",
   path: "/",
 });
 
@@ -29,6 +32,7 @@ export default async function HomePage() {
   ]);
   const yt = youtubeLinks();
   const today = verseOfTheDay();
+  const featured = featuredVideo();
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -57,6 +61,7 @@ export default async function HomePage() {
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
+      <FeaturedVideoJsonLd />
       {/* Hero */}
       <section className="glow">
         <div className="mx-auto max-w-3xl px-4 pt-12 pb-14 text-center sm:pt-20 sm:pb-20">
@@ -64,6 +69,7 @@ export default async function HomePage() {
           <h1 className="mt-5 text-4xl sm:text-6xl">{SITE.name}</h1>
           <p className="mt-4 font-serif text-xl text-accent-ink italic sm:text-2xl">{SITE.tagline}</p>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted">{SITE.mission}</p>
+          <h2 className="eyebrow mt-6 font-sans">A free prayer wall where real people pray for you</h2>
           <div className="mx-auto mt-8 grid max-w-md gap-3 sm:max-w-none sm:grid-cols-3">
             <Link href="/submit" className="btn-primary text-lg">
               <CandleIcon /> Submit a Prayer
@@ -97,6 +103,18 @@ export default async function HomePage() {
         </dl>
       </section>
 
+      {/* What you can do here */}
+      <section aria-labelledby="start-heading" className="mx-auto mt-16 max-w-3xl px-4">
+        <h2 id="start-heading" className="text-3xl">
+          Submit a prayer request, pray for others, give thanks
+        </h2>
+        <p className="mt-4 text-lg text-muted">
+          Whatever you are carrying, you do not have to carry it alone. Write a prayer request in your own words, share it on
+          the prayer wall or keep it private, and real people will pray for you. When you are ready to say &ldquo;pray for
+          me,&rdquo; we are ready to pray. When God answers, come back and give thanks.
+        </p>
+      </section>
+
       {/* Latest video */}
       <section aria-labelledby="latest-heading" className="mx-auto mt-16 max-w-4xl px-4">
         <p className="eyebrow">Pray along</p>
@@ -104,7 +122,9 @@ export default async function HomePage() {
           Latest from the channel
         </h2>
         <div className="mt-6">
-          {latest ? (
+          {featured ? (
+            <YouTube videoId={featured.id} title={featured.title} thumbnailAlt={featured.thumbnailAlt} />
+          ) : latest ? (
             <YouTube videoId={latest.id} title={latest.title} />
           ) : (
             <YouTube playlistId={yt.uploadsPlaylistId} title="Latest guided prayer" />
@@ -199,6 +219,21 @@ export default async function HomePage() {
         </div>
       </section>
 
+      {/* Prayer wall intro */}
+      <section aria-labelledby="wall-heading" className="mx-auto mt-16 max-w-3xl px-4">
+        <h2 id="wall-heading" className="text-3xl">
+          Pray for others on the prayer wall
+        </h2>
+        <p className="mt-4 text-lg text-muted">
+          Every request on the wall belongs to someone who is hurting, waiting, or hoping. Read a few, pause, and pray for them by
+          name. Tap &ldquo;I prayed for this&rdquo; so they know they are not alone. It takes less than a minute, and it may be the
+          encouragement someone needs today.
+        </p>
+        <Link href="/prayer-wall" className="btn-secondary mt-5">
+          Go to the prayer wall
+        </Link>
+      </section>
+
       {/* Recent requests */}
       {recent.items.length > 0 && (
         <section aria-labelledby="recent-heading" className="mx-auto mt-16 max-w-3xl px-4">
@@ -224,6 +259,8 @@ export default async function HomePage() {
           </div>
         </section>
       )}
+
+      <Faq id="faq-home" />
     </>
   );
 }

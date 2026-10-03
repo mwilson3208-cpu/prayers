@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import { ContactForm } from "@/components/ContactForm";
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import { SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
@@ -15,6 +16,7 @@ export default function AboutPage() {
   const yt = youtubeLinks();
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "About", path: "/about" }]} />
       <PageHeader eyebrow="About us" title="Why this place exists" lead={SITE.mission} verses={SCRIPTURE.pageAnchors.about} />
       <div className="prose-page mx-auto max-w-3xl px-4">
         <h2>Our mission</h2>
