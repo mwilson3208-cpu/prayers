@@ -2,7 +2,7 @@
 
 A free prayer community where anyone can submit a prayer request, pray for others, and give thanks to God for answered prayers. It is the online home of the [Closer to the Father YouTube channel](https://www.youtube.com/channel/UC5INMtGtvbf34D7gkYbbmBQ).
 
-**Seven minutes a day. One step closer to Him.**
+**You were never meant to carry it alone.**
 
 The site runs entirely on free plans: Vercel (hosting), Supabase (database), Cloudflare Turnstile (spam protection), and Resend (email, optional). No ads, no paid APIs.
 

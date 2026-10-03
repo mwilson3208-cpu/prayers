@@ -4,7 +4,7 @@ import { NewsletterForm } from "@/components/NewsletterForm";
 import { JsonLd } from "@/components/JsonLd";
 import { Scripture } from "@/components/Scripture";
 import { CheckIcon } from "@/components/icons";
-import { GUIDE } from "@/lib/content";
+import { GUIDE, SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -12,7 +12,7 @@ export const metadata: Metadata = pageMetadata({
   description:
     "Build a prayer life you can keep in seven minutes a day. One verse, one short teaching, one guided prayer, and one action each day. Free instant download.",
   path: "/7days",
-  shareTitle: "Free 7-Day Prayer Guide: Seven minutes a day. One step closer to Him.",
+  shareTitle: `Free 7-Day Prayer Guide: ${SITE.tagline}`,
   image: false, // this route has its own share image with the guide cover
 });
 

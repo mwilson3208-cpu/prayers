@@ -30,7 +30,7 @@ export default async function GuideImage() {
         <div style={{ display: "flex", flexDirection: "column", width: 620 }}>
           <div style={{ fontSize: 28, color: "#d4a853", letterSpacing: 4, textTransform: "uppercase" }}>Free 7-Day Prayer Guide</div>
           <div style={{ fontSize: 68, marginTop: 20, lineHeight: 1.1 }}>Build a prayer life you can actually keep.</div>
-          <div style={{ fontSize: 30, marginTop: 28, color: "#a9b6c9" }}>Seven minutes a day. One step closer to Him.</div>
+          <div style={{ fontSize: 30, marginTop: 28, color: "#a9b6c9" }}>{SITE.tagline}</div>
           <div style={{ fontSize: 26, marginTop: 40, color: "#d4a853" }}>{SITE.name}</div>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
