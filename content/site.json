@@ -1,12 +1,7 @@
 {
   "name": "Closer to the Father",
-  "tagline": "Seven minutes a day. One step closer to Him.",
-  "mission": "A free place to pray, be prayed for, and give thanks, so more people come to Jesus and closer to the Father.",
-  "hero": {
-    "_note": "The two lines under the site name at the top of the homepage only.",
-    "headline": "You were never meant to carry it alone.",
-    "lead": "Lay your burdens before the Father, ask for prayer, and give thanks for what He has done. Here, every prayer is lifted up by people who care."
-  },
+  "tagline": "You were never meant to carry it alone.",
+  "mission": "Lay your burdens before the Father, ask for prayer, and give thanks for what He has done. Here, every prayer is lifted up by people who care.",
   "description": "Submit a prayer request, pray for others, and thank God for answered prayers. A free prayer community from the Closer to the Father YouTube channel.",
   "youtube": {
     "channelId": "UC5INMtGtvbf34D7gkYbbmBQ",
