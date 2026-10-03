@@ -62,8 +62,8 @@ export default async function HomePage() {
         <div className="mx-auto max-w-3xl px-4 pt-12 pb-14 text-center sm:pt-20 sm:pb-20">
           <LogoMark width={56} height={56} className="mx-auto text-accent" />
           <h1 className="mt-5 text-4xl sm:text-6xl">{SITE.name}</h1>
-          <p className="mt-4 font-serif text-xl text-accent-ink italic sm:text-2xl">{SITE.tagline}</p>
-          <p className="mx-auto mt-4 max-w-xl text-lg text-muted">{SITE.mission}</p>
+          <p className="mt-4 font-serif text-xl text-accent-ink italic sm:text-2xl">{SITE.hero.headline}</p>
+          <p className="mx-auto mt-4 max-w-xl text-lg text-muted">{SITE.hero.lead}</p>
           <div className="mx-auto mt-8 grid max-w-md gap-3 sm:max-w-none sm:grid-cols-3">
             <Link href="/submit" className="btn-primary text-lg">
               <CandleIcon /> Submit a Prayer
