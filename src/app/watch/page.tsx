@@ -2,9 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { pageMetadata } from "@/lib/seo";
 import { PageHeader } from "@/components/Scripture";
+import { BreadcrumbJsonLd, FeaturedVideoJsonLd } from "@/components/JsonLd";
 import { YouTube } from "@/components/YouTube";
 import { MoonIcon, PlayIcon, SunIcon } from "@/components/icons";
-import { SCRIPTURE, youtubeLinks } from "@/lib/content";
+import { SCRIPTURE, featuredVideo, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
   title: "Guided Prayers and Daily Devotionals",
@@ -14,8 +15,11 @@ export const metadata: Metadata = pageMetadata({
 
 export default function WatchPage() {
   const yt = youtubeLinks();
+  const featured = featuredVideo();
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "Watch", path: "/watch" }]} />
+      <FeaturedVideoJsonLd />
       <PageHeader
         eyebrow="Seven minutes a day"
         title="Watch and Pray"
@@ -23,6 +27,11 @@ export default function WatchPage() {
         verses={SCRIPTURE.pageAnchors.watch}
       />
       <div className="mx-auto max-w-4xl px-4">
+        {featured && (
+          <div className="mb-6">
+            <YouTube videoId={featured.id} title={featured.title} thumbnailAlt={featured.thumbnailAlt} />
+          </div>
+        )}
         <YouTube playlistId={yt.uploadsPlaylistId} title="All guided prayers, newest first" />
         <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a href={yt.subscribe} target="_blank" rel="noopener noreferrer" className="btn-primary text-lg">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import { Feed } from "@/components/Feed";
+import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { TestimonyForm } from "@/components/TestimonyForm";
 import { PAGE_SIZE } from "@/lib/constants";
@@ -20,6 +21,7 @@ export default async function AnsweredPage() {
   const initial = await safe(() => getStore().listTestimonies({ limit: PAGE_SIZE }), { items: [], nextCursor: null }, "answered");
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "Give Thanks", path: "/answered" }]} />
       <PageHeader
         eyebrow="Give thanks"
         title="Answered Prayers"

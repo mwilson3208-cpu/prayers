@@ -1,0 +1,25 @@
+{
+  "_note": "Questions shown on the homepage and the Submit page, and sent to Google as FAQ structured data. Keep each answer to one or two sentences.",
+  "questions": [
+    {
+      "q": "Is it free to submit a prayer request?",
+      "a": "Yes. It is completely free, with no account, no ads, and no catch. Prayer should never have a price tag."
+    },
+    {
+      "q": "Who will pray for my request?",
+      "a": "A member of our prayer team reads and prays over every request. If you share it on the prayer wall, believers from all over the world can pray for you too."
+    },
+    {
+      "q": "Can I submit a prayer request anonymously?",
+      "a": "Yes. Leave the name field blank and your request will show as Anonymous. Your email is optional and is never shown publicly."
+    },
+    {
+      "q": "How do I pray for someone on the prayer wall?",
+      "a": "Read their request, then pray for them in your own words or use the short prayer we provide. Tap \"I prayed for this\" so they know someone is standing with them."
+    },
+    {
+      "q": "How long does my request stay on the wall?",
+      "a": "Once it is approved, your request stays on the wall so people can keep praying for you. If you would like it taken down, send us a message from the About page and we will remove it."
+    }
+  ]
+}

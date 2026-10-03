@@ -1,6 +1,7 @@
 import scripture from "@content/scripture.json";
 import site from "@content/site.json";
 import guide from "@content/guide.json";
+import faq from "@content/faq.json";
 
 export type Verse = { reference: string; text: string };
 export type NeedVerse = Verse & { howToPray: string };
@@ -9,6 +10,8 @@ export type Need = {
   title: string;
   /** Page heading and search phrase, e.g. "Bible Verses for Anxiety". */
   heading: string;
+  /** Shorter search title when "heading | Closer to the Father" would pass 60 characters. */
+  metaTitle?: string;
   /** Lowercase topic used inside sentences, e.g. "anxiety". */
   keyword: string;
   /** Submit-form category that fits this need. */
@@ -36,6 +39,13 @@ export const SCRIPTURE = scripture as {
 
 export const SITE = site;
 export const GUIDE = guide;
+export const FAQ: { q: string; a: string }[] = faq.questions;
+
+/** The featured video, or null until its title and upload date are filled in. */
+export function featuredVideo() {
+  const v = SITE.featuredVideo;
+  return v.id && v.title.trim() && /^\d{4}-\d{2}-\d{2}$/.test(v.uploadDate) ? v : null;
+}
 
 /** Same verse for everyone on a given (UTC) day, cycling through the list. */
 export function verseOfTheDay(date = new Date()): Verse {
