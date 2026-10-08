@@ -118,6 +118,7 @@ export function createSupabaseStore(url: string, serviceKey: string): Store {
             flagged: input.flagged,
             flag_reason: input.flagReason,
             ip_hash: input.ipHash,
+            status: input.status,
           })
           .select("id")
           .single(),

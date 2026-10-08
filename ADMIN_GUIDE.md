@@ -15,7 +15,7 @@ Forgot the password? In Vercel, open the project, go to **Settings** then **Envi
 A gold number on a tab means something is waiting for you.
 
 **Prayers.** Filters across the top:
-- **Pending**: new public requests waiting for review, oldest first.
+- **Pending**: public requests waiting for review, oldest first. When automatic posting is on (see below), only flagged requests land here.
 - **Approved**: live on the prayer wall.
 - **Hidden**: removed from the wall but kept.
 - **Private**: requests the person asked to keep private. These are never shown publicly, no matter what. Read them and pray.
@@ -46,6 +46,15 @@ Approve when the request is sincere and safe to show. Before approving, use **Ed
 
 Hide or delete when the item is spam, mocking, hateful, sexual, or selling something.
 
+## Automatic posting
+
+In `content/site.json`, `moderation.autoApprovePrayers` controls public prayer requests:
+
+- `true` (the default): requests go on the prayer wall right away. Anything flagged (possible crisis, profanity, or contact details) still waits in **Pending**. Check **Approved** now and then, and **Hide** anything that does not belong.
+- `false`: every public request waits in **Pending** until you approve it.
+
+Answered prayers (testimonies) always wait for approval.
+
 ## Flags
 
 Some items arrive with a colored label.
@@ -58,7 +67,7 @@ Uncheck **Keep flagged** in the Edit panel once you have dealt with it.
 
 ## Emails you will receive
 
-If `ADMIN_EMAIL` is set, you get an email for each new public request, private request, testimony, and contact message. Urgent items say **[Urgent]** in the subject line. To stop these emails, set `ADMIN_ALERTS` to `off` in Vercel and redeploy.
+If `ADMIN_EMAIL` is set, you get an email for each new public request (the subject says whether it was posted or is waiting), private request, testimony, and contact message. Urgent items say **[Urgent]** in the subject line. To stop these emails, set `ADMIN_ALERTS` to `off` in Vercel and redeploy.
 
 ## Common questions
 
@@ -66,7 +75,7 @@ If `ADMIN_EMAIL` is set, you get an email for each new public request, private r
 
 **A request is old and the person never came back.** Leave it. People keep praying for it. You can hide very old ones if the wall feels stale.
 
-**Can I post a prayer myself?** Yes. Submit it on the site like anyone else, then approve it.
+**Can I post a prayer myself?** Yes. Submit it on the site like anyone else. With automatic posting on, it appears right away.
 
 **Sample prayers from setup are still showing.** They are the 12 sample prayers and 5 testimonies from `seed.sql`. Delete them from the Approved tabs whenever you like.
 

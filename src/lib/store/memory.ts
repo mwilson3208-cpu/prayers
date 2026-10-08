@@ -143,7 +143,7 @@ export function createMemoryStore(): Store {
         category: input.category,
         prayedCount: 0,
         createdAt: new Date().toISOString(),
-        status: "pending",
+        status: input.status,
         isPublic: input.isPublic,
         flagged: input.flagged,
         flagReason: input.flagReason,

@@ -50,6 +50,8 @@ export type NewPrayer = {
   flagged: boolean;
   flagReason: string | null;
   ipHash: string;
+  /** "approved" posts it to the wall right away; "pending" waits for an admin. */
+  status: Status;
 };
 
 export type NewTestimony = {
