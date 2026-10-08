@@ -41,6 +41,8 @@ export default async function AnsweredPage() {
             Testimonies of God&apos;s faithfulness
           </h2>
           <Feed
+            // Remount when a new testimony arrives so the list shows it after a refresh.
+            key={initial.items[0]?.id ?? "empty"}
             kind="testimonies"
             initial={initial}
             empty={<p className="text-muted">No testimonies yet. Be the first to give thanks.</p>}

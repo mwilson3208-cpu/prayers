@@ -26,8 +26,7 @@ export default function TermsPage() {
 
         <h2>We watch over every post</h2>
         <p>
-          Public prayer requests may appear on the prayer wall right away, and our team reads every one. Answered prayers are reviewed
-          before they appear. We may edit, hide, or delete any post for any reason, including to protect someone&apos;s privacy. We
+          Public prayer requests and answered prayers may appear on the site right away, and our team reads every one. We may edit, hide, or delete any post for any reason, including to protect someone&apos;s privacy. We
           cannot guarantee that every post will be published.
         </p>
 

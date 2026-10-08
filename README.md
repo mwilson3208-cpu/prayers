@@ -128,7 +128,7 @@ Scripture is quoted from the ESV. The ESV allows up to 1,000 verses on a site wi
 
 ## How it works
 
-- **Moderation.** Public prayer requests go on the prayer wall right away unless a filter flags them (possible crisis, profanity, or contact details), which wait for your approval. Turn this off with `moderation.autoApprovePrayers` in `content/site.json`. Testimonies always wait for approval. Private requests go to the admin dashboard only and are never shown publicly.
+- **Moderation.** Public prayer requests go on the prayer wall right away unless a filter flags them (possible crisis, profanity, or contact details), which wait for your approval. Answered prayers on Give Thanks work the same way. Turn either off with `moderation.autoApprovePrayers` or `moderation.autoApproveTestimonies` in `content/site.json`. Private requests go to the admin dashboard only and are never shown publicly.
 - **Spam filtering.** Before anything reaches your queue: a hidden trap field catches bots, Turnstile checks for a human, each visitor is limited to 5 prayers and 5 testimonies an hour, links are blocked, and common spam phrases (casinos, crypto schemes, "spell casters") are rejected. Profanity is masked with asterisks and the item is flagged.
 - **Crisis care.** If a request mentions self-harm or danger, the Submit page shows a gentle notice with the 988 Suicide and Crisis Lifeline right away, the item is flagged "Urgent" in the dashboard, and the admin alert email is marked urgent.
 - **"I prayed for this."** One tap per device per request per day. The phone remembers it, and the server checks too, so clearing the browser does not allow repeats.

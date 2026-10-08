@@ -48,12 +48,10 @@ Hide or delete when the item is spam, mocking, hateful, sexual, or selling somet
 
 ## Automatic posting
 
-In `content/site.json`, `moderation.autoApprovePrayers` controls public prayer requests:
+In `content/site.json`, `moderation.autoApprovePrayers` controls public prayer requests and `moderation.autoApproveTestimonies` controls answered prayers on Give Thanks:
 
-- `true` (the default): requests go on the prayer wall right away. Anything flagged (possible crisis, profanity, or contact details) still waits in **Pending**. Check **Approved** now and then, and **Hide** anything that does not belong.
-- `false`: every public request waits in **Pending** until you approve it.
-
-Answered prayers (testimonies) always wait for approval.
+- `true` (the default): they go on the site right away. Anything flagged (possible crisis, profanity, or contact details) still waits in **Pending**. Check **Approved** now and then, and **Hide** anything that does not belong.
+- `false`: every one waits in **Pending** until you approve it.
 
 ## Flags
 
@@ -67,7 +65,7 @@ Uncheck **Keep flagged** in the Edit panel once you have dealt with it.
 
 ## Emails you will receive
 
-If `ADMIN_EMAIL` is set, you get an email for each new public request (the subject says whether it was posted or is waiting), private request, testimony, and contact message. Urgent items say **[Urgent]** in the subject line. To stop these emails, set `ADMIN_ALERTS` to `off` in Vercel and redeploy.
+If `ADMIN_EMAIL` is set, you get an email for each new public request private request, testimony, and contact message. The subject says whether it was posted or is waiting. Urgent items say **[Urgent]** in the subject line. To stop these emails, set `ADMIN_ALERTS` to `off` in Vercel and redeploy.
 
 ## Common questions
 

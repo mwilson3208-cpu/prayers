@@ -167,7 +167,7 @@ export function createMemoryStore(): Store {
         prayerId: input.prayerId,
         praiseCount: 0,
         createdAt: new Date().toISOString(),
-        status: "pending",
+        status: input.status,
         flagged: input.flagged,
         flagReason: input.flagReason,
         ipHash: input.ipHash,
