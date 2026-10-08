@@ -1,6 +1,7 @@
 import { after } from "next/server";
 import { fail, guardSubmission, ok, readJson } from "@/lib/api";
 import { isCategory, LIMITS, PAGE_SIZE } from "@/lib/constants";
+import { SITE } from "@/lib/content";
 import { sendAdminAlert, sendSubmissionConfirmation } from "@/lib/email";
 import { maskProfanity, moderate } from "@/lib/moderation";
 import { getStore } from "@/lib/store";
@@ -39,6 +40,8 @@ export async function POST(req: Request) {
   const isPublic = body.isPublic === true;
   const category = isCategory(body.category) ? body.category : null;
   const crisis = check.flagReason?.includes("crisis") ?? false;
+  // Public requests go straight to the wall unless a filter flagged them (crisis, profanity, contact details).
+  const posted = isPublic && SITE.moderation.autoApprovePrayers && !check.flagged;
 
   const created = await getStore().createPrayer({
     name: maskProfanity(name),
@@ -49,16 +52,17 @@ export async function POST(req: Request) {
     flagged: check.flagged,
     flagReason: check.flagReason,
     ipHash: guard.ipHash,
+    status: posted ? "approved" : "pending",
   });
 
   after(async () => {
-    if (emailRaw && created.unsubscribeToken) await sendSubmissionConfirmation(emailRaw, created.unsubscribeToken, isPublic);
+    if (emailRaw && created.unsubscribeToken) await sendSubmissionConfirmation(emailRaw, created.unsubscribeToken, isPublic, posted);
     await sendAdminAlert(
-      isPublic ? "New prayer request waiting for approval" : "New private prayer request",
+      posted ? "New prayer request posted on the wall" : isPublic ? "New prayer request waiting for approval" : "New private prayer request",
       [
         ["From", name],
         ["Category", category ?? "None"],
-        ["Visibility", isPublic ? "Public (pending approval)" : "Private (owner only)"],
+        ["Visibility", posted ? "Public (posted on the wall)" : isPublic ? "Public (pending approval)" : "Private (owner only)"],
         ["Request", request],
         ...(check.flagReason ? ([["Flags", check.flagReason]] as [string, string][]) : []),
       ],
@@ -66,5 +70,5 @@ export async function POST(req: Request) {
     );
   });
 
-  return ok({ id: created.id, crisis });
+  return ok({ id: created.id, crisis, posted });
 }

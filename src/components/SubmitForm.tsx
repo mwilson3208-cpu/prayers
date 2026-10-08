@@ -22,7 +22,7 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
   const [resetKey, setResetKey] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const [done, setDone] = useState<{ crisis: boolean; isPublic: boolean } | null>(null);
+  const [done, setDone] = useState<{ crisis: boolean; isPublic: boolean; posted: boolean } | null>(null);
   const [verse, setVerse] = useState(confirmationVerses[0]);
   const topRef = useRef<HTMLDivElement>(null);
 
@@ -47,7 +47,7 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
       return;
     }
     setBusy(true);
-    const res = await postJson<{ crisis?: boolean }>("/api/prayers", {
+    const res = await postJson<{ crisis?: boolean; posted?: boolean }>("/api/prayers", {
       name,
       request,
       category: category || null,
@@ -63,7 +63,7 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
       return;
     }
     setVerse(confirmationVerses[Math.floor(Math.random() * confirmationVerses.length)]);
-    setDone({ crisis: Boolean(res.crisis) || crisis, isPublic });
+    setDone({ crisis: Boolean(res.crisis) || crisis, isPublic, posted: Boolean(res.posted) });
   }
 
   if (done) {
@@ -74,9 +74,11 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
           <p className="eyebrow">Received</p>
           <h2 className="mt-2 text-3xl">Thank you. We are praying with you.</h2>
           <p className="mt-4">
-            {done.isPublic
-              ? "Your request is safe with us. A member of our team reads every request, and once it is reviewed it will appear on the prayer wall so others can pray for you too."
-              : "Your request was sent privately to our prayer team. It will not appear on the prayer wall."}
+            {!done.isPublic
+              ? "Your request was sent privately to our prayer team. It will not appear on the prayer wall."
+              : done.posted
+                ? "Your request is on the prayer wall now, so others can pray for you too. A member of our team reads every request."
+                : "Your request is safe with us. A member of our team reads every request, and once it is reviewed it will appear on the prayer wall so others can pray for you too."}
           </p>
           {email && <p className="mt-3 text-muted">We sent a confirmation to your email. You can unsubscribe any time.</p>}
           <Scripture verse={verse} className="mt-8" />
@@ -204,7 +206,7 @@ export function SubmitForm({ confirmationVerses, startHereUrl }: { confirmationV
         <span>
           <span className="font-semibold">Share this publicly on the prayer wall</span>
           <span className="mt-1 block text-base text-muted">
-            Uncheck to send it privately to our prayer team only. Public requests are reviewed before they appear.
+            Uncheck to send it privately to our prayer team only. A member of our team reads every public request.
           </span>
         </span>
       </label>

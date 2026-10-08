@@ -60,10 +60,13 @@ export async function sendEmail(mail: Mail): Promise<boolean> {
 
 // ---------------------------------------------------------------------
 
-export function sendSubmissionConfirmation(to: string, token: string, isPublic: boolean) {
-  const next = isPublic
-    ? "Once a member of our team reviews it, your request will appear on the prayer wall. When people pray for you, we will send you a short note once a week with the count."
-    : "You asked to keep your request private, so only our prayer team will see it.";
+export function sendSubmissionConfirmation(to: string, token: string, isPublic: boolean, posted = false) {
+  const weekly = "When people pray for you, we will send you a short note once a week with the count.";
+  const next = !isPublic
+    ? "You asked to keep your request private, so only our prayer team will see it."
+    : posted
+      ? `Your request is on the prayer wall now, so others can pray for you too. ${weekly}`
+      : `Once a member of our team reviews it, your request will appear on the prayer wall. ${weekly}`;
   return sendEmail({
     to,
     subject: "We received your prayer request",

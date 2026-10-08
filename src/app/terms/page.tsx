@@ -24,10 +24,11 @@ export default function TermsPage() {
           <li>Do not share someone else&apos;s private details without their permission.</li>
         </ul>
 
-        <h2>We review everything</h2>
+        <h2>We watch over every post</h2>
         <p>
-          Every public post is reviewed before it appears. We may approve, edit, hide, or delete any post for any reason, including
-          to protect someone&apos;s privacy. We cannot guarantee that every post will be published.
+          Public prayer requests may appear on the prayer wall right away, and our team reads every one. Answered prayers are reviewed
+          before they appear. We may edit, hide, or delete any post for any reason, including to protect someone&apos;s privacy. We
+          cannot guarantee that every post will be published.
         </p>
 
         <h2>Prayer is not professional advice</h2>
