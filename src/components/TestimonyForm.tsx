@@ -1,5 +1,6 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { LIMITS } from "@/lib/constants";
 import { postJson } from "./client-utils";
@@ -15,7 +16,8 @@ export function TestimonyForm() {
   const [resetKey, setResetKey] = useState(0);
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState("");
-  const [done, setDone] = useState(false);
+  const router = useRouter();
+  const [done, setDone] = useState<{ posted: boolean } | null>(null);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -25,14 +27,15 @@ export function TestimonyForm() {
       return;
     }
     setBusy(true);
-    const res = await postJson("/api/testimonies", { name, prayedFor, answer, prayerLink, website, turnstileToken: token });
+    const res = await postJson<{ posted?: boolean }>("/api/testimonies", { name, prayedFor, answer, prayerLink, website, turnstileToken: token });
     setBusy(false);
     if (!res.ok) {
       setError(res.error);
       setResetKey((k) => k + 1);
       return;
     }
-    setDone(true);
+    setDone({ posted: Boolean(res.posted) });
+    if (res.posted) router.refresh(); // show the new testimony in the list below
   }
 
   if (done) {
@@ -41,14 +44,15 @@ export function TestimonyForm() {
         <p className="eyebrow">Praise God</p>
         <h3 className="mt-2 text-2xl">Thank you for giving thanks.</h3>
         <p className="mt-3">
-          Your testimony was received. After a quick review it will appear below, where it will encourage everyone who is still
-          waiting on God.
+          {done.posted
+            ? "Your testimony is posted below, where it will encourage everyone who is still waiting on God."
+            : "Your testimony was received. After a quick review it will appear below, where it will encourage everyone who is still waiting on God."}
         </p>
         <button
           type="button"
           className="btn-secondary mt-5"
           onClick={() => {
-            setDone(false);
+            setDone(null);
             setPrayedFor("");
             setAnswer("");
             setPrayerLink("");

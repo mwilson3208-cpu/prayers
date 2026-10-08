@@ -62,6 +62,8 @@ export type NewTestimony = {
   flagged: boolean;
   flagReason: string | null;
   ipHash: string;
+  /** "approved" posts it on Give Thanks right away; "pending" waits for an admin. */
+  status: Status;
 };
 
 export type DigestRow = {

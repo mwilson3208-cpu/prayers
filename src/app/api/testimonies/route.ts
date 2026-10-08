@@ -1,6 +1,8 @@
+import { revalidatePath } from "next/cache";
 import { after } from "next/server";
 import { fail, guardSubmission, ok, readJson } from "@/lib/api";
 import { LIMITS, PAGE_SIZE } from "@/lib/constants";
+import { SITE } from "@/lib/content";
 import { sendAdminAlert } from "@/lib/email";
 import { maskProfanity, moderate } from "@/lib/moderation";
 import { getStore } from "@/lib/store";
@@ -40,6 +42,8 @@ export async function POST(req: Request) {
   if (!check.ok) return fail(check.message);
 
   const prayerId = linkedId && (await getStore().getPrayer(linkedId)) ? linkedId : null;
+  // Testimonies go straight to Give Thanks unless a filter flagged them (crisis, profanity, contact details).
+  const posted = SITE.moderation.autoApproveTestimonies && !check.flagged;
 
   await getStore().createTestimony({
     name: maskProfanity(name),
@@ -49,10 +53,12 @@ export async function POST(req: Request) {
     flagged: check.flagged,
     flagReason: check.flagReason,
     ipHash: guard.ipHash,
+    status: posted ? "approved" : "pending",
   });
+  if (posted) revalidatePath("/answered");
 
   after(() =>
-    sendAdminAlert("New answered prayer waiting for approval", [
+    sendAdminAlert(posted ? "New answered prayer posted on Give Thanks" : "New answered prayer waiting for approval", [
       ["From", name],
       ["Prayed for", prayedFor],
       ["How God answered", answer],
@@ -60,5 +66,5 @@ export async function POST(req: Request) {
     ]),
   );
 
-  return ok();
+  return ok({ posted });
 }

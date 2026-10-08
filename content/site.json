@@ -37,8 +37,9 @@
     ]
   },
   "moderation": {
-    "_note": "true: public prayer requests appear on the prayer wall right away. Requests flagged for a possible crisis, profanity, or contact details still wait in the admin Pending list. false: every public request waits for approval.",
-    "autoApprovePrayers": true
+    "_note": "true: public prayer requests (autoApprovePrayers) and answered prayers on Give Thanks (autoApproveTestimonies) appear right away. Anything flagged for a possible crisis, profanity, or contact details still waits in the admin Pending list. false: every one waits for approval.",
+    "autoApprovePrayers": true,
+    "autoApproveTestimonies": true
   },
   "notifications": {
     "_note": "Where to send an email every time someone signs up for the 7-Day Prayer Guide. Separate several addresses with commas. Leave empty to turn this off.",
