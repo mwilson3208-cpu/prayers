@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Breadcrumbs, JsonLd } from "@/components/JsonLd";
+import { Breadcrumbs, FOUNDER_ID, JsonLd, ORG_ID, faqLd, founderLd } from "@/components/JsonLd";
 import { FOUNDER, SCRIPTURE, getNeed } from "@/lib/content";
 import { clip, formatDate, nestQuotes } from "@/lib/format";
 import { pageDates } from "@/lib/page-dates";
@@ -35,6 +35,24 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
 
   return (
     <>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "@id": `${url}#article`,
+          headline: need.heading,
+          description: need.directAnswer,
+          url,
+          mainEntityOfPage: url,
+          image: `${SITE_URL}/opengraph-image`,
+          inLanguage: "en-US",
+          datePublished: dates.published,
+          dateModified: dates.modified,
+          author: { ...founderLd(), "@id": FOUNDER_ID },
+          publisher: { "@id": ORG_ID },
+        }}
+      />
+      <JsonLd data={faqLd([{ q: need.versesQuestion, a: need.versesIntro }, ...need.questions])} />
       <JsonLd
         data={{
           "@context": "https://schema.org",

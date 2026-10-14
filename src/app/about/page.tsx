@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import { ContactForm } from "@/components/ContactForm";
-import { BreadcrumbJsonLd } from "@/components/JsonLd";
+import { BreadcrumbJsonLd, JsonLd, ORG_ID, founderLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import Image from "next/image";
 import { FOUNDER, SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
+import { SITE_URL } from "@/lib/site-url";
 
 export const metadata: Metadata = pageMetadata({
   title: "About Our Prayer Ministry",
@@ -18,6 +19,24 @@ export default function AboutPage() {
   return (
     <>
       <BreadcrumbJsonLd items={[{ name: "About", path: "/about" }]} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "AboutPage",
+              "@id": `${SITE_URL}/about#page`,
+              url: `${SITE_URL}/about`,
+              name: `About ${SITE.name}`,
+              description: SITE.mission,
+              inLanguage: "en-US",
+              about: { "@id": ORG_ID },
+              mainEntity: { "@id": ORG_ID },
+            },
+            founderLd(),
+          ],
+        }}
+      />
       <PageHeader eyebrow="About us" title="Why this place exists" lead={SITE.mission} verses={SCRIPTURE.pageAnchors.about} />
       <div className="prose-page mx-auto max-w-3xl px-4">
         <h2>Our mission</h2>

@@ -10,7 +10,6 @@ import { SCRIPTURE, SITE, featuredVideo, verseOfTheDay, youtubeLinks } from "@/l
 import { formatNumber } from "@/lib/format";
 import { safe } from "@/lib/safe";
 import { pageMetadata } from "@/lib/seo";
-import { SITE_URL } from "@/lib/site-url";
 import { getStore } from "@/lib/store";
 import { getLatestVideo } from "@/lib/youtube";
 
@@ -34,33 +33,8 @@ export default async function HomePage() {
   const today = verseOfTheDay();
   const featured = featuredVideo();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: SITE.name,
-        url: SITE_URL,
-        logo: `${SITE_URL}/icons/icon-512.png`,
-        description: SITE.description,
-        sameAs: Array.from(new Set([yt.channel, ...SITE.social.map((s) => s.url)])),
-      },
-      {
-        "@type": "WebSite",
-        "@id": `${SITE_URL}/#website`,
-        name: SITE.name,
-        url: SITE_URL,
-        description: SITE.description,
-        inLanguage: "en-US",
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-    ],
-  };
-
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <FeaturedVideoJsonLd />
       {/* Hero */}
       <section className="glow">

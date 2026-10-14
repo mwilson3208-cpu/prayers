@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { pageMetadata } from "@/lib/seo";
 import Link from "next/link";
+import { BreadcrumbJsonLd, JsonLd, faqLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
 import { nestQuotes } from "@/lib/format";
+import { SITE_URL } from "@/lib/site-url";
 
 export const metadata: Metadata = pageMetadata({
   title: "Bible Verses to Pray by Need",
@@ -14,8 +16,27 @@ export const metadata: Metadata = pageMetadata({
 
 export default function ScripturePage() {
   const first = SCRIPTURE.firstTimePrayer;
+  // Visible questions below, also sent as FAQPage structured data.
+  const faqs = SCRIPTURE.needs.map((n) => ({ id: n.id, q: `What does the Bible say about ${n.keyword}?`, a: n.directAnswer }));
   return (
     <>
+      <BreadcrumbJsonLd items={[{ name: "Scripture", path: "/scripture" }]} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          name: "Bible verses by need",
+          url: `${SITE_URL}/scripture`,
+          numberOfItems: SCRIPTURE.needs.length,
+          itemListElement: SCRIPTURE.needs.map((n, i) => ({
+            "@type": "ListItem",
+            position: i + 1,
+            name: n.heading,
+            url: `${SITE_URL}/scripture/${n.id}`,
+          })),
+        }}
+      />
+      <JsonLd data={faqLd(faqs)} />
       <PageHeader
         eyebrow="Pray God's Word back to Him"
         title="Scripture for What You Are Facing"
@@ -63,6 +84,23 @@ export default function ScripturePage() {
             );
           })}
         </ul>
+
+        <section aria-labelledby="bible-says-h" className="mt-16">
+          <h2 id="bible-says-h" className="text-3xl">
+            What does the Bible say?
+          </h2>
+          <div className="mt-6 space-y-8">
+            {faqs.map((f) => (
+              <div key={f.id}>
+                <h3 className="text-2xl">{f.q}</h3>
+                <p className="mt-2">{f.a}</p>
+                <Link href={`/scripture/${f.id}`} className="mt-2 inline-block text-accent-ink underline underline-offset-4">
+                  Read the verses
+                </Link>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <section id="first-prayer" aria-labelledby="first-h" className="mt-16 scroll-mt-24">
           <div className="card glow border-accent/50 sm:p-8">
