@@ -13,7 +13,7 @@ export const revalidate = 60;
 
 export const metadata: Metadata = pageMetadata({
   title: "Answered Prayers and Testimonies",
-  description: "Read true stories of answered prayer and give thanks to God for His faithfulness. Share how God answered your prayer.",
+  description: "Read true stories of answered prayer and give thanks to God for His faithfulness. Share how God answered your prayer to encourage someone who is still waiting.",
   path: "/answered",
 });
 

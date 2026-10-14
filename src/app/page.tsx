@@ -18,7 +18,7 @@ export const revalidate = 60;
 export const metadata: Metadata = pageMetadata({
   title: `${SITE.name} | Free Prayer Requests and Prayer Wall`,
   description:
-    "You were never meant to carry it alone. Share a prayer request, pray for others on our free prayer wall, and give thanks for answered prayer. Real people pray every request.",
+    "You were never meant to carry it alone. Share a prayer request, pray for others on our free prayer wall, and give thanks for answered prayer.",
   path: "/",
 });
 

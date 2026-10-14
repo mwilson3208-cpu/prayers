@@ -21,7 +21,10 @@ export async function generateMetadata({ params }: PageProps<"/scripture/[need]"
   return pageMetadata({
     // The layout adds " | Closer to the Father"; metaTitle keeps long topics under 60 characters.
     title: need.metaTitle ?? need.heading,
-    description: clip(`${count} ${need.heading.replace(/^Bible Verses/, "Bible verses")}, each explained in plain words, plus a prayer and answers to common questions.`, 160),
+    description: clip(
+      `${count} ${need.heading.replace(/^Bible Verses/, "Bible verses")} from the World English Bible, each explained in plain words, plus a short prayer and answers to common questions.`,
+      160,
+    ),
     path: `/scripture/${need.id}`,
   });
 }

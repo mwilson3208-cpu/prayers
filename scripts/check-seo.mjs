@@ -78,6 +78,14 @@ for (const url of urls) {
   const html = await res.text();
   const h1 = (html.match(/<h1[\s>]/g) || []).length;
   if (h1 !== 1) fail(url, `${h1} H1 elements`);
+  // Heading levels should not skip (h1 -> h3 with no h2 in between).
+  const levels = [...html.matchAll(/<h([1-6])[\s>]/g)].map((m) => Number(m[1]));
+  for (let i = 1; i < levels.length; i++) {
+    if (levels[i] > levels[i - 1] + 1) {
+      fail(url, `heading jumps from h${levels[i - 1]} to h${levels[i]}`);
+      break;
+    }
+  }
   const canonical = html.match(/<link rel="canonical" href="([^"]+)"/)?.[1];
   if (!canonical) fail(url, "no canonical");
   else if (canonical.replace(/\/$/, "") !== url.replace(/\/$/, "")) fail(url, `canonical points to ${canonical}`);

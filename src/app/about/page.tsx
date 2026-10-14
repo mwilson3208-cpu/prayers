@@ -9,7 +9,7 @@ import { FOUNDER, SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
 import { SITE_URL } from "@/lib/site-url";
 
 export const metadata: Metadata = pageMetadata({
-  title: "About Our Prayer Ministry",
+  title: "About Our Free Online Prayer Ministry",
   description: "Why Closer to the Father exists, who runs this free prayer ministry, what we believe about Jesus and the Bible, and how to reach our prayer team.",
   path: "/about",
 });

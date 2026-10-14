@@ -8,7 +8,7 @@ import { GUIDE, SITE } from "@/lib/content";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Free 7-Day Prayer Guide",
+  title: "Free 7-Day Prayer Guide PDF Download",
   description:
     "Build a prayer life you can keep in seven minutes a day. One verse, one short teaching, one guided prayer, and one action each day. Free instant download.",
   path: "/7days",

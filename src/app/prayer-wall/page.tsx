@@ -11,7 +11,7 @@ import { getStore } from "@/lib/store";
 
 export const metadata: Metadata = pageMetadata({
   title: "Prayer Wall: Pray for Others",
-  description: `Pray for real people with real needs. Read prayer requests, pray over them, and tap "I prayed for this" so they know they are not alone.`,
+  description: `Pray for real people with real needs. Read prayer requests on our free prayer wall, pray over them, and tap "I prayed for this" so they know they are not alone.`,
   path: "/prayer-wall",
 });
 

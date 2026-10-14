@@ -9,7 +9,7 @@ import { SCRIPTURE, featuredVideo, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
   title: "Guided Prayers and Daily Devotionals",
-  description: "Guided prayers and short daily devotionals from the Closer to the Father YouTube channel. Seven minutes a day, one step closer to Him.",
+  description: "Guided prayers and short daily devotionals from the Closer to the Father YouTube channel. Morning and night prayers you can pray along with in a few minutes.",
   path: "/watch",
 });
 
