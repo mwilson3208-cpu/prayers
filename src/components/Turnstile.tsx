@@ -40,22 +40,37 @@ export function Turnstile({ onToken, resetKey = 0 }: { onToken: (token: string) 
   cb.current = onToken;
 
   useEffect(() => {
-    if (!SITE_KEY || !ref.current) return;
+    const el = ref.current;
+    if (!SITE_KEY || !el) return;
     let cancelled = false;
-    loadScript()
-      .then(() => {
-        if (cancelled || !ref.current || !window.turnstile) return;
-        widgetId.current = window.turnstile.render(ref.current, {
-          sitekey: SITE_KEY,
-          theme: document.documentElement.dataset.theme === "light" ? "light" : "dark",
-          size: "flexible",
-          callback: (t: string) => cb.current(t),
-          "expired-callback": () => cb.current(""),
-          "error-callback": () => cb.current(""),
-        });
-      })
-      .catch(() => {});
+    // Load Cloudflare's script only when the form is near the screen. The footer
+    // sign-up form is on every page, and most visitors never scroll to it.
+    const start = () =>
+      loadScript()
+        .then(() => {
+          if (cancelled || !ref.current || !window.turnstile) return;
+          widgetId.current = window.turnstile.render(ref.current, {
+            sitekey: SITE_KEY,
+            theme: document.documentElement.dataset.theme === "light" ? "light" : "dark",
+            size: "flexible",
+            callback: (t: string) => cb.current(t),
+            "expired-callback": () => cb.current(""),
+            "error-callback": () => cb.current(""),
+          });
+        })
+        .catch(() => {});
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) {
+          io.disconnect();
+          start();
+        }
+      },
+      { rootMargin: "400px" },
+    );
+    io.observe(el);
     return () => {
+      io.disconnect();
       cancelled = true;
       if (widgetId.current && window.turnstile) window.turnstile.remove(widgetId.current);
       widgetId.current = null;

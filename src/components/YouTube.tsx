@@ -47,6 +47,8 @@ export function YouTube({
             <img
               src={`https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`}
               alt={thumbnailAlt}
+              width={480}
+              height={360}
               loading="lazy"
               decoding="async"
               className="absolute inset-0 h-full w-full object-cover opacity-80 transition-opacity group-hover:opacity-100"

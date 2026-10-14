@@ -16,6 +16,7 @@ const nextConfig: NextConfig = {
   poweredByHeader: false,
   env: { PAGE_DATES: JSON.stringify(pageDates()), BUILD_TIME },
   images: {
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [{ protocol: "https", hostname: "i.ytimg.com" }],
   },
   async redirects() {
