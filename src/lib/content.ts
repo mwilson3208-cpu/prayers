@@ -52,6 +52,9 @@ export const SCRIPTURE = scripture as {
 
 export const SITE = site;
 export const GUIDE = guide;
+
+/** Founder details (content/site.json). Empty bio, photo or links are simply not shown. */
+export const FOUNDER = site.founder as { name: string; jobTitle: string; bio: string; photo: string; links: { label: string; url: string }[] };
 export const FAQ: { q: string; a: string }[] = faq.questions;
 
 /** The featured video, or null until its title and upload date are filled in. */

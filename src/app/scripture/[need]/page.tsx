@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, JsonLd } from "@/components/JsonLd";
-import { SCRIPTURE, getNeed } from "@/lib/content";
-import { clip, nestQuotes } from "@/lib/format";
+import { FOUNDER, SCRIPTURE, getNeed } from "@/lib/content";
+import { clip, formatDate, nestQuotes } from "@/lib/format";
+import { pageDates } from "@/lib/page-dates";
 import { pageMetadata } from "@/lib/seo";
 import { SITE_URL } from "@/lib/site-url";
 
@@ -30,6 +31,7 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
   if (!need) notFound();
   const related = need.related.map((id) => getNeed(id)).filter((n): n is NonNullable<typeof n> => Boolean(n));
   const url = `${SITE_URL}/scripture/${need.id}`;
+  const dates = pageDates("/scripture/[need]");
 
   return (
     <>
@@ -61,6 +63,20 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
           {/* Direct answer to "What does the Bible say about <topic>?" */}
           <p className="mt-4 text-lg sm:text-xl">{need.directAnswer}</p>
           <p className="mt-4 text-muted">{need.intro}</p>
+          <p className="mt-5 flex flex-wrap gap-x-4 gap-y-1 text-sm text-muted">
+            <span>
+              Written by{" "}
+              <Link href="/about#founder" className="text-fg underline-offset-4 hover:underline">
+                {FOUNDER.name}
+              </Link>
+            </span>
+            <span>
+              Published <time dateTime={dates.published}>{formatDate(dates.published)}</time>
+            </span>
+            <span>
+              Last updated <time dateTime={dates.modified}>{formatDate(dates.modified)}</time>
+            </span>
+          </p>
         </div>
       </header>
 

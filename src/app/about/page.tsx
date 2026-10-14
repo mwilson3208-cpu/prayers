@@ -4,7 +4,8 @@ import { ContactForm } from "@/components/ContactForm";
 import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { PageHeader } from "@/components/Scripture";
 import { PlayIcon } from "@/components/icons";
-import { SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
+import Image from "next/image";
+import { FOUNDER, SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
   title: "About Our Prayer Ministry",
@@ -29,8 +30,42 @@ export default function AboutPage() {
         <h2>Why it is free</h2>
         <p>{SITE.about.whyFree}</p>
 
-        <h2>Who runs it</h2>
+        <h2 id="founder" className="scroll-mt-24">
+          Who runs it
+        </h2>
+        {FOUNDER.photo && (
+          <Image
+            src={FOUNDER.photo}
+            alt={`${FOUNDER.name}, ${FOUNDER.jobTitle.toLowerCase()} of ${SITE.name}`}
+            width={160}
+            height={160}
+            className="float-right ml-5 mb-3 h-32 w-32 rounded-full object-cover sm:h-40 sm:w-40"
+          />
+        )}
+        <p>
+          {SITE.name} was founded by <strong>{FOUNDER.name}</strong>. {FOUNDER.bio}
+        </p>
         <p>{SITE.about.whoRunsIt}</p>
+        {FOUNDER.links.length > 0 && (
+          <p>
+            Find {FOUNDER.name.split(" ")[0]} online:{" "}
+            {FOUNDER.links.map((l, i) => (
+              <span key={l.url}>
+                {i > 0 && ", "}
+                <a href={l.url} target="_blank" rel="noopener noreferrer me" className="text-accent-ink underline underline-offset-4">
+                  {l.label}
+                </a>
+              </span>
+            ))}
+          </p>
+        )}
+        <p>
+          To reach {FOUNDER.name.split(" ")[0]} and the prayer team, use the{" "}
+          <a href="#contact" className="text-accent-ink underline underline-offset-4">
+            contact form
+          </a>{" "}
+          below.
+        </p>
 
         <h2>What we believe</h2>
         <ul>
