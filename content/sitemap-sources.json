@@ -1,0 +1,16 @@
+{
+  "_note": "Which files make up each indexable page. Their last git commit is the page's sitemap lastmod. Run `npm run lastmod` before committing content changes so content/lastmod.json stays current for builds without git history (Vercel uses a shallow clone).",
+  "routes": {
+    "/": ["src/app/page.tsx", "content/site.json", "content/faq.json"],
+    "/submit": ["src/app/submit/page.tsx", "content/faq.json"],
+    "/prayer-wall": ["src/app/prayer-wall/page.tsx"],
+    "/answered": ["src/app/answered/page.tsx"],
+    "/scripture": ["src/app/scripture/page.tsx", "content/scripture.json"],
+    "/scripture/[need]": ["src/app/scripture/[need]/page.tsx", "content/scripture.json"],
+    "/watch": ["src/app/watch/page.tsx", "content/site.json"],
+    "/7days": ["src/app/7days/page.tsx", "content/guide.json"],
+    "/about": ["src/app/about/page.tsx", "content/site.json"],
+    "/privacy": ["src/app/privacy/page.tsx"],
+    "/terms": ["src/app/terms/page.tsx"]
+  }
+}
