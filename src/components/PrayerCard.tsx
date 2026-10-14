@@ -8,13 +8,13 @@ import type { PublicPrayer } from "@/lib/types";
 import { ReactionButton } from "./ReactionButton";
 import { ShareButtons } from "./ShareButtons";
 
-export function PrayerCard({ prayer, headingLevel = "h2" }: { prayer: PublicPrayer; headingLevel?: "h2" | "h3" }) {
-  const H = headingLevel;
+export function PrayerCard({ prayer }: { prayer: PublicPrayer }) {
   const shareUrl = `${SITE_URL}/prayer-wall/${prayer.id}`;
   return (
     <article className="card">
       <header className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-        <H className="font-serif text-xl">{prayer.name}</H>
+        {/* Plain text, not a heading: first names should not become search headings. */}
+        <p className="font-serif text-xl">{prayer.name}</p>
         <p className="text-sm text-muted">
           <Link href={`/prayer-wall/${prayer.id}`} className="hover:underline">
             <time dateTime={prayer.createdAt}>{formatDate(prayer.createdAt)}</time>

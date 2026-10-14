@@ -34,11 +34,18 @@ export default async function PrayerWallPage({ searchParams }: PageProps<"/praye
       <BreadcrumbJsonLd items={[{ name: "Prayer Wall", path: "/prayer-wall" }]} />
       <PageHeader
         eyebrow="Pray for others"
-        title="Prayer Wall"
+        title="Prayer Wall: Pray for Real Prayer Requests"
         lead="Choose a request, pray for that person, then tap the button so they know someone cared enough to pray."
         verses={SCRIPTURE.pageAnchors.prayerWall}
       />
       <div className="mx-auto max-w-3xl px-4">
+        <p className="mb-8 text-lg">
+          The prayer wall is where people share what they are carrying and ask others to pray. Every request here was posted by a
+          real person, and many are waiting on God for healing, provision, peace, or direction. To pray, read a request, talk to God
+          about that person in your own words, then tap &ldquo;I prayed for this&rdquo; so they know someone stood with them. To ask
+          for prayer yourself, <Link href="/submit" className="text-accent-ink underline underline-offset-4">submit a prayer request</Link>.
+          You can share it here on the wall or keep it private for our prayer team.
+        </p>
         <nav aria-label="Filter by category" className="-mx-4 mb-8 overflow-x-auto px-4 pb-2">
           <ul className="flex gap-2">
             <li>

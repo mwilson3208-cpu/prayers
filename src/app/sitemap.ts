@@ -1,8 +1,6 @@
 import type { MetadataRoute } from "next";
 import { SCRIPTURE } from "@/lib/content";
-import { safe } from "@/lib/safe";
 import { SITE_URL } from "@/lib/site-url";
-import { getStore } from "@/lib/store";
 
 export const revalidate = 3600;
 
@@ -23,7 +21,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ["/privacy", 0.2, "yearly"],
     ["/terms", 0.2, "yearly"],
   ];
-  const prayers = await safe(() => getStore().listApprovedPrayerIds(500), [], "sitemap");
   return [
     // The homepage keeps its trailing slash so it matches the canonical URL exactly.
     ...pages.map(([path, priority, changeFrequency]) => ({
@@ -38,6 +35,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
       changeFrequency: "monthly" as const,
     })),
-    ...prayers.map((p) => ({ url: `${SITE_URL}/prayer-wall/${p.id}`, lastModified: p.createdAt, priority: 0.4 })),
   ];
 }
