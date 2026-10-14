@@ -4,7 +4,8 @@ import guide from "@content/guide.json";
 import faq from "@content/faq.json";
 
 export type Verse = { reference: string; text: string };
-export type NeedVerse = Verse & { howToPray: string };
+/** A topic-page verse: World English Bible text plus a one-sentence explanation. */
+export type NeedVerse = Verse & { note: string };
 export type Need = {
   id: string;
   title: string;
@@ -17,7 +18,18 @@ export type Need = {
   /** Submit-form category that fits this need. */
   prayerCategory: string;
   intro: string;
+  /** Translation code shown next to each verse, e.g. "WEB". */
+  translation: string;
+  /** 40 to 60 word answer to "What does the Bible say about <keyword>?", shown under the H1. */
+  directAnswer: string;
+  versesQuestion: string;
+  versesIntro: string;
   verses: NeedVerse[];
+  /** Question-style sections, shown as H2s and used for FAQPage structured data. */
+  questions: { q: string; a: string }[];
+  prayer: string;
+  /** Ids of 2 or 3 related topics linked at the end of the page. */
+  related: string[];
 };
 
 export const SCRIPTURE = scripture as {
@@ -27,6 +39,7 @@ export const SCRIPTURE = scripture as {
   confirmation: Verse[];
   daily: Verse[];
   needs: Need[];
+  needsTranslation: { code: string; name: string; notice: string };
   firstTimePrayer: {
     title: string;
     intro: string;

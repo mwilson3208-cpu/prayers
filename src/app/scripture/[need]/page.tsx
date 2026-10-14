@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: PageProps<"/scripture/[need]"
   return pageMetadata({
     // The layout adds " | Closer to the Father"; metaTitle keeps long topics under 60 characters.
     title: need.metaTitle ?? need.heading,
-    description: clip(`${count} ${need.heading.replace(/^Bible Verses/, "Bible verses")}, each with a simple way to pray it. ${need.intro}`, 158),
+    description: clip(`${count} ${need.heading.replace(/^Bible Verses/, "Bible verses")}, each explained in plain words, plus a prayer and answers to common questions.`, 160),
     path: `/scripture/${need.id}`,
   });
 }
@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: PageProps<"/scripture/[need]"
 export default async function NeedPage({ params }: PageProps<"/scripture/[need]">) {
   const need = getNeed((await params).need);
   if (!need) notFound();
-  const others = SCRIPTURE.needs.filter((n) => n.id !== need.id);
+  const related = need.related.map((id) => getNeed(id)).filter((n): n is NonNullable<typeof n> => Boolean(n));
   const url = `${SITE_URL}/scripture/${need.id}`;
 
   return (
@@ -58,29 +58,48 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
           />
           <p className="eyebrow mt-8">Scripture to pray</p>
           <h1 className="mt-2 text-4xl sm:text-5xl">{need.heading}</h1>
-          <p className="mt-4 text-lg text-muted sm:text-xl">{need.intro}</p>
-          <p className="mt-4 text-muted">
-            Below are {need.verses.length} verses for {need.keyword}. Read each one slowly, then use the short note under it to
-            turn the verse into a prayer. You do not need special words. Just be honest with God.
-          </p>
+          {/* Direct answer to "What does the Bible say about <topic>?" */}
+          <p className="mt-4 text-lg sm:text-xl">{need.directAnswer}</p>
+          <p className="mt-4 text-muted">{need.intro}</p>
         </div>
       </header>
 
       <div className="mx-auto max-w-3xl px-4">
-        <ol className="space-y-5">
-          {need.verses.map((v, i) => (
-            <li key={v.reference} id={`verse-${i + 1}`} className="card scroll-mt-24">
-              <h2 className="text-xl text-accent-ink">{v.reference}</h2>
-              <p className="mt-3 font-serif text-xl leading-snug italic">&ldquo;{nestQuotes(v.text)}&rdquo;</p>
-              <p className="mt-4 border-t border-line pt-3">
-                <span className="font-semibold">How to pray it: </span>
-                {v.howToPray}
-              </p>
-            </li>
-          ))}
-        </ol>
+        <section aria-labelledby="verses-h">
+          <h2 id="verses-h" className="text-3xl">
+            {need.versesQuestion}
+          </h2>
+          <p className="mt-3 text-muted">{need.versesIntro}</p>
+          <ol className="mt-6 space-y-5">
+            {need.verses.map((v, i) => (
+              <li key={v.reference} id={`verse-${i + 1}`} className="card scroll-mt-24">
+                <h3 className="text-xl text-accent-ink">
+                  {v.reference} <span className="text-sm font-normal text-muted">({need.translation})</span>
+                </h3>
+                <p className="mt-3 font-serif text-xl leading-snug italic">&ldquo;{nestQuotes(v.text)}&rdquo;</p>
+                <p className="mt-4 border-t border-line pt-3">{v.note}</p>
+              </li>
+            ))}
+          </ol>
+        </section>
 
-        <section aria-labelledby="pray-with-us" className="card glow mt-12 border-accent/50 sm:p-8">
+        {need.questions.map((q, i) => (
+          <section key={q.q} aria-labelledby={`q-${i}`} className="mt-14">
+            <h2 id={`q-${i}`} className="text-3xl">
+              {q.q}
+            </h2>
+            <p className="mt-4 text-lg">{q.a}</p>
+          </section>
+        ))}
+
+        <section aria-labelledby="prayer-h" className="mt-14">
+          <h2 id="prayer-h" className="text-3xl">
+            A prayer for {need.keyword}
+          </h2>
+          <blockquote className="mt-5 border-l-2 border-accent pl-5 font-serif text-xl leading-relaxed italic">{need.prayer}</blockquote>
+        </section>
+
+        <section aria-labelledby="pray-with-us" className="card glow mt-14 border-accent/50 sm:p-8">
           <h2 id="pray-with-us" className="text-2xl sm:text-3xl">
             You do not have to carry this alone
           </h2>
@@ -107,23 +126,27 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
 
         <section aria-labelledby="more-verses" className="mt-14">
           <h2 id="more-verses" className="text-2xl">
-            More Scripture for what you are facing
+            Related Scripture
           </h2>
           <ul className="mt-5 grid gap-3 sm:grid-cols-2">
-            {others.map((n) => (
+            {related.map((n) => (
               <li key={n.id}>
                 <Link href={`/scripture/${n.id}`} className="card block py-4 hover:border-accent/60">
                   <span className="font-serif text-lg">{n.heading}</span>
-                  <span className="mt-1 block text-sm text-muted">{n.verses.length} verses with prayers</span>
+                  <span className="mt-1 block text-sm text-muted">{n.verses.length} verses, explained</span>
                 </Link>
               </li>
             ))}
           </ul>
-          <p className="mt-6">
+          <p className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+            <Link href="/scripture" className="text-accent-ink underline underline-offset-4">
+              All Scripture topics
+            </Link>
             <Link href="/scripture#first-prayer" className="text-accent-ink underline underline-offset-4">
               Never prayed before? Start here.
             </Link>
           </p>
+          <p className="mt-8 text-sm text-muted">{SCRIPTURE.needsTranslation.notice}</p>
         </section>
       </div>
     </>

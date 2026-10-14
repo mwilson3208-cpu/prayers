@@ -8,7 +8,7 @@ import { nestQuotes } from "@/lib/format";
 
 export const metadata: Metadata = pageMetadata({
   title: "Bible Verses to Pray by Need",
-  description: "Bible verses for anxiety, fear, grief, healing, provision, direction, forgiveness, family, salvation, and strength, with a simple way to pray each one.",
+  description: "Bible verses for anxiety, fear, grief, healing, provision, direction, forgiveness, family, salvation, and strength, explained in plain words with prayers.",
   path: "/scripture",
 });
 
@@ -19,7 +19,7 @@ export default function ScripturePage() {
       <PageHeader
         eyebrow="Pray God's Word back to Him"
         title="Scripture for What You Are Facing"
-        lead="Choose what you are walking through. Each topic has hand-picked Bible verses and a simple way to pray every one of them."
+        lead="Choose what you are walking through. Each topic has 20 or more Bible verses explained in plain words, answers to common questions, and a prayer you can pray today."
         verses={SCRIPTURE.pageAnchors.scripture}
       />
       <div className="mx-auto max-w-3xl px-4">
@@ -53,7 +53,9 @@ export default function ScripturePage() {
                 </h2>
                 <p className="mt-2 text-muted">{need.intro}</p>
                 <p className="mt-4 font-serif text-lg italic leading-snug">&ldquo;{nestQuotes(v.text)}&rdquo;</p>
-                <p className="mt-1 text-sm font-semibold text-accent-ink">{v.reference}</p>
+                <p className="mt-1 text-sm font-semibold text-accent-ink">
+                  {v.reference} ({need.translation})
+                </p>
                 <Link href={`/scripture/${need.id}`} className="btn-secondary mt-5 self-start">
                   See all {need.verses.length} verses for {need.title.toLowerCase()}
                 </Link>

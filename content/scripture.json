@@ -346,34 +346,139 @@
       "verses": [
         {
           "reference": "Philippians 4:6-7",
-          "text": "Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.",
-          "howToPray": "Name each worry out loud, thank God for one good thing, and ask Him to guard your heart."
+          "text": "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus.",
+          "note": "When worry rises, you can turn each concern into a prayer, and God promises His peace will stand guard over your heart and thoughts."
         },
         {
           "reference": "1 Peter 5:7",
-          "text": "Casting all your anxieties on him, because he cares for you.",
-          "howToPray": "Picture handing each burden to Him, and say, \"You care for me, so I give this to You.\""
+          "text": "casting all your worries on him, because he cares for you.",
+          "note": "You are invited to hand every worry to God, not because you should be stronger, but because He genuinely cares about you."
         },
         {
           "reference": "Matthew 6:34",
-          "text": "Therefore do not be anxious about tomorrow, for tomorrow will be anxious for itself. Sufficient for the day is its own trouble.",
-          "howToPray": "Ask God only for what you need today, and leave tomorrow in His hands."
+          "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.",
+          "note": "Jesus gently lifts the weight of tomorrow off your shoulders, so you only need to face today with Him."
         },
         {
           "reference": "John 14:27",
-          "text": "Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.",
-          "howToPray": "Ask Jesus for His peace, not the world's, and receive it before you ask for anything else."
+          "text": "Peace I leave with you. My peace I give to you; not as the world gives, I give to you. Don’t let your heart be troubled, neither let it be fearful.",
+          "note": "Jesus offers you His own peace, a deeper calm than circumstances can give, and invites your troubled heart to rest."
         },
         {
           "reference": "Isaiah 26:3",
-          "text": "You keep him in perfect peace whose mind is stayed on you, because he trusts in you.",
-          "howToPray": "Each time your thoughts race, pull them back with one sentence: \"Lord, I trust You.\""
+          "text": "You will keep whoever’s mind is steadfast in perfect peace, because he trusts in you.",
+          "note": "As you keep turning your mind toward God and trusting Him, He holds you in a steady, lasting peace."
+        },
+        {
+          "reference": "Matthew 11:28-30",
+          "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest. Take my yoke upon you, and learn from me, for I am gentle and humble in heart; and you will find rest for your souls. For my yoke is easy, and my burden is light.”",
+          "note": "If you feel worn out and weighed down, Jesus invites you to come to Him and find real rest for your soul."
         },
         {
           "reference": "Psalm 94:19",
-          "text": "When the cares of my heart are many, your consolations cheer my soul.",
-          "howToPray": "Tell God honestly how many cares you carry, then ask Him to comfort your soul."
+          "text": "In the multitude of my thoughts within me, your comforts delight my soul.",
+          "note": "When your thoughts race and multiply, God's comfort can still reach you and bring quiet joy to your soul."
+        },
+        {
+          "reference": "Psalm 55:22",
+          "text": "Cast your burden on Yahweh and he will sustain you. He will never allow the righteous to be moved.",
+          "note": "You can place your heavy burden on the Lord, and He will hold you up when you feel like you might fall."
+        },
+        {
+          "reference": "Matthew 6:25-27",
+          "text": "Therefore I tell you, don’t be anxious for your life: what you will eat, or what you will drink; nor yet for your body, what you will wear. Isn’t life more than food, and the body more than clothing? See the birds of the sky, that they don’t sow, neither do they reap, nor gather into barns. Your heavenly Father feeds them. Aren’t you of much more value than they? “Which of you, by being anxious, can add one moment to his lifespan?",
+          "note": "Jesus points to the birds to remind you that your Father provides, that you matter to Him, and that worry adds nothing."
+        },
+        {
+          "reference": "Isaiah 41:10",
+          "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+          "note": "God promises to be with you, to strengthen you, and to hold you up when anxiety makes you feel weak."
+        },
+        {
+          "reference": "Psalm 46:1-2",
+          "text": "God is our refuge and strength, a very present help in trouble. Therefore we won’t be afraid, though the earth changes, though the mountains are shaken into the heart of the seas;",
+          "note": "Even when everything around you feels shaken, God remains your refuge and a present help right in the middle of trouble."
+        },
+        {
+          "reference": "Psalm 46:10",
+          "text": "“Be still, and know that I am God. I will be exalted among the nations. I will be exalted in the earth.”",
+          "note": "In the noise of anxious thoughts, God invites you to be still and remember that He is God and you are held."
+        },
+        {
+          "reference": "Proverbs 12:25",
+          "text": "Anxiety in a man’s heart weighs it down, but a kind word makes it glad.",
+          "note": "Scripture honestly admits that anxiety weighs the heart down, and it shows how a kind word can lift it again."
+        },
+        {
+          "reference": "John 16:33",
+          "text": "I have told you these things, that in me you may have peace. In the world you have trouble; but cheer up! I have overcome the world.”",
+          "note": "Jesus does not pretend life is free of trouble, but He assures you that He has overcome the world and offers you peace."
+        },
+        {
+          "reference": "Psalm 34:4",
+          "text": "I sought Yahweh, and he answered me, and delivered me from all my fears.",
+          "note": "The psalmist sought the Lord in his fear and was answered, and you can bring your fears to God in the same way."
+        },
+        {
+          "reference": "Psalm 139:23-24",
+          "text": "Search me, God, and know my heart. Try me, and know my thoughts. See if there is any wicked way in me, and lead me in the everlasting way.",
+          "note": "You can open your anxious thoughts to God, who already knows your heart and gently leads you in His way."
+        },
+        {
+          "reference": "2 Thessalonians 3:16",
+          "text": "Now may the Lord of peace himself give you peace at all times in all ways. The Lord be with you all.",
+          "note": "This blessing reminds you that peace is a gift from the Lord Himself, offered at all times and in every situation."
+        },
+        {
+          "reference": "Psalm 4:8",
+          "text": "In peace I will both lay myself down and sleep, for you, Yahweh alone, make me live in safety.",
+          "note": "When worry keeps you awake, this verse invites you to lie down in peace, trusting God to watch over you."
+        },
+        {
+          "reference": "Psalm 62:5-6",
+          "text": "My soul, wait in silence for God alone, for my expectation is from him. He alone is my rock and my salvation, my fortress. I will not be shaken.",
+          "note": "When your mind feels unsteady, you can wait quietly for God, who is your rock and your fortress."
+        },
+        {
+          "reference": "Lamentations 3:22-23",
+          "text": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.",
+          "note": "Even after a hard and anxious night, God's mercy is new each morning and His faithfulness does not run out."
+        },
+        {
+          "reference": "Philippians 4:8",
+          "text": "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is any praise, think about these things.",
+          "note": "God invites you to guide your thoughts toward what is true, good, and lovely, a practical help when worry spirals."
+        },
+        {
+          "reference": "Romans 8:38-39",
+          "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
+          "note": "Nothing you fear, present or future, can separate you from the love of God that is yours in Christ Jesus."
+        },
+        {
+          "reference": "Romans 15:13",
+          "text": "Now may the God of hope fill you with all joy and peace in believing, that you may abound in hope, in the power of the Holy Spirit.",
+          "note": "As you trust God, He can fill you with joy, peace, and a growing hope through the power of the Holy Spirit."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says you do not have to carry anxiety alone. God invites you to bring every worry to Him in prayer, with thanksgiving, and promises His peace to guard your heart and mind. Jesus teaches you to live one day at a time, trusting a Father who knows your needs and cares for you deeply.",
+      "versesQuestion": "Which Bible verses help with anxiety?",
+      "versesIntro": "These verses speak to anxious hearts, reminding you that God cares for you, hears your prayers, and offers a peace the world cannot give. Read them slowly, and let one or two stay with you through the day.",
+      "questions": [
+        {
+          "q": "How do I pray when I feel anxious?",
+          "a": "Start simply and honestly. Tell God exactly what you are worried about, even if the words come out messy. Name each concern and hand it to Him one by one, as Philippians 4:6-7 invites. Add thanks for something small, which helps steady your heart. Breathe slowly and repeat a short verse like 1 Peter 5:7. You do not need perfect words. Asking for help from a doctor or counselor is not a lack of faith. They can be good gifts from God. If you are in crisis or thinking of harming yourself, call or text 988 in the US right away."
+        },
+        {
+          "q": "What does Jesus say about worry?",
+          "a": "Jesus speaks about worry with great tenderness. He reminds you that your heavenly Father feeds the birds and knows what you need, so you are deeply valued (Matthew 6:25-27). He invites you to take life one day at a time instead of carrying tomorrow's weight today (Matthew 6:34). He offers His own peace to troubled hearts (John 14:27) and calls the weary to come to Him for rest (Matthew 11:28-30). Jesus does not shame you for worrying. He invites you to trust Him, one moment at a time."
+        }
+      ],
+      "prayer": "Father, my mind is crowded with worries, and my heart feels heavy. I bring each one to you now, because you care for me. Thank you for being near even when I feel unsettled. Please quiet my racing thoughts and guard my heart with your peace. Help me take today one step at a time and leave tomorrow in your hands. Give me wisdom to accept help from the people you place around me. Remind me that nothing can separate me from your love. In Jesus' name, amen.",
+      "related": [
+        "fear",
+        "strength",
+        "healing"
       ]
     },
     {
@@ -386,39 +491,144 @@
       "verses": [
         {
           "reference": "Isaiah 41:10",
-          "text": "Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you, I will uphold you with my righteous right hand.",
-          "howToPray": "Read it back to God as a promise: \"You are with me, You will strengthen me, You will hold me up.\""
+          "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+          "note": "God speaks directly to your fear with a promise of His presence, His strength, and His hand holding you up."
         },
         {
           "reference": "Psalm 56:3",
-          "text": "When I am afraid, I put my trust in you.",
-          "howToPray": "Make this your one-line prayer the moment fear shows up."
+          "text": "When I am afraid, I will put my trust in you.",
+          "note": "This short prayer gives you honest words for frightening moments, when you choose to place your trust in God."
         },
         {
           "reference": "2 Timothy 1:7",
-          "text": "For God gave us a spirit not of fear but of power and love and self-control.",
-          "howToPray": "Ask God to replace your fear with His power, His love, and a steady mind."
+          "text": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+          "note": "Fear does not have the final say in your life, because God gives His people power, love, and a sound mind."
         },
         {
           "reference": "Psalm 27:1",
-          "text": "The LORD is my light and my salvation; whom shall I fear? The LORD is the stronghold of my life; of whom shall I be afraid?",
-          "howToPray": "Name what you fear, then answer it with this verse."
+          "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?",
+          "note": "When God is your light and the strength of your life, the things you fear lose their power to define you."
         },
         {
           "reference": "Joshua 1:9",
-          "text": "Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the LORD your God is with you wherever you go.",
-          "howToPray": "Tell God where you are going today and thank Him that He is already there."
+          "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.”",
+          "note": "God calls you to courage, not by your own strength, but because He goes with you wherever you go."
         },
         {
           "reference": "Psalm 23:4",
-          "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me; your rod and your staff, they comfort me.",
-          "howToPray": "Describe your valley to God and thank Him that you are not walking it alone."
+          "text": "Even though I walk through the valley of the shadow of death, I will fear no evil, for you are with me. Your rod and your staff, they comfort me.",
+          "note": "Even in the darkest valley you can walk without being overcome by fear, because the Shepherd is right beside you."
         },
         {
-          "reference": "1 John 4:18a",
-          "text": "There is no fear in love, but perfect love casts out fear.",
-          "howToPray": "Ask God to show you how much He loves you until fear has less room."
+          "reference": "1 John 4:18",
+          "text": "There is no fear in love; but perfect love casts out fear, because fear has punishment. He who fears is not made perfect in love.",
+          "note": "God's perfect love reaches into your fear and slowly drives it out, reminding you that you are loved, not condemned."
+        },
+        {
+          "reference": "Deuteronomy 31:6",
+          "text": "Be strong and courageous. Don’t be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.”",
+          "note": "You can face what frightens you knowing that God Himself goes ahead of you and will never abandon you."
+        },
+        {
+          "reference": "Isaiah 43:1-2",
+          "text": "But now Yahweh who created you, Jacob, and he who formed you, Israel, says: “Don’t be afraid, for I have redeemed you. I have called you by your name. You are mine. When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+          "note": "God calls you by name and says you are His, promising to be with you through deep waters and fire."
+        },
+        {
+          "reference": "Psalm 46:1-3",
+          "text": "God is our refuge and strength, a very present help in trouble. Therefore we won’t be afraid, though the earth changes, though the mountains are shaken into the heart of the seas; though its waters roar and are troubled, though the mountains tremble with their swelling.",
+          "note": "Even if your whole world seems to shake, God remains your refuge, strength, and very present help."
+        },
+        {
+          "reference": "Psalm 34:4",
+          "text": "I sought Yahweh, and he answered me, and delivered me from all my fears.",
+          "note": "The psalmist brought his fears to the Lord and found deliverance, and you are welcome to do the same today."
+        },
+        {
+          "reference": "Psalm 118:6",
+          "text": "Yahweh is on my side. I will not be afraid. What can man do to me?",
+          "note": "Knowing the Lord is on your side can loosen the grip that other people's opinions or threats have on you."
+        },
+        {
+          "reference": "Romans 8:15",
+          "text": "For you didn’t receive the spirit of bondage again to fear, but you received the Spirit of adoption, by whom we cry, “Abba! Father!”",
+          "note": "You are not a slave to fear but a beloved child of God, free to call Him Father."
+        },
+        {
+          "reference": "Hebrews 13:6",
+          "text": "So that with good courage we say, “The Lord is my helper. I will not fear. What can man do to me?”",
+          "note": "Because the Lord is your helper, you can speak with courage even when you feel small and outnumbered."
+        },
+        {
+          "reference": "Matthew 10:29-31",
+          "text": "“Aren’t two sparrows sold for an assarion coin? Not one of them falls on the ground apart from your Father’s will, but the very hairs of your head are all numbered. Therefore don’t be afraid. You are of more value than many sparrows.",
+          "note": "God notices every sparrow and knows every hair on your head, so you can trust that you are precious to Him."
+        },
+        {
+          "reference": "Psalm 91:1-2",
+          "text": "He who dwells in the secret place of the Most High will rest in the shadow of the Almighty. I will say of Yahweh, “He is my refuge and my fortress; my God, in whom I trust.”",
+          "note": "When fear makes you feel exposed, you can rest in God as your refuge, your fortress, and the One you trust."
+        },
+        {
+          "reference": "Psalm 91:4-5",
+          "text": "He will cover you with his feathers. Under his wings you will take refuge. His faithfulness is your shield and rampart. You shall not be afraid of the terror by night, nor of the arrow that flies by day,",
+          "note": "God's faithfulness covers you like sheltering wings, giving you a place to hide from terror by day or night."
+        },
+        {
+          "reference": "Mark 4:39-40",
+          "text": "He awoke, and rebuked the wind, and said to the sea, “Peace! Be still!” The wind ceased, and there was a great calm. He said to them, “Why are you so afraid? How is it that you have no faith?”",
+          "note": "Jesus calmed a raging storm with a word, showing you that He holds authority over the things that frighten you most."
+        },
+        {
+          "reference": "Psalm 112:7",
+          "text": "He will not be afraid of evil news. His heart is steadfast, trusting in Yahweh.",
+          "note": "A heart that trusts in the Lord can stay steady, even when bad news arrives or you fear it might."
+        },
+        {
+          "reference": "Zephaniah 3:17",
+          "text": "Yahweh, your God, is among you, a mighty one who will save. He will rejoice over you with joy. He will calm you in his love. He will rejoice over you with singing.",
+          "note": "God is with you as a mighty Savior who delights in you and can quiet your fearful heart with His love."
+        },
+        {
+          "reference": "Romans 8:31",
+          "text": "What then shall we say about these things? If God is for us, who can be against us?",
+          "note": "If God is for you, then no fear, no person, and no circumstance can finally stand against you."
+        },
+        {
+          "reference": "Isaiah 12:2",
+          "text": "Behold, God is my salvation. I will trust, and will not be afraid; for Yah, Yahweh, is my strength and song; and he has become my salvation.”",
+          "note": "This verse gives you words to choose trust over fear, because the Lord Himself is your strength and salvation."
+        },
+        {
+          "reference": "Proverbs 29:25",
+          "text": "The fear of man proves to be a snare, but whoever puts his trust in Yahweh is kept safe.",
+          "note": "Living to please people can trap you in fear, but trusting the Lord brings you to a place of safety."
+        },
+        {
+          "reference": "Psalm 27:13-14",
+          "text": "I am still confident of this: I will see the goodness of Yahweh in the land of the living. Wait for Yahweh. Be strong, and let your heart take courage. Yes, wait for Yahweh.",
+          "note": "When fear tempts you to lose heart, God invites you to wait for Him with courage and confident hope."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says you do not have to be ruled by fear, because God is with you. Again and again He tells His people not to be afraid, not because danger is unreal, but because He is present, strong, and faithful. His love steadies you, and you can bring every fear to Him in trust.",
+      "versesQuestion": "Which Bible verses help when you are afraid?",
+      "versesIntro": "These verses remind you that God is with you, that He is stronger than whatever you fear, and that His love can steady your heart. Keep one close and return to it when fear rises.",
+      "questions": [
+        {
+          "q": "How do I pray when I am afraid?",
+          "a": "Begin by telling God plainly what you fear. He already knows, and He welcomes your honesty. You might pray the words of Psalm 56:3 as your own. Ask Him to remind you that He is with you, and picture handing your fear into His care. If your fear is about something specific, ask for the next small step of courage, not the whole journey. Thank God for one way He has been faithful before. Pray again whenever fear returns, as often as you need. God never tires of hearing from you."
+        },
+        {
+          "q": "Why does the Bible say do not be afraid so often?",
+          "a": "God knows how easily fear grips human hearts, so He speaks to it again and again. Almost every time, the command comes with a reason: God is with you (Isaiah 41:10, Joshua 1:9). It is less a scolding and more a reassurance from a loving Father. Feeling afraid is not a sin, and many faithful people in Scripture felt deep fear. The invitation is to let God's presence, power, and love speak louder than the fear, and to trust Him even while your heart is still shaking (Psalm 56:3)."
+        }
+      ],
+      "prayer": "Lord, I am afraid, and I do not want to pretend I am not. You know every fear in my heart. Thank you that I am never alone, because you are with me wherever I go. Be my light when things feel dark and my strength when I feel weak. Help me trust you one step at a time. Quiet my heart with your love and remind me that I am your child. Give me courage for today, and hold me close through whatever comes. In Jesus' name, amen.",
+      "related": [
+        "anxiety",
+        "strength",
+        "direction"
       ]
     },
     {
@@ -431,34 +641,139 @@
       "verses": [
         {
           "reference": "Psalm 34:18",
-          "text": "The LORD is near to the brokenhearted and saves the crushed in spirit.",
-          "howToPray": "Tell God exactly where it hurts, and ask Him to be near you right there."
+          "text": "Yahweh is near to those who have a broken heart, and saves those who have a crushed spirit.",
+          "note": "When your heart is broken by loss, God does not keep His distance, He draws especially near to you."
         },
         {
           "reference": "Matthew 5:4",
           "text": "Blessed are those who mourn, for they shall be comforted.",
-          "howToPray": "Give yourself permission to grieve, and ask God for the comfort He promised."
+          "note": "Jesus honors those who mourn and promises that your sorrow will be met with God's comfort."
         },
         {
           "reference": "Psalm 147:3",
-          "text": "He heals the brokenhearted and binds up their wounds.",
-          "howToPray": "Ask God to bind up the wound, even if it takes time to heal."
+          "text": "He heals the broken in heart, and binds up their wounds.",
+          "note": "God sees the deep wounds that loss leaves in your heart and tenderly cares for them over time."
         },
         {
           "reference": "2 Corinthians 1:3-4",
-          "text": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort, who comforts us in all our affliction, so that we may be able to comfort those who are in any affliction, with the comfort with which we ourselves are comforted by God.",
-          "howToPray": "Call Him the God of all comfort, and ask Him to comfort you today."
+          "text": "Blessed be the God and Father of our Lord Jesus Christ, the Father of mercies and God of all comfort; who comforts us in all our affliction, that we may be able to comfort those who are in any affliction, through the comfort with which we ourselves are comforted by God.",
+          "note": "God is the Father of mercies and the God of all comfort, and He meets you in your sorrow."
         },
         {
           "reference": "John 11:25-26",
-          "text": "Jesus said to her, \"I am the resurrection and the life. Whoever believes in me, though he die, yet shall he live, and everyone who lives and believes in me shall never die. Do you believe this?\"",
-          "howToPray": "Answer Jesus' question honestly, and ask Him to strengthen your hope."
+          "text": "Jesus said to her, “I am the resurrection and the life. He who believes in me will still live, even if he dies. Whoever lives and believes in me will never die. Do you believe this?”",
+          "note": "Spoken at a graveside, these words of Jesus offer the hope that death does not have the final word for those who trust Him."
         },
         {
           "reference": "Revelation 21:4",
-          "text": "He will wipe away every tear from their eyes, and death shall be no more, neither shall there be mourning, nor crying, nor pain anymore, for the former things have passed away.",
-          "howToPray": "Thank God that this sorrow is not the end of the story."
+          "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+          "note": "Scripture promises a day when God Himself will wipe away every tear, and death, mourning, and pain will be gone."
+        },
+        {
+          "reference": "John 11:35",
+          "text": "Jesus wept.",
+          "note": "Jesus wept at His friend's grave, showing you that grief is not weakness and that He understands your tears."
+        },
+        {
+          "reference": "1 Thessalonians 4:13-14",
+          "text": "But we don’t want you to be ignorant, brothers, concerning those who have fallen asleep, so that you don’t grieve like the rest, who have no hope. For if we believe that Jesus died and rose again, even so God will bring with him those who have fallen asleep in Jesus.",
+          "note": "Christians still grieve, but we grieve with hope, trusting that Jesus rose again and will bring His people with Him."
+        },
+        {
+          "reference": "Psalm 56:8",
+          "text": "You count my wanderings. You put my tears into your container. Aren’t they in your book?",
+          "note": "Not one of your tears is forgotten, because God sees each one and holds your sorrow with care."
+        },
+        {
+          "reference": "Matthew 11:28",
+          "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+          "note": "When grief leaves you exhausted and heavy, Jesus invites you to come to Him and find rest."
+        },
+        {
+          "reference": "Psalm 73:26",
+          "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+          "note": "When your heart and body feel like they are failing, God remains the strength of your heart."
+        },
+        {
+          "reference": "John 14:1-3",
+          "text": "“Don’t let your heart be troubled. Believe in God. Believe also in me. In my Father’s house are many homes. If it weren’t so, I would have told you. I am going to prepare a place for you. If I go and prepare a place for you, I will come again, and will receive you to myself; that where I am, you may be there also.",
+          "note": "Jesus speaks to troubled hearts and promises that He is preparing a place in His Father's house for His people."
+        },
+        {
+          "reference": "Psalm 62:8",
+          "text": "Trust in him at all times, you people. Pour out your heart before him. God is a refuge for us.",
+          "note": "You are invited to pour out your whole heart to God, all the sorrow, anger, and questions, because He is your refuge."
+        },
+        {
+          "reference": "Isaiah 43:2",
+          "text": "When you pass through the waters, I will be with you, and through the rivers, they will not overflow you. When you walk through the fire, you will not be burned, and flame will not scorch you.",
+          "note": "Grief can feel like deep water, but God promises to be with you as you pass through it."
+        },
+        {
+          "reference": "Romans 12:15",
+          "text": "Rejoice with those who rejoice. Weep with those who weep.",
+          "note": "God calls His people to weep with those who weep, so you do not have to carry your grief alone."
+        },
+        {
+          "reference": "Psalm 31:9",
+          "text": "Have mercy on me, Yahweh, for I am in distress. My eye, my soul, and my body waste away with grief.",
+          "note": "This honest prayer shows that you can bring the full weight of your grief to God and ask for His mercy."
+        },
+        {
+          "reference": "Psalm 42:11",
+          "text": "Why are you in despair, my soul? Why are you disturbed within me? Hope in God! For I shall still praise him, the saving help of my countenance, and my God.",
+          "note": "Even in deep sorrow, you can speak honestly to your own soul and still reach toward hope in God."
+        },
+        {
+          "reference": "Isaiah 25:8",
+          "text": "He has swallowed up death forever! The Lord Yahweh will wipe away tears from off all faces. He will take the reproach of his people away from off all the earth, for Yahweh has spoken it.",
+          "note": "God promises that He will swallow up death forever and gently wipe away tears from every face."
+        },
+        {
+          "reference": "1 Corinthians 15:54-55",
+          "text": "But when this perishable body will have become imperishable, and this mortal will have put on immortality, then what is written will happen: “Death is swallowed up in victory.” “Death, where is your sting? Hades, where is your victory?”",
+          "note": "Because of Christ's resurrection, death is not the end, and its sting will one day be swallowed up in victory."
+        },
+        {
+          "reference": "John 16:22",
+          "text": "Therefore you now have sorrow, but I will see you again, and your heart will rejoice, and no one will take your joy away from you.",
+          "note": "Jesus told His grieving friends that their sorrow would one day turn to a joy no one could take away."
+        },
+        {
+          "reference": "Psalm 119:50",
+          "text": "This is my comfort in my affliction, for your word has revived me.",
+          "note": "In seasons of affliction, God's word can become a quiet comfort that keeps your heart alive."
+        },
+        {
+          "reference": "Psalm 46:1",
+          "text": "God is our refuge and strength, a very present help in trouble.",
+          "note": "On the days grief overwhelms you, God is a refuge and a very present help, right where you are."
+        },
+        {
+          "reference": "Romans 8:38-39",
+          "text": "For I am persuaded that neither death, nor life, nor angels, nor principalities, nor things present, nor things to come, nor powers, nor height, nor depth, nor any other created thing will be able to separate us from God’s love which is in Christ Jesus our Lord.",
+          "note": "Not even death can separate you, or those who belong to Christ, from the love of God."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says God is close to the brokenhearted and that it is right to mourn. Jesus Himself wept at a friend's grave. Scripture does not rush your sorrow, but it offers God's comfort in your pain and the hope of resurrection, a day when He will wipe away every tear and death will be no more.",
+      "versesQuestion": "Which Bible verses bring comfort in grief?",
+      "versesIntro": "These verses speak to the pain of loss, reminding you that God is near to your broken heart and that your tears matter to Him. Read them at your own pace, and let them hold you on the hard days.",
+      "questions": [
+        {
+          "q": "How do I pray when I am grieving?",
+          "a": "There is no right way to pray in grief. Some days you may only manage a few words, a name, or tears, and God understands all of it (Psalm 56:8). You can tell Him how much you miss the person you lost, how angry or confused you feel, and how tired you are. The Psalms show that honest lament is a form of faith (Psalm 62:8). Ask God for comfort for today, not answers for everything. You can also let others pray for you when you have no words left."
+        },
+        {
+          "q": "Is it okay for a Christian to grieve?",
+          "a": "Yes. Grief is a natural response to love and loss, and Scripture never asks you to hide it. Jesus Himself wept at the tomb of His friend Lazarus, even knowing what He was about to do (John 11:35). Paul does not tell believers to stop grieving, but to grieve with hope (1 Thessalonians 4:13-14). Hope does not erase your pain or shorten your sorrow. It walks alongside it. Take the time you need, and let God and the people who love you stay close."
+        }
+      ],
+      "prayer": "Father, my heart is broken, and the loss feels too heavy to hold. Thank you that you are near to the brokenhearted and that you see every tear I cry. I do not have answers, but I bring you my sorrow, my questions, and my weariness. Please comfort me in ways I cannot yet imagine. Give me strength for this day and people to walk beside me. Hold me close when the grief comes in waves, and keep the hope of resurrection alive in my heart. In Jesus' name, amen.",
+      "related": [
+        "strength",
+        "family",
+        "healing"
       ]
     },
     {
@@ -471,34 +786,144 @@
       "verses": [
         {
           "reference": "Jeremiah 17:14",
-          "text": "Heal me, O LORD, and I shall be healed; save me, and I shall be saved, for you are my praise.",
-          "howToPray": "Pray it word for word, then name the part of you that needs healing."
+          "text": "Heal me, O Yahweh, and I will be healed. Save me, and I will be saved; for you are my praise.",
+          "note": "This simple prayer gives you words to ask God for healing and to trust Him as the One who saves."
         },
         {
           "reference": "Psalm 103:2-3",
-          "text": "Bless the LORD, O my soul, and forget not all his benefits, who forgives all your iniquity, who heals all your diseases.",
-          "howToPray": "Start by remembering what He has already done, then ask for what you need now."
+          "text": "Praise Yahweh, my soul, and don’t forget all his benefits, who forgives all your sins, who heals all your diseases,",
+          "note": "When illness wears you down, this verse invites you to remember God's goodness, His forgiveness, and His care for your body."
         },
         {
           "reference": "James 5:14-15",
-          "text": "Is anyone among you sick? Let him call for the elders of the church, and let them pray over him, anointing him with oil in the name of the Lord. And the prayer of faith will save the one who is sick, and the Lord will raise him up. And if he has committed sins, he will be forgiven.",
-          "howToPray": "Ask God for healing, and ask your church to pray with you too."
+          "text": "Is any among you sick? Let him call for the elders of the assembly, and let them pray over him, anointing him with oil in the name of the Lord, and the prayer of faith will heal him who is sick, and the Lord will raise him up. If he has committed sins, he will be forgiven.",
+          "note": "You do not have to face sickness alone, because Scripture invites you to ask church leaders to pray over you in faith."
         },
         {
           "reference": "Isaiah 53:5",
-          "text": "But he was pierced for our transgressions; he was crushed for our iniquities; upon him was the chastisement that brought us peace, and with his wounds we are healed.",
-          "howToPray": "Thank Jesus for what He carried for you, and rest your need on His finished work."
+          "text": "But he was pierced for our transgressions. He was crushed for our iniquities. The punishment that brought our peace was on him; and by his wounds we are healed.",
+          "note": "Through the suffering of Jesus, God brings you forgiveness, peace with Him, and the deepest kind of healing."
         },
         {
           "reference": "Psalm 30:2",
-          "text": "O LORD my God, I cried to you for help, and you have healed me.",
-          "howToPray": "Cry out plainly for help, and thank Him ahead of time for hearing you."
+          "text": "Yahweh my God, I cried to you, and you have healed me.",
+          "note": "The psalmist cried out to God and testified to His healing, encouraging you to bring your own cry to Him."
         },
         {
-          "reference": "3 John 2",
-          "text": "Beloved, I pray that all may go well with you and that you may be in good health, as it goes well with your soul.",
-          "howToPray": "Use this to pray for someone else's body and soul by name."
+          "reference": "3 John 1:2",
+          "text": "Beloved, I pray that you may prosper in all things and be healthy, even as your soul prospers.",
+          "note": "This warm blessing shows that caring for your health and your soul together is good and worth praying for."
+        },
+        {
+          "reference": "Psalm 147:3",
+          "text": "He heals the broken in heart, and binds up their wounds.",
+          "note": "God cares not only about physical illness but also about the emotional wounds that come with it."
+        },
+        {
+          "reference": "Psalm 41:3",
+          "text": "Yahweh will sustain him on his sickbed, and restore him from his bed of illness.",
+          "note": "Even in your sickbed, you are not forgotten, because God sustains you and cares for you there."
+        },
+        {
+          "reference": "Psalm 6:2",
+          "text": "Have mercy on me, Yahweh, for I am faint. Yahweh, heal me, for my bones are troubled.",
+          "note": "You can bring your weakness and pain to God honestly and ask for His mercy without pretending to be strong."
+        },
+        {
+          "reference": "Mark 5:34",
+          "text": "He said to her, “Daughter, your faith has made you well. Go in peace, and be cured of your disease.”",
+          "note": "Jesus called a suffering woman daughter and sent her away in peace, showing His tender compassion for the sick."
+        },
+        {
+          "reference": "Matthew 8:2-3",
+          "text": "Behold, a leper came to him and worshiped him, saying, “Lord, if you want to, you can make me clean.” Jesus stretched out his hand, and touched him, saying, “I want to. Be made clean.” Immediately his leprosy was cleansed.",
+          "note": "Jesus was willing to touch someone others avoided, showing you that your illness never pushes Him away."
+        },
+        {
+          "reference": "Matthew 9:35",
+          "text": "Jesus went about all the cities and the villages, teaching in their synagogues, and preaching the Good News of the Kingdom, and healing every disease and every sickness among the people.",
+          "note": "Jesus spent His ministry healing every kind of sickness, revealing the heart of God toward people who suffer."
+        },
+        {
+          "reference": "2 Corinthians 12:9",
+          "text": "He has said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Most gladly therefore I will rather glory in my weaknesses, that the power of Christ may rest on me.",
+          "note": "When healing does not come quickly, God's grace is still enough for you, and His strength shows up in your weakness."
+        },
+        {
+          "reference": "Isaiah 40:29-31",
+          "text": "He gives power to the weak. He increases the strength of him who has no might. Even the youths faint and get weary, and the young men utterly fall; but those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+          "note": "When illness drains your energy, God offers strength to the weary as you wait on Him."
+        },
+        {
+          "reference": "Psalm 73:26",
+          "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+          "note": "Even when your body and heart feel like they are failing, God remains your strength and your portion."
+        },
+        {
+          "reference": "2 Corinthians 4:16",
+          "text": "Therefore we don’t faint, but though our outward man is decaying, yet our inward man is renewed day by day.",
+          "note": "Though your body may grow weaker, God can renew your inner life day by day."
+        },
+        {
+          "reference": "James 5:16",
+          "text": "Confess your offenses to one another, and pray for one another, that you may be healed. The insistent prayer of a righteous person is powerfully effective.",
+          "note": "Praying for one another is part of how God's people care for the sick, so you can ask others to pray with you."
+        },
+        {
+          "reference": "Psalm 107:19-20",
+          "text": "Then they cry to Yahweh in their trouble, he saves them out of their distresses. He sends his word, and heals them, and delivers them from their graves.",
+          "note": "God hears those who cry out in their trouble, and His word is able to heal and rescue."
+        },
+        {
+          "reference": "1 Peter 2:24",
+          "text": "He himself bore our sins in his body on the tree, that we, having died to sins, might live to righteousness. You were healed by his wounds.",
+          "note": "Jesus carried your sins on the cross, and His wounds bring you spiritual healing and new life."
+        },
+        {
+          "reference": "Proverbs 17:22",
+          "text": "A cheerful heart makes good medicine, but a crushed spirit dries up the bones.",
+          "note": "Your heart and body are connected, and a cheerful heart can be good medicine, while a crushed spirit drains you."
+        },
+        {
+          "reference": "Romans 12:12",
+          "text": "rejoicing in hope; enduring in troubles; continuing steadfastly in prayer;",
+          "note": "In a long season of illness, you are invited to hold onto hope, keep enduring, and keep praying."
+        },
+        {
+          "reference": "Lamentations 3:22-23",
+          "text": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.",
+          "note": "On hard days of pain or treatment, God's mercy is new every morning and His faithfulness does not run out."
+        },
+        {
+          "reference": "Psalm 46:1",
+          "text": "God is our refuge and strength, a very present help in trouble.",
+          "note": "When a diagnosis or symptom shakes you, God is your refuge and very present help in the middle of it."
+        },
+        {
+          "reference": "Revelation 21:4",
+          "text": "He will wipe away every tear from their eyes. Death will be no more; neither will there be mourning, nor crying, nor pain, any more. The first things have passed away.”",
+          "note": "Scripture promises a final healing, a day when God will wipe away every tear and there will be no more pain."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible shows a God who cares about your whole life, body and soul. Jesus healed many people, and Scripture invites you to pray for healing and ask others to pray with you. God does not promise every illness will be cured in this life, but He promises His presence, His grace, and a future without pain.",
+      "versesQuestion": "Which Bible verses help when you need healing?",
+      "versesIntro": "These verses invite you to bring your body, mind, and heart to God in prayer, trusting His care whatever your path to healing looks like. Let them encourage you as you wait on Him.",
+      "questions": [
+        {
+          "q": "How do I pray for healing?",
+          "a": "Bring your request to God plainly, as Jeremiah 17:14 does. Tell Him what hurts, what you fear, and what you hope for. Ask others to pray with you, including your church (James 5:14-16). Pray for the doctors, nurses, and treatments involved, because medicine and skilled care are good gifts from God, and using them is not a lack of faith. Ask for strength and peace for each day as well as for healing. Leave the outcome in God's loving hands, trusting that His grace is sufficient for you (2 Corinthians 12:9)."
+        },
+        {
+          "q": "Does God always heal when we pray?",
+          "a": "God hears every prayer, and He still heals today, sometimes through medicine, sometimes in ways no one can explain. But Scripture does not promise that every illness will be cured in this life. Paul prayed for relief and was told that God's grace was enough (2 Corinthians 12:9). If healing does not come, it does not mean your faith was too small or that God does not care. He remains with you in the waiting and promises a day when there will be no more pain (Revelation 21:4)."
+        }
+      ],
+      "prayer": "Lord, you know my body and my heart better than I do. I bring you my sickness, my pain, and my worries about what comes next. I ask you to heal me, and I trust you with the outcome. Thank you for doctors, nurses, and everyone who cares for me. Give them wisdom and give me patience. When I feel weak, let your grace be enough. Fill me with peace each day, and help me hold onto hope in you. In Jesus' name, amen.",
+      "related": [
+        "strength",
+        "anxiety",
+        "grief"
       ]
     },
     {
@@ -511,34 +936,139 @@
       "verses": [
         {
           "reference": "Philippians 4:19",
-          "text": "And my God will supply every need of yours according to his riches in glory in Christ Jesus.",
-          "howToPray": "List your real needs, not your wants, and hand the list to Him."
+          "text": "My God will supply every need of yours according to his riches in glory in Christ Jesus.",
+          "note": "Paul assures you that God will meet your real needs, drawing on His own riches in Christ rather than on what you have in the bank."
         },
         {
           "reference": "Matthew 6:31-33",
-          "text": "Therefore do not be anxious, saying, 'What shall we eat?' or 'What shall we drink?' or 'What shall we wear?' For the Gentiles seek after all these things, and your heavenly Father knows that you need them all. But seek first the kingdom of God and his righteousness, and all these things will be added to you.",
-          "howToPray": "Ask God what seeking Him first looks like today, then trust Him with the rest."
+          "text": "“Therefore don’t be anxious, saying, ‘What will we eat?’, ‘What will we drink?’ or, ‘With what will we be clothed?’ For the Gentiles seek after all these things; for your heavenly Father knows that you need all these things. But seek first God’s Kingdom, and his righteousness; and all these things will be given to you as well.",
+          "note": "Jesus says your Father already knows you need food and clothing, so you can put Him first and trust Him with the rest."
         },
         {
           "reference": "Psalm 23:1",
-          "text": "The LORD is my shepherd; I shall not want.",
-          "howToPray": "Say it slowly, and thank Him for one way He has provided this week."
+          "text": "Yahweh is my shepherd: I shall lack nothing.",
+          "note": "With the Lord as your shepherd, you are not left on your own. He leads, feeds, and watches over you like a flock."
         },
         {
           "reference": "Matthew 6:11",
-          "text": "Give us this day our daily bread.",
-          "howToPray": "Ask for today's provision only, and let that be enough."
+          "text": "Give us today our daily bread.",
+          "note": "Jesus teaches you to ask God for what you need today, one day at a time, rather than carrying the weight of every tomorrow."
+        },
+        {
+          "reference": "Matthew 6:26",
+          "text": "See the birds of the sky, that they don’t sow, neither do they reap, nor gather into barns. Your heavenly Father feeds them. Aren’t you of much more value than they?",
+          "note": "If God feeds the birds that never plant or harvest, you can trust that He sees you and values you far more."
         },
         {
           "reference": "2 Corinthians 9:8",
-          "text": "And God is able to make all grace abound to you, so that having all sufficiency in all things at all times, you may abound in every good work.",
-          "howToPray": "Ask God for enough to meet your needs and to bless someone else."
+          "text": "And God is able to make all grace abound to you, that you, always having all sufficiency in everything, may abound to every good work.",
+          "note": "God is able to give you enough grace for every situation, so that you have what you need and something left to give."
         },
         {
           "reference": "Hebrews 13:5",
-          "text": "Keep your life free from love of money, and be content with what you have, for he has said, \"I will never leave you nor forsake you.\"",
-          "howToPray": "Ask God for contentment, and thank Him that He will never leave you."
+          "text": "Be free from the love of money, content with such things as you have, for he has said, “I will in no way leave you, neither will I in any way forsake you.”",
+          "note": "Contentment grows from knowing God will never leave you. His presence is the one thing you can never lose, whatever your balance says."
+        },
+        {
+          "reference": "Psalm 34:10",
+          "text": "The young lions do lack, and suffer hunger, but those who seek Yahweh shall not lack any good thing.",
+          "note": "Even the strong can go hungry, but those who seek the Lord will not lack what is truly good for them."
+        },
+        {
+          "reference": "Luke 12:24",
+          "text": "Consider the ravens: they don’t sow, they don’t reap, they have no warehouse or barn, and God feeds them. How much more valuable are you than birds!",
+          "note": "Jesus points you to the ravens, who have no barns, as a reminder that God feeds His creatures and you matter more."
+        },
+        {
+          "reference": "Matthew 7:11",
+          "text": "If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!",
+          "note": "If imperfect parents know how to give good gifts, you can ask your perfect Father with confidence that He is kind."
+        },
+        {
+          "reference": "Romans 8:32",
+          "text": "He who didn’t spare his own Son, but delivered him up for us all, how would he not also with him freely give us all things?",
+          "note": "God already gave His own Son for you. Having given the greatest gift, He will not hold back what you truly need."
+        },
+        {
+          "reference": "Psalm 37:25",
+          "text": "I have been young, and now am old, yet I have not seen the righteous forsaken, nor his children begging for bread.",
+          "note": "David looks back over a long life and testifies to God's faithfulness to His people. Let his witness steady you in a lean season."
+        },
+        {
+          "reference": "Psalm 145:15-16",
+          "text": "The eyes of all wait for you. You give them their food in due season. You open your hand, and satisfy the desire of every living thing.",
+          "note": "All creation looks to God for food at the right time, and He opens His hand. You can look to Him too."
+        },
+        {
+          "reference": "Genesis 22:14",
+          "text": "Abraham called the name of that place “Yahweh Will Provide”. As it is said to this day, “On Yahweh’s mountain, it will be provided.”",
+          "note": "Abraham named the mountain for the God who provides, after God supplied what he could not. You can call on the same faithful God."
+        },
+        {
+          "reference": "Philippians 4:11-13",
+          "text": "Not that I speak because of lack, for I have learned in whatever state I am, to be content in it. I know how to be humbled, and I also know how to abound. In everything and in all things I have learned the secret both to be filled and to be hungry, both to abound and to be in need. I can do all things through Christ, who strengthens me.",
+          "note": "Paul learned to be content in plenty and in need. Christ gives you strength to face whatever your circumstances are today."
+        },
+        {
+          "reference": "1 Timothy 6:6-8",
+          "text": "But godliness with contentment is great gain. For we brought nothing into the world, and we certainly can’t carry anything out. But having food and clothing, we will be content with that.",
+          "note": "True gain is a godly life with a content heart. If you have food and clothing, you can rest in what God has given."
+        },
+        {
+          "reference": "Proverbs 30:8-9",
+          "text": "Remove far from me falsehood and lies. Give me neither poverty nor riches. Feed me with the food that is needful for me, lest I be full, deny you, and say, ‘Who is Yahweh?’ or lest I be poor, and steal, and so dishonor the name of my God.",
+          "note": "This honest prayer asks God for just what you need, neither poverty nor riches, so that your heart stays close to Him."
+        },
+        {
+          "reference": "Lamentations 3:22-23",
+          "text": "It is because of Yahweh’s loving kindnesses that we are not consumed, because his compassion doesn’t fail. They are new every morning. Great is your faithfulness.",
+          "note": "Written in a time of loss, these verses remind you that God's mercy and faithfulness meet you fresh every single morning."
+        },
+        {
+          "reference": "1 Peter 5:7",
+          "text": "casting all your worries on him, because he cares for you.",
+          "note": "You do not have to carry money worries alone. Hand every one of them to God, because He genuinely cares about you."
+        },
+        {
+          "reference": "Matthew 6:34",
+          "text": "Therefore don’t be anxious for tomorrow, for tomorrow will be anxious for itself. Each day’s own evil is sufficient.",
+          "note": "Jesus invites you to stop borrowing tomorrow's troubles. Face today's needs with God today, and trust Him with tomorrow when it comes."
+        },
+        {
+          "reference": "James 1:17",
+          "text": "Every good gift and every perfect gift is from above, coming down from the Father of lights, with whom can be no variation, nor turning shadow.",
+          "note": "Every good thing you receive, from a meal to a kind friend, comes from a Father who does not change."
+        },
+        {
+          "reference": "Psalm 84:11",
+          "text": "For Yahweh God is a sun and a shield. Yahweh will give grace and glory. He withholds no good thing from those who walk blamelessly.",
+          "note": "God does not hold back what is good from those who walk with Him, though He decides in wisdom what is good for you."
+        },
+        {
+          "reference": "Isaiah 58:11",
+          "text": "and Yahweh will guide you continually, satisfy your soul in dry places, and make your bones strong. You will be like a watered garden, and like a spring of water whose waters don’t fail.",
+          "note": "God promises to guide you and satisfy your soul even in dry places, keeping you refreshed when outward resources run low."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says God knows what you need before you ask and promises to care for His children. He invites you to bring daily needs to Him, to trust Him instead of worrying, and to be content. God's provision is not a promise of wealth, but of His faithful care, enough for today and His presence always.",
+      "versesQuestion": "Which Bible verses help when money is tight?",
+      "versesIntro": "These verses remind you that your Father in heaven sees your needs and cares for you. Read them slowly when bills pile up or the future feels uncertain, and let them turn your worry into prayer.",
+      "questions": [
+        {
+          "q": "How do I pray when I don't have enough money to pay the bills?",
+          "a": "Start by telling God plainly what you owe and what you have. He already knows, and honesty brings you closer to Him. Ask for what you need today, as Jesus taught (Matthew 6:11), and ask for wisdom about your next step (James 1:5). Thank Him for anything you do have, even small things. Then take practical action: call creditors, look for local help, and be open to help from your church or friends, which can be part of how God provides. Keep praying each day, and hand the worry back to Him whenever it returns (1 Peter 5:7)."
+        },
+        {
+          "q": "What does Jesus say about worrying about money?",
+          "a": "Jesus speaks gently but directly about worry in the Sermon on the Mount (Matthew 6:25-34). He points to the birds and the flowers, which God feeds and clothes, and reminds you that you are worth far more to Him. He says your Father already knows what you need. Instead of being consumed by anxiety, Jesus invites you to seek God's Kingdom first and to take life one day at a time. He also warns that you cannot serve both God and money (Matthew 6:24). His words are not a promise of riches, but an invitation to trust a Father who cares."
+        }
+      ],
+      "prayer": "Heavenly Father, You know everything I need before I say a word. Right now I am worried about money and about what tomorrow will bring. Please give me what I need for today, and help me to trust You with tomorrow. Teach me to be content with what I have and to be generous when I can. Show me wise steps to take, and open doors I cannot open myself. When fear rises, remind me that You will never leave me. Thank You for Your faithful care. In Jesus' name, amen.",
+      "related": [
+        "anxiety",
+        "direction",
+        "strength"
       ]
     },
     {
@@ -552,39 +1082,134 @@
       "verses": [
         {
           "reference": "Proverbs 3:5-6",
-          "text": "Trust in the LORD with all your heart, and do not lean on your own understanding. In all your ways acknowledge him, and he will make straight your paths.",
-          "howToPray": "Tell God the decision in front of you, and admit where your own understanding runs out."
+          "text": "Trust in Yahweh with all your heart, and don’t lean on your own understanding. In all your ways acknowledge him, and he will make your paths straight.",
+          "note": "When you cannot figure it all out, you can trust God with your whole heart. As you acknowledge Him, He makes your path straight."
         },
         {
           "reference": "Psalm 32:8",
-          "text": "I will instruct you and teach you in the way you should go; I will counsel you with my eye upon you.",
-          "howToPray": "Ask Him to teach you, then sit quietly for a minute and listen."
+          "text": "I will instruct you and teach you in the way which you shall go. I will counsel you with my eye on you.",
+          "note": "God promises to teach you the way to go and to watch over you as He counsels you. You are not choosing alone."
         },
         {
           "reference": "James 1:5",
-          "text": "If any of you lacks wisdom, let him ask God, who gives generously to all without reproach, and it will be given him.",
-          "howToPray": "Ask for wisdom plainly and specifically. He gives it without scolding."
+          "text": "But if any of you lacks wisdom, let him ask of God, who gives to all liberally and without reproach, and it will be given to him.",
+          "note": "If you need wisdom for a decision, ask God for it. He gives generously and never scolds you for asking."
         },
         {
           "reference": "Psalm 119:105",
-          "text": "Your word is a lamp to my feet and a light to my path.",
-          "howToPray": "Ask God to light the next step, not the whole road."
+          "text": "Your word is a lamp to my feet, and a light for my path.",
+          "note": "Scripture is like a lamp in the dark. It may show you the next step rather than the whole road, and that is enough."
         },
         {
           "reference": "Isaiah 30:21",
-          "text": "And your ears shall hear a word behind you, saying, \"This is the way, walk in it,\" when you turn to the right or when you turn to the left.",
-          "howToPray": "Ask God to make His voice clear, and to give you the courage to follow it."
-        },
-        {
-          "reference": "Jeremiah 29:11",
-          "text": "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope.",
-          "howToPray": "Thank God that He sees your future, and ask Him to lead you into it."
+          "text": "and when you turn to the right hand, and when you turn to the left, your ears will hear a voice behind you, saying, “This is the way. Walk in it.”",
+          "note": "God promised His people He would guide them back onto the right way. He is still able to direct you when you drift."
         },
         {
           "reference": "Proverbs 16:9",
-          "text": "The heart of man plans his way, but the LORD establishes his steps.",
-          "howToPray": "Hold your plans with an open hand and ask God to establish your steps."
+          "text": "A man’s heart plans his course, but Yahweh directs his steps.",
+          "note": "Making plans is good, but God is the one who directs your steps. You can plan carefully and hold your plans loosely."
+        },
+        {
+          "reference": "Psalm 25:4-5",
+          "text": "Show me your ways, Yahweh. Teach me your paths. Guide me in your truth, and teach me, For you are the God of my salvation, I wait for you all day long.",
+          "note": "This is a prayer you can borrow when you feel unsure. Ask God to show you His ways and teach you His paths."
+        },
+        {
+          "reference": "Psalm 143:8",
+          "text": "Cause me to hear your loving kindness in the morning, for I trust in you. Cause me to know the way in which I should walk, for I lift up my soul to you.",
+          "note": "Start your day by asking God to remind you of His love and show you the way to walk, lifting your soul to Him."
+        },
+        {
+          "reference": "Jeremiah 29:11",
+          "text": "For I know the thoughts that I think toward you,” says Yahweh, “thoughts of peace, and not of evil, to give you hope and a future.",
+          "note": "God first spoke these words to exiles in Babylon facing a long wait. They were no quick fix, but they show His hopeful purposes for His people."
+        },
+        {
+          "reference": "Psalm 37:23-24",
+          "text": "A man’s steps are established by Yahweh. He delights in his way. Though he stumble, he shall not fall, for Yahweh holds him up with his hand.",
+          "note": "God establishes your steps and delights in your way. Even if you stumble along the path, He holds you up with His hand."
+        },
+        {
+          "reference": "Romans 12:2",
+          "text": "Don’t be conformed to this world, but be transformed by the renewing of your mind, so that you may prove what is the good, well-pleasing, and perfect will of God.",
+          "note": "As God renews your mind, you grow in recognizing His good will. Discernment comes from being shaped by Him, not by the world."
+        },
+        {
+          "reference": "John 16:13",
+          "text": "However when he, the Spirit of truth, has come, he will guide you into all truth, for he will not speak from himself; but whatever he hears, he will speak. He will declare to you things that are coming.",
+          "note": "Jesus promised the Holy Spirit would guide His followers into truth. You have a Helper who leads you, not just a set of rules."
+        },
+        {
+          "reference": "Isaiah 42:16",
+          "text": "I will bring the blind by a way that they don’t know. I will lead them in paths that they don’t know. I will make darkness light before them, and crooked places straight. I will do these things, and I will not forsake them.",
+          "note": "When you cannot see the way, God promises to lead you on unfamiliar paths, turning darkness to light and not abandoning you."
+        },
+        {
+          "reference": "Psalm 73:23-24",
+          "text": "Nevertheless, I am continually with you. You have held my right hand. You will guide me with your counsel, and afterward receive me to glory.",
+          "note": "God holds your hand and guides you with His counsel through this life, and He will receive you into glory at the end."
+        },
+        {
+          "reference": "Proverbs 19:21",
+          "text": "There are many plans in a man’s heart, but Yahweh’s counsel will prevail.",
+          "note": "You may have many plans and many options, but God's purposes will stand. That is freeing when you fear choosing wrong."
+        },
+        {
+          "reference": "John 10:27",
+          "text": "My sheep hear my voice, and I know them, and they follow me.",
+          "note": "Jesus says His sheep know His voice and follow Him. As you stay close to Him, you learn to recognize His leading."
+        },
+        {
+          "reference": "Psalm 16:11",
+          "text": "You will show me the path of life. In your presence is fullness of joy. In your right hand there are pleasures forever more.",
+          "note": "God shows you the path of life, and the best part of that path is His presence and the joy found there."
+        },
+        {
+          "reference": "Proverbs 16:3",
+          "text": "Commit your deeds to Yahweh, and your plans shall succeed.",
+          "note": "Bring your work and your plans to God first. Committing them to Him puts your future in faithful hands."
+        },
+        {
+          "reference": "Proverbs 11:14",
+          "text": "Where there is no wise guidance, the nation falls, but in the multitude of counselors there is victory.",
+          "note": "Wise guidance often comes through other people. Seek counsel from trusted, godly friends before you make a big decision."
+        },
+        {
+          "reference": "Psalm 48:14",
+          "text": "For this God is our God forever and ever. He will be our guide even to death.",
+          "note": "God is not a guide for one season only. He promises to lead His people for all of life, even to its end."
+        },
+        {
+          "reference": "John 8:12",
+          "text": "Again, therefore, Jesus spoke to them, saying, “I am the light of the world. He who follows me will not walk in the darkness, but will have the light of life.”",
+          "note": "Jesus is the light of the world. When you follow Him, you do not have to walk in darkness, even when the way is unclear."
+        },
+        {
+          "reference": "Colossians 3:15",
+          "text": "And let the peace of God rule in your hearts, to which also you were called in one body, and be thankful.",
+          "note": "Let the peace of Christ guide your heart. A settled peace in prayer can be one way God helps you discern a decision."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says God gladly gives guidance and direction to those who ask Him. He leads you through His Word, through prayer, through the Holy Spirit, and through wise counsel. You may not see the whole road at once, but you can trust Him with each step, knowing He is faithful to guide His children.",
+      "versesQuestion": "Which Bible verses help when you don't know what to do?",
+      "versesIntro": "These verses are for the moments when you face a decision or feel lost about the way ahead. They remind you that God sees your path, promises to lead you, and gives wisdom to anyone who asks.",
+      "questions": [
+        {
+          "q": "How do I pray when I have a big decision to make?",
+          "a": "Begin by asking God for wisdom, trusting that He gives it generously (James 1:5). Tell Him honestly what you are weighing and what you fear. Then spend time in Scripture, because God never leads you against His Word (Psalm 119:105). Ask for a heart willing to follow wherever He leads, even if it is not your first choice. Talk with mature believers you trust (Proverbs 11:14), and pay attention to practical wisdom and open or closed doors. Give yourself time if you can. Often clarity comes step by step, and God's peace grows as you keep bringing the decision to Him."
+        },
+        {
+          "q": "How do I know God's will for my life?",
+          "a": "Much of God's will is already clear in Scripture: to love Him, love others, trust Jesus, and grow in holiness. Start there, and you will be living in His will today. For specific choices like a job or a move, God usually guides through His Word, prayer, the Holy Spirit, wise counsel, and your circumstances working together. He also gives you freedom to choose among good options. Romans 12:2 says that as your mind is renewed, you learn to discern His good will. You do not need to fear missing it, because God is able to direct your steps (Proverbs 16:9)."
+        }
+      ],
+      "prayer": "Lord God, I don't know which way to go, and I need Your guidance and direction. I bring this decision to You and ask for Your wisdom. Help me not to lean on my own understanding but to trust You with my whole heart. Speak to me through Your Word, give me wise counsel, and let Your peace guard my heart. If I am heading the wrong way, turn me around. If I need to wait, give me patience. Thank You that You hold my future and will not let go of my hand. In Jesus' name, amen.",
+      "related": [
+        "anxiety",
+        "fear",
+        "provision"
       ]
     },
     {
@@ -597,39 +1222,144 @@
       "verses": [
         {
           "reference": "1 John 1:9",
-          "text": "If we confess our sins, he is faithful and just to forgive us our sins and to cleanse us from all unrighteousness.",
-          "howToPray": "Name the sin honestly, then thank Him that He is faithful to forgive."
-        },
-        {
-          "reference": "Psalm 51:10",
-          "text": "Create in me a clean heart, O God, and renew a right spirit within me.",
-          "howToPray": "Pray this line slowly and mean every word."
+          "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
+          "note": "When you confess your sins honestly, God is faithful to forgive you and to make you clean. You do not have to earn it."
         },
         {
           "reference": "Psalm 103:12",
-          "text": "As far as the east is from the west, so far does he remove our transgressions from us.",
-          "howToPray": "When old guilt returns, thank God that He has already removed it."
-        },
-        {
-          "reference": "Romans 8:1",
-          "text": "There is therefore now no condemnation for those who are in Christ Jesus.",
-          "howToPray": "Tell God the voice of condemnation you keep hearing, and choose His word over it."
+          "text": "As far as the east is from the west, so far has he removed our transgressions from us.",
+          "note": "God does not keep your forgiven sins close by to use against you. He has removed them as far as east is from west."
         },
         {
           "reference": "Ephesians 4:32",
-          "text": "Be kind to one another, tenderhearted, forgiving one another, as God in Christ forgave you.",
-          "howToPray": "Name the person you need to forgive, and ask God for a tender heart toward them."
+          "text": "And be kind to one another, tender hearted, forgiving each other, just as God also in Christ forgave you.",
+          "note": "Your forgiveness of others flows from God's forgiveness of you in Christ. Kindness and a tender heart grow from remembering His mercy."
         },
         {
-          "reference": "Colossians 3:13",
-          "text": "Bearing with one another and, if one has a complaint against another, forgiving each other; as the Lord has forgiven you, so you also must forgive.",
-          "howToPray": "Remember how much you have been forgiven, then release the debt someone owes you."
+          "reference": "Romans 8:1",
+          "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+          "note": "If you belong to Christ Jesus, there is no condemnation waiting for you. Guilt does not get the final word over your life."
         },
         {
           "reference": "Isaiah 1:18",
-          "text": "Come now, let us reason together, says the LORD: though your sins are like scarlet, they shall be as white as snow; though they are red like crimson, they shall become like wool.",
-          "howToPray": "Come to God just as you are, and thank Him that no stain is too deep for Him."
+          "text": "“Come now, and let’s reason together,” says Yahweh: “Though your sins are as scarlet, they shall be as white as snow. Though they are red like crimson, they shall be as wool.",
+          "note": "However deep the stain of your sin feels, God invites you to come to Him and promises to make you clean."
+        },
+        {
+          "reference": "Colossians 3:13",
+          "text": "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do.",
+          "note": "When someone wrongs you, God calls you to bear with them and forgive, following the example of how Christ forgave you."
+        },
+        {
+          "reference": "Psalm 51:10",
+          "text": "Create in me a clean heart, O God. Renew a right spirit within me.",
+          "note": "Forgiveness is also a fresh start. You can ask God to create a clean heart in you and renew your spirit."
+        },
+        {
+          "reference": "Psalm 51:1-2",
+          "text": "Have mercy on me, God, according to your loving kindness. According to the multitude of your tender mercies, blot out my transgressions. Wash me thoroughly from my iniquity. Cleanse me from my sin.",
+          "note": "David prayed this after grievous sin. You can use his words to ask for mercy, trusting God's steadfast love, not your own record."
+        },
+        {
+          "reference": "Micah 7:18-19",
+          "text": "Who is a God like you, who pardons iniquity, and passes over the disobedience of the remnant of his heritage? He doesn’t retain his anger forever, because he delights in loving kindness. He will again have compassion on us. He will tread our iniquities under foot; and you will cast all their sins into the depths of the sea.",
+          "note": "God delights in showing mercy. He does not stay angry forever, and He buries your sins in the depths of the sea."
+        },
+        {
+          "reference": "Ephesians 1:7",
+          "text": "in whom we have our redemption through his blood, the forgiveness of our trespasses, according to the riches of his grace,",
+          "note": "Your forgiveness was purchased by the blood of Jesus and given according to the riches of God's grace, not your effort."
+        },
+        {
+          "reference": "Psalm 32:5",
+          "text": "I acknowledged my sin to you. I didn’t hide my iniquity. I said, I will confess my transgressions to Yahweh, and you forgave the iniquity of my sin.",
+          "note": "Hiding sin weighs you down, but confessing it to God brings relief. David found that God forgave him when he stopped hiding."
+        },
+        {
+          "reference": "Isaiah 43:25",
+          "text": "I, even I, am he who blots out your transgressions for my own sake; and I will not remember your sins.",
+          "note": "God Himself chooses to blot out your sins and not remember them, for His own sake. Your forgiveness rests on His character."
+        },
+        {
+          "reference": "Psalm 86:5",
+          "text": "For you, Lord, are good, and ready to forgive, abundant in loving kindness to all those who call on you.",
+          "note": "God is good and ready to forgive. You do not have to convince a reluctant God, because He is abundant in love."
+        },
+        {
+          "reference": "Acts 3:19",
+          "text": "“Repent therefore, and turn again, that your sins may be blotted out, so that there may come times of refreshing from the presence of the Lord,",
+          "note": "Turning to God brings more than a clean record. It opens the way to refreshing times in the presence of the Lord."
+        },
+        {
+          "reference": "Hebrews 8:12",
+          "text": "For I will be merciful to their unrighteousness. I will remember their sins and lawless deeds no more.”",
+          "note": "Under the new covenant, God promises mercy and to remember your sins no more. He will not keep bringing them back up."
+        },
+        {
+          "reference": "Psalm 130:3-4",
+          "text": "If you, Yah, kept a record of sins, Lord, who could stand? But there is forgiveness with you, therefore you are feared.",
+          "note": "No one could stand if God kept a record of every sin, but forgiveness is found with Him. That truth leads you to worship."
+        },
+        {
+          "reference": "Proverbs 28:13",
+          "text": "He who conceals his sins doesn’t prosper, but whoever confesses and renounces them finds mercy.",
+          "note": "Covering up sin keeps you stuck, but confessing and turning from it brings mercy. Honesty with God is the path to freedom."
+        },
+        {
+          "reference": "Luke 15:20",
+          "text": "“He arose, and came to his father. But while he was still far off, his father saw him, and was moved with compassion, and ran, and fell on his neck, and kissed him.",
+          "note": "In Jesus' story, the father runs to welcome his returning son. This is how God receives you when you come home to Him."
+        },
+        {
+          "reference": "Matthew 6:14-15",
+          "text": "“For if you forgive men their trespasses, your heavenly Father will also forgive you. But if you don’t forgive men their trespasses, neither will your Father forgive your trespasses.",
+          "note": "Jesus ties receiving forgiveness to extending it. A heart that knows God's mercy is called to release others from their debts."
+        },
+        {
+          "reference": "Mark 11:25",
+          "text": "Whenever you stand praying, forgive, if you have anything against anyone; so that your Father, who is in heaven, may also forgive you your transgressions.",
+          "note": "When you pray, Jesus asks you to forgive anyone you hold something against. Bring that grudge into prayer and let God help you release it."
+        },
+        {
+          "reference": "Matthew 18:21-22",
+          "text": "Then Peter came and said to him, “Lord, how often shall my brother sin against me, and I forgive him? Until seven times?” Jesus said to him, “I don’t tell you until seven times, but, until seventy times seven.",
+          "note": "Peter wanted a limit on forgiveness, and Jesus answered with a number meant to show that forgiveness has no limit."
+        },
+        {
+          "reference": "Luke 6:37",
+          "text": "Don’t judge, and you won’t be judged. Don’t condemn, and you won’t be condemned. Set free, and you will be set free.",
+          "note": "Jesus calls you to set others free rather than condemn them. Letting go of judgment can set your own heart free too."
+        },
+        {
+          "reference": "Luke 23:34",
+          "text": "Jesus said, “Father, forgive them, for they don’t know what they are doing.” Dividing his garments among them, they cast lots.",
+          "note": "While on the cross, Jesus prayed for the people crucifying Him. His example shows that forgiveness is possible even in deep pain."
+        },
+        {
+          "reference": "Romans 12:19",
+          "text": "Don’t seek revenge yourselves, beloved, but give place to God’s wrath. For it is written, “Vengeance belongs to me; I will repay, says the Lord.”",
+          "note": "Forgiving does not mean injustice is ignored. You can let go of revenge because God sees everything and will judge rightly."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says God freely forgives everyone who turns to Him through Jesus. When you confess your sin, He cleanses you completely and does not hold it against you. Because you have been forgiven so much, God also calls you to forgive others, releasing your desire for revenge and trusting Him with justice.",
+      "versesQuestion": "Which Bible verses help when you need forgiveness or need to forgive?",
+      "versesIntro": "These verses speak to both sides of forgiveness: receiving God's mercy when you have failed, and finding the grace to forgive someone who has hurt you. Let them remind you how complete God's forgiveness is.",
+      "questions": [
+        {
+          "q": "How do I pray when I feel too guilty to be forgiven?",
+          "a": "Come to God honestly, just as you are. Name what you did without excuses, and tell Him how heavy it feels. Then remember that forgiveness rests on God's faithfulness, not on how you feel (1 John 1:9). Jesus died for sins exactly like yours, and there is no condemnation for those who are in Him (Romans 8:1). You may still feel guilty for a while, and that is normal. Each time the shame returns, thank God again that you are forgiven. If you have hurt someone, ask Him for courage to make it right where you can, and consider talking with a pastor."
+        },
+        {
+          "q": "How do I forgive someone who hurt me?",
+          "a": "Forgiveness is often a process, not a single moment. Start by being honest with God about the hurt, because He does not ask you to pretend it was small. Choose to release your right to get even, trusting Him with justice (Romans 12:19), and ask for His help, since you may need to choose this again and again. Remember how much you have been forgiven (Colossians 3:13). Forgiving someone does not mean excusing abuse, staying in danger, or trusting them again right away. You can forgive and still keep healthy boundaries. If you are being harmed, please reach out to someone who can help keep you safe."
+        }
+      ],
+      "prayer": "Father, thank You that You are ready to forgive. I confess the ways I have sinned against You and others, and I ask You to wash me clean. Help me believe that I am truly forgiven and to stop carrying guilt that Jesus already carried. Lord, You also know the hurt I hold against others. I don't feel ready to let it go, but I want to. Give me the grace to forgive as You have forgiven me, and wisdom to stay safe and set healthy boundaries. Heal my heart. In Jesus' name, amen.",
+      "related": [
+        "salvation",
+        "healing",
+        "family"
       ]
     },
     {
@@ -641,40 +1371,140 @@
       "intro": "Invite God into the relationships closest to your heart.",
       "verses": [
         {
-          "reference": "Joshua 24:15b",
-          "text": "But as for me and my house, we will serve the LORD.",
-          "howToPray": "Dedicate your home to God again today, one person at a time."
+          "reference": "1 Corinthians 13:4-7",
+          "text": "Love is patient and is kind. Love doesn’t envy. Love doesn’t brag, is not proud, doesn’t behave itself inappropriately, doesn’t seek its own way, is not provoked, takes no account of evil; doesn’t rejoice in unrighteousness, but rejoices with the truth; bears all things, believes all things, hopes all things, and endures all things.",
+          "note": "This is a portrait of real love: patient, kind, humble, and enduring. Use it as a daily measure for how you treat your spouse and children."
         },
         {
-          "reference": "1 Corinthians 13:4-7",
-          "text": "Love is patient and kind; love does not envy or boast; it is not arrogant or rude. It does not insist on its own way; it is not irritable or resentful; it does not rejoice at wrongdoing, but rejoices with the truth. Love bears all things, believes all things, hopes all things, endures all things.",
-          "howToPray": "Read it with your name in place of \"love,\" and ask God to grow what is missing."
+          "reference": "Joshua 24:15",
+          "text": "If it seems evil to you to serve Yahweh, choose today whom you will serve; whether the gods which your fathers served that were beyond the River, or the gods of the Amorites, in whose land you dwell; but as for me and my house, we will serve Yahweh.”",
+          "note": "Joshua made a clear choice for his whole household to serve the Lord. You can make that same decision for your home today, whatever others choose."
         },
         {
           "reference": "Ephesians 4:2-3",
-          "text": "With all humility and gentleness, with patience, bearing with one another in love, eager to maintain the unity of the Spirit in the bond of peace.",
-          "howToPray": "Ask God for patience and gentleness in the conversation you are dreading."
+          "text": "with all lowliness and humility, with patience, bearing with one another in love, being eager to keep the unity of the Spirit in the bond of peace.",
+          "note": "Humility, gentleness, and patience keep a family united. Peace at home takes effort, and God's Spirit gives you what you need to protect it."
         },
         {
           "reference": "Colossians 3:14",
-          "text": "And above all these put on love, which binds everything together in perfect harmony.",
-          "howToPray": "Ask God to help you choose love first in your home today."
+          "text": "Above all these things, walk in love, which is the bond of perfection.",
+          "note": "Love is what holds every other good quality together. When your family feels pulled apart, choosing love is the thread that binds you again."
         },
         {
           "reference": "Psalm 127:1",
-          "text": "Unless the LORD builds the house, those who build it labor in vain. Unless the LORD watches over the city, the watchman stays awake in vain.",
-          "howToPray": "Ask God to build and guard your family, and let go of trying to do it alone."
+          "text": "Unless Yahweh builds the house, they who build it labor in vain. Unless Yahweh watches over the city, the watchman guards it in vain.",
+          "note": "Your best efforts alone cannot hold a home together. Invite God to be the builder of your marriage and family, and your work will not be wasted."
+        },
+        {
+          "reference": "Colossians 3:13",
+          "text": "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do.",
+          "note": "Every family has complaints and hurts. God asks you to bear with one another and forgive, just as Christ has freely forgiven you."
+        },
+        {
+          "reference": "1 Peter 4:8",
+          "text": "And above all things be earnest in your love among yourselves, for love covers a multitude of sins.",
+          "note": "Earnest, steady love makes room for each other's failures. In a close family, love chooses to cover offenses rather than keep score."
+        },
+        {
+          "reference": "Genesis 2:24",
+          "text": "Therefore a man will leave his father and his mother, and will join with his wife, and they will be one flesh.",
+          "note": "From the very beginning, God designed marriage as a new union. A husband and wife leave their old homes and are joined together as one."
+        },
+        {
+          "reference": "Mark 10:9",
+          "text": "What therefore God has joined together, let no man separate.”",
+          "note": "Jesus teaches that God Himself joins a husband and wife together. Treat your marriage as something sacred that God has made and cares about."
+        },
+        {
+          "reference": "Ecclesiastes 4:9-10",
+          "text": "Two are better than one, because they have a good reward for their labor. For if they fall, the one will lift up his fellow; but woe to him who is alone when he falls, and doesn’t have another to lift him up.",
+          "note": "Two people facing life together can lift each other up when one falls. Your spouse and family are a gift of help, not a burden."
+        },
+        {
+          "reference": "Ecclesiastes 4:12",
+          "text": "If a man prevails against one who is alone, two shall withstand him; and a threefold cord is not quickly broken.",
+          "note": "A cord of three strands is hard to break. A marriage woven together with God at its center has strength that two people alone do not."
+        },
+        {
+          "reference": "Ephesians 5:25",
+          "text": "Husbands, love your wives, even as Christ also loved the assembly, and gave himself up for it;",
+          "note": "Husbands are called to love their wives the way Christ loved the church, with sacrificial, self-giving care that puts her good first."
+        },
+        {
+          "reference": "Ephesians 5:33",
+          "text": "Nevertheless each of you must also love his own wife even as himself; and let the wife see that she respects her husband.",
+          "note": "Love and respect are both needed in a healthy marriage. Ask God to help you give your spouse the honor and care they long for."
+        },
+        {
+          "reference": "Romans 12:10",
+          "text": "In love of the brothers be tenderly affectionate to one another; in honor preferring one another;",
+          "note": "Tender affection and honoring one another above yourself can change the atmosphere of a home. Look for small ways to put your family first today."
+        },
+        {
+          "reference": "Proverbs 15:1",
+          "text": "A gentle answer turns away wrath, but a harsh word stirs up anger.",
+          "note": "The way you speak can calm or inflame a conflict. In heated moments at home, a gentle reply often turns anger away."
         },
         {
           "reference": "Proverbs 22:6",
-          "text": "Train up a child in the way he should go; even when he is old he will not depart from it.",
-          "howToPray": "Pray for each child or grandchild by name and for the path God has for them."
+          "text": "Train up a child in the way he should go, and when he is old he will not depart from it.",
+          "note": "The patient work of guiding a child in God's ways matters for a lifetime. Keep teaching and modeling faith, even when you cannot see results yet."
+        },
+        {
+          "reference": "Deuteronomy 6:6-7",
+          "text": "These words, which I command you today, shall be on your heart; and you shall teach them diligently to your children, and shall talk of them when you sit in your house, and when you walk by the way, and when you lie down, and when you rise up.",
+          "note": "Faith is passed on in everyday moments at home, at meals, on walks, and at bedtime. Let God's words be a natural part of family life."
+        },
+        {
+          "reference": "Ephesians 6:4",
+          "text": "You fathers, don’t provoke your children to wrath, but nurture them in the discipline and instruction of the Lord.",
+          "note": "Parents are called to raise children with patient instruction in the Lord, not with harshness that provokes anger. Gentle, faithful guidance builds trust."
+        },
+        {
+          "reference": "Ephesians 6:1-3",
+          "text": "Children, obey your parents in the Lord, for this is right. “Honor your father and mother,” which is the first commandment with a promise: “that it may be well with you, and you may live long on the earth.”",
+          "note": "God calls children to honor and obey their parents, and He attaches a promise of blessing to it. Honor helps a family flourish."
         },
         {
           "reference": "Isaiah 54:13",
-          "text": "All your children shall be taught by the LORD, and great shall be the peace of your children.",
-          "howToPray": "Ask God to teach your children Himself and to fill them with His peace."
+          "text": "All your children will be taught by Yahweh; and your children’s peace will be great.",
+          "note": "God promises to teach your children Himself and to give them great peace. You can entrust your kids to His care when you are worried."
+        },
+        {
+          "reference": "Psalm 103:17",
+          "text": "But Yahweh’s loving kindness is from everlasting to everlasting with those who fear him, his righteousness to children’s children,",
+          "note": "God's steadfast love reaches beyond one generation to children and grandchildren. Your faithfulness today can bless your family for years to come."
+        },
+        {
+          "reference": "Proverbs 24:3-4",
+          "text": "Through wisdom a house is built; by understanding it is established; by knowledge the rooms are filled with all rare and beautiful treasure.",
+          "note": "A strong home is built with wisdom, understanding, and knowledge. Ask God for wisdom in your family decisions, and He will fill your home with good things."
+        },
+        {
+          "reference": "Psalm 133:1",
+          "text": "See how good and how pleasant it is for brothers to live together in unity!",
+          "note": "Unity among those who share life together is good and pleasant. God delights when your family lives in harmony and peace."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says marriage and family are gifts from God, meant to reflect His faithful love. Scripture calls husbands and wives to patience, kindness, forgiveness, and honor, and it calls parents to teach their children to know the Lord. When your home is built on God's grace, He helps you love well through every season.",
+      "versesQuestion": "Which Bible verses help a struggling marriage and family?",
+      "versesIntro": "These Bible verses for marriage and family show what God's love looks like at home. Read them together, pray them over the people you love, and let them shape how you speak, forgive, and serve one another.",
+      "questions": [
+        {
+          "q": "How do I pray for my marriage and family?",
+          "a": "Start by thanking God for each person by name, even if things feel hard right now. Then pray specifically: for patience and kindness in how you speak, for forgiveness where there is hurt, and for each child's heart to know the Lord. Ask God to show you your own part before you focus on anyone else's. If you can, pray together as a couple or a family, even briefly. Praying through passages like 1 Corinthians 13:4-7 and Colossians 3:12-14 can give you words when your own run out. Keep going, because steady prayer over time shapes a home."
+        },
+        {
+          "q": "What does the Bible say about a hard marriage?",
+          "a": "The Bible is honest that marriage takes humility, patience, and forgiveness (Ephesians 4:2-3, Colossians 3:13). Hard seasons are common, and God can bring healing when both people seek Him. Consider talking with a pastor or a trusted Christian counselor, and keep praying for your spouse and yourself. At the same time, please hear this gently: no one should stay in danger. Abuse is never God's will for you or your children. If you are being harmed or threatened, reach out for help and get to a safe place, and contact local emergency services if you are in immediate danger."
+        }
+      ],
+      "prayer": "Father, thank You for the gift of my family. You know every joy and every strain in our home. Please be the builder of our house. Teach me to love with patience and kindness, to speak gently, and to forgive as You have forgiven me. Heal what is hurting between us, and draw each of us closer to You. Guard my children, teach them Your ways, and give them Your peace. Where I need help or safety, lead me to it. Make our home a place where Your love is seen and Your name is honored. In Jesus' name, amen.",
+      "related": [
+        "forgiveness",
+        "direction",
+        "provision"
       ]
     },
     {
@@ -687,44 +1517,149 @@
       "verses": [
         {
           "reference": "John 3:16",
-          "text": "For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life.",
-          "howToPray": "Put your own name in place of \"the world\" and thank God for His love."
+          "text": "For God so loved the world, that he gave his one and only Son, that whoever believes in him should not perish, but have eternal life.",
+          "note": "God's love for you is so great that He gave His only Son. Anyone who believes in Jesus receives eternal life instead of perishing."
+        },
+        {
+          "reference": "Ephesians 2:8-9",
+          "text": "for by grace you have been saved through faith, and that not of yourselves; it is the gift of God, not of works, that no one would boast.",
+          "note": "You are saved by God's grace through faith, not by your own good works. Salvation is a gift to receive, never a reward to earn."
+        },
+        {
+          "reference": "Romans 10:9",
+          "text": "that if you will confess with your mouth that Jesus is Lord, and believe in your heart that God raised him from the dead, you will be saved.",
+          "note": "Salvation comes by confessing that Jesus is Lord and believing in your heart that God raised Him from the dead. It is that clear and personal."
         },
         {
           "reference": "Romans 3:23",
-          "text": "For all have sinned and fall short of the glory of God.",
-          "howToPray": "Admit honestly to God that you need a Savior."
+          "text": "for all have sinned, and fall short of the glory of God;",
+          "note": "Every person has sinned and fallen short of God's glory. You are not alone in needing a Savior, and no one is beyond His reach."
         },
         {
           "reference": "Romans 6:23",
           "text": "For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord.",
-          "howToPray": "Ask God for the free gift, knowing you cannot earn it."
+          "note": "Sin earns death, but God offers eternal life as a free gift through Jesus Christ. You cannot pay for it, but you can receive it."
         },
         {
           "reference": "Romans 5:8",
-          "text": "But God shows his love for us in that while we were still sinners, Christ died for us.",
-          "howToPray": "Thank Jesus that He did not wait for you to be good enough."
-        },
-        {
-          "reference": "Romans 10:9",
-          "text": "If you confess with your mouth that Jesus is Lord and believe in your heart that God raised him from the dead, you will be saved.",
-          "howToPray": "Say out loud, \"Jesus is Lord,\" and tell God you believe He raised Jesus from the dead."
-        },
-        {
-          "reference": "Ephesians 2:8-9",
-          "text": "For by grace you have been saved through faith. And this is not your own doing; it is the gift of God, not a result of works, so that no one may boast.",
-          "howToPray": "Stop trying to earn God's love and simply receive His grace."
+          "text": "But God commends his own love toward us, in that while we were yet sinners, Christ died for us.",
+          "note": "God did not wait for you to clean up your life. Christ died for you while you were still a sinner, which proves His love."
         },
         {
           "reference": "John 14:6",
-          "text": "Jesus said to him, \"I am the way, and the truth, and the life. No one comes to the Father except through me.\"",
-          "howToPray": "Ask Jesus to be your way to the Father."
+          "text": "Jesus said to him, “I am the way, the truth, and the life. No one comes to the Father, except through me.",
+          "note": "Jesus is the way to the Father, the truth about God, and the source of real life. You come to God through Him."
+        },
+        {
+          "reference": "Acts 4:12",
+          "text": "There is salvation in no one else, for there is no other name under heaven that is given among men, by which we must be saved!”",
+          "note": "Salvation is found in Jesus alone. There is no other name and no other path by which you can be saved."
+        },
+        {
+          "reference": "1 Corinthians 15:3-4",
+          "text": "For I delivered to you first of all that which I also received: that Christ died for our sins according to the Scriptures, that he was buried, that he was raised on the third day according to the Scriptures,",
+          "note": "This is the heart of the gospel: Christ died for your sins, was buried, and was raised on the third day, just as Scripture promised."
+        },
+        {
+          "reference": "John 1:12",
+          "text": "But as many as received him, to them he gave the right to become God’s children, to those who believe in his name:",
+          "note": "When you receive Jesus and believe in His name, God gives you the right to become His own child. You belong to His family."
+        },
+        {
+          "reference": "Romans 10:13",
+          "text": "For, “Whoever will call on the name of the Lord will be saved.”",
+          "note": "No one who calls on the Lord is turned away. Whatever your past, you can call on Him today and be saved."
+        },
+        {
+          "reference": "Romans 10:10",
+          "text": "For with the heart, one believes resulting in righteousness; and with the mouth confession is made resulting in salvation.",
+          "note": "Saving faith begins in the heart and is spoken with the mouth. Believing in Jesus and confessing Him go together."
+        },
+        {
+          "reference": "Acts 16:31",
+          "text": "They said, “Believe in the Lord Jesus Christ, and you will be saved, you and your household.”",
+          "note": "When a frightened jailer asked how to be saved, the answer was simple: believe in the Lord Jesus Christ. That invitation is for you too."
+        },
+        {
+          "reference": "1 Peter 3:18",
+          "text": "Because Christ also suffered for sins once, the righteous for the unrighteous, that he might bring you to God, being put to death in the flesh, but made alive in the Spirit,",
+          "note": "Jesus, the righteous one, suffered once for the sins of the unrighteous to bring you to God. His sacrifice is complete."
+        },
+        {
+          "reference": "2 Corinthians 5:21",
+          "text": "For him who knew no sin he made to be sin on our behalf; so that in him we might become the righteousness of God.",
+          "note": "Jesus, who never sinned, took your sin upon Himself so that you could be made right with God through Him."
+        },
+        {
+          "reference": "Titus 3:5",
+          "text": "not by works of righteousness which we did ourselves, but according to his mercy, he saved us through the washing of regeneration and renewing by the Holy Spirit,",
+          "note": "God saves you because of His mercy, not your record. He washes you clean and renews you by the Holy Spirit."
         },
         {
           "reference": "2 Corinthians 5:17",
-          "text": "Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.",
-          "howToPray": "Thank God for the new life He is making in you, starting today."
+          "text": "Therefore if anyone is in Christ, he is a new creation. The old things have passed away. Behold, all things have become new.",
+          "note": "When you are in Christ, you become a new creation. Your old life no longer defines you, because God makes all things new."
+        },
+        {
+          "reference": "John 5:24",
+          "text": "“Most certainly I tell you, he who hears my word and believes him who sent me has eternal life, and doesn’t come into judgment, but has passed out of death into life.",
+          "note": "Jesus promises that whoever hears His word and believes has eternal life now and has already passed from death into life."
+        },
+        {
+          "reference": "1 John 5:13",
+          "text": "These things I have written to you who believe in the name of the Son of God, that you may know that you have eternal life, and that you may continue to believe in the name of the Son of God.",
+          "note": "God wants you to know, not just hope, that you have eternal life when you believe in the name of His Son."
+        },
+        {
+          "reference": "John 10:28",
+          "text": "I give eternal life to them. They will never perish, and no one will snatch them out of my hand.",
+          "note": "Jesus gives His people eternal life and holds them securely. No one can snatch you out of His hand."
+        },
+        {
+          "reference": "Romans 8:1",
+          "text": "There is therefore now no condemnation to those who are in Christ Jesus, who don’t walk according to the flesh, but according to the Spirit.",
+          "note": "If you are in Christ Jesus, there is no condemnation left for you. Your guilt has been dealt with completely at the cross."
+        },
+        {
+          "reference": "1 John 1:9",
+          "text": "If we confess our sins, he is faithful and righteous to forgive us the sins, and to cleanse us from all unrighteousness.",
+          "note": "When you confess your sins, God is faithful to forgive you and cleanse you. You never have to hide your failures from Him."
+        },
+        {
+          "reference": "Luke 19:10",
+          "text": "For the Son of Man came to seek and to save that which was lost.”",
+          "note": "Jesus came on purpose to seek and save the lost. If you feel far from God, He is already looking for you."
+        },
+        {
+          "reference": "Revelation 3:20",
+          "text": "Behold, I stand at the door and knock. If anyone hears my voice and opens the door, then I will come in to him, and will dine with him, and he with me.",
+          "note": "Jesus is knocking and waiting to be welcomed in. When you open your life to Him, He comes in and shares life with you."
+        },
+        {
+          "reference": "Isaiah 1:18",
+          "text": "“Come now, and let’s reason together,” says Yahweh: “Though your sins are as scarlet, they shall be as white as snow. Though they are red like crimson, they shall be as wool.",
+          "note": "God invites you to come to Him, no matter how stained your past feels. He promises to wash you completely clean."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says salvation is a free gift from God, not something you earn. Everyone has sinned and is separated from God, but Jesus died for your sins and rose again. When you turn from sin and trust in Jesus as your Lord and Savior, God forgives you, makes you new, and gives you eternal life.",
+      "versesQuestion": "Which Bible verses explain how to be saved?",
+      "versesIntro": "These Bible verses about salvation explain why you need a Savior, what Jesus has done for you, and how you can receive new life by grace through faith in Him.",
+      "questions": [
+        {
+          "q": "How do I pray to be saved?",
+          "a": "There are no magic words. Salvation comes through sincere faith in Jesus, and prayer is simply how you tell God what you believe. Admit to Him that you have sinned and need His forgiveness. Tell Him you believe Jesus died for your sins and rose from the dead (1 Corinthians 15:3-4). Ask Him to forgive you, and receive Jesus as your Lord and Savior (Romans 10:9, John 1:12). You can use the prayer on this page as a guide, in your own words. Afterward, tell a trusted Christian, find a Bible-teaching church, and begin reading the Gospel of John."
+        },
+        {
+          "q": "How can I know I am saved?",
+          "a": "Your assurance rests on God's promises, not on your feelings. If you have turned from sin and trusted Jesus as your Lord and Savior, Scripture says you have eternal life (John 5:24) and that God wants you to know it (1 John 5:13). Jesus promises that no one can snatch you out of His hand (John 10:28). Over time, you will also see signs of new life: a growing love for God, a desire to obey Him, and sorrow over sin (2 Corinthians 5:17). If doubts come, go back to what Jesus has done, not what you have done."
+        }
+      ],
+      "prayer": "Father, I come to You honestly. I have sinned against You, and I cannot make myself right with You. I am sorry, and I turn away from my sin. I believe Jesus is Your Son, that He died on the cross for my sins, and that You raised Him from the dead. I trust in Him alone to save me. Thank You for Your grace and forgiveness. Jesus, I receive You as my Lord and Savior. Come into my life, make me new, and fill me with Your Holy Spirit. Help me follow You every day. In Jesus' name, amen.",
+      "related": [
+        "forgiveness",
+        "direction",
+        "fear"
       ]
     },
     {
@@ -737,39 +1672,144 @@
       "verses": [
         {
           "reference": "Isaiah 40:31",
-          "text": "But they who wait for the LORD shall renew their strength; they shall mount up with wings like eagles; they shall run and not be weary; they shall walk and not faint.",
-          "howToPray": "Wait quietly before God for two minutes, and ask Him to renew you."
+          "text": "but those who wait for Yahweh will renew their strength. They will mount up with wings like eagles. They will run, and not be weary. They will walk, and not faint.",
+          "note": "When you wait on the Lord, He renews your strength. He can lift you above weariness and help you keep walking without giving up."
         },
         {
           "reference": "Isaiah 40:29",
-          "text": "He gives power to the faint, and to him who has no might he increases strength.",
-          "howToPray": "Tell God you are tired, and ask Him for power you do not have."
-        },
-        {
-          "reference": "Philippians 4:13",
-          "text": "I can do all things through him who strengthens me.",
-          "howToPray": "Name the hard thing ahead of you and ask Christ to strengthen you for it."
+          "text": "He gives power to the weak. He increases the strength of him who has no might.",
+          "note": "God gives power to the faint and increases strength for those who have none. Feeling empty is not a barrier to His help."
         },
         {
           "reference": "2 Corinthians 12:9",
-          "text": "But he said to me, \"My grace is sufficient for you, for my power is made perfect in weakness.\" Therefore I will boast all the more gladly of my weaknesses, so that the power of Christ may rest upon me.",
-          "howToPray": "Admit your weakness to God and invite His power to rest on you."
+          "text": "He has said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Most gladly therefore I will rather glory in my weaknesses, that the power of Christ may rest on me.",
+          "note": "God's grace is enough for you, and His power works most clearly through your weakness. You do not have to pretend to be strong."
+        },
+        {
+          "reference": "Philippians 4:13",
+          "text": "I can do all things through Christ, who strengthens me.",
+          "note": "Paul learned that Christ strengthens him for every situation, in plenty or in need. Christ can give you what you need for today too."
         },
         {
           "reference": "Psalm 46:1",
           "text": "God is our refuge and strength, a very present help in trouble.",
-          "howToPray": "Run to God first, before you run anywhere else."
-        },
-        {
-          "reference": "Nehemiah 8:10b",
-          "text": "The joy of the LORD is your strength.",
-          "howToPray": "Ask God to restore your joy, because that is where your strength comes from."
+          "note": "God is a safe place to hide and a source of strength, always near when trouble comes. You can run to Him in the middle of the storm."
         },
         {
           "reference": "Psalm 73:26",
-          "text": "My flesh and my heart may fail, but God is the strength of my heart and my portion forever.",
-          "howToPray": "Thank God that He is enough, even when your body and heart feel weak."
+          "text": "My flesh and my heart fails, but God is the strength of my heart and my portion forever.",
+          "note": "Even when your body and heart fail, God remains the strength of your heart. He is your portion when everything else falls short."
+        },
+        {
+          "reference": "Isaiah 41:10",
+          "text": "Don’t you be afraid, for I am with you. Don’t be dismayed, for I am your God. I will strengthen you. Yes, I will help you. Yes, I will uphold you with the right hand of my righteousness.",
+          "note": "God promises to be with you, strengthen you, help you, and hold you up with His righteous hand. You are not facing this alone."
+        },
+        {
+          "reference": "Nehemiah 8:10",
+          "text": "Then he said to them, “Go your way. Eat the fat, drink the sweet, and send portions to him for whom nothing is prepared, for today is holy to our Lord. Don’t be grieved, for the joy of Yahweh is your strength.”",
+          "note": "Joy that comes from God gives you strength. Even in a season of sorrow, delighting in who He is can steady and sustain you."
+        },
+        {
+          "reference": "Psalm 28:7",
+          "text": "Yahweh is my strength and my shield. My heart has trusted in him, and I am helped. Therefore my heart greatly rejoices. With my song I will thank him.",
+          "note": "The Lord is your strength and shield. When you trust Him, He helps you, and your heart can find reasons to thank Him."
+        },
+        {
+          "reference": "Ephesians 6:10",
+          "text": "Finally, be strong in the Lord, and in the strength of his might.",
+          "note": "You are called to be strong in the Lord, drawing on His mighty power rather than your own limited reserves."
+        },
+        {
+          "reference": "Matthew 11:28",
+          "text": "“Come to me, all you who labor and are heavily burdened, and I will give you rest.",
+          "note": "Jesus invites everyone who is worn out and weighed down to come to Him. He offers real rest for your soul."
+        },
+        {
+          "reference": "Psalm 18:32",
+          "text": "the God who arms me with strength, and makes my way perfect?",
+          "note": "God is the one who equips you with strength and makes your way secure. Your ability to stand comes from Him."
+        },
+        {
+          "reference": "Habakkuk 3:19",
+          "text": "Yahweh, the Lord, is my strength. He makes my feet like deer’s feet, and enables me to go in high places. For the music director, on my stringed instruments.",
+          "note": "Even when circumstances are bleak, the Lord is your strength. He makes your feet sure, like a deer on high and rocky places."
+        },
+        {
+          "reference": "Joshua 1:9",
+          "text": "Haven’t I commanded you? Be strong and courageous. Don’t be afraid. Don’t be dismayed, for Yahweh your God is with you wherever you go.”",
+          "note": "God told Joshua to be strong and courageous because He would be with him everywhere. That same presence goes with you."
+        },
+        {
+          "reference": "Deuteronomy 31:6",
+          "text": "Be strong and courageous. Don’t be afraid or scared of them; for Yahweh your God himself is who goes with you. He will not fail you nor forsake you.”",
+          "note": "You can be strong and courageous because God Himself goes with you. He will not fail you or abandon you."
+        },
+        {
+          "reference": "Psalm 29:11",
+          "text": "Yahweh will give strength to his people. Yahweh will bless his people with peace.",
+          "note": "The Lord gives strength to His people and blesses them with peace. Strength and peace are both gifts He wants to give you."
+        },
+        {
+          "reference": "2 Timothy 1:7",
+          "text": "For God didn’t give us a spirit of fear, but of power, love, and self-control.",
+          "note": "Fear does not come from God. Through His Spirit He gives you power, love, and self-control to face what is in front of you."
+        },
+        {
+          "reference": "Psalm 121:1-2",
+          "text": "I will lift up my eyes to the hills. Where does my help come from? My help comes from Yahweh, who made heaven and earth.",
+          "note": "When you look around for help, remember where it truly comes from. Your help comes from the Lord who made heaven and earth."
+        },
+        {
+          "reference": "Psalm 27:1",
+          "text": "Yahweh is my light and my salvation. Whom shall I fear? Yahweh is the strength of my life. Of whom shall I be afraid?",
+          "note": "The Lord is your light, your salvation, and the strength of your life. With Him on your side, fear loses its grip."
+        },
+        {
+          "reference": "Ephesians 3:16",
+          "text": "that he would grant you, according to the riches of his glory, that you may be strengthened with power through his Spirit in the inner person,",
+          "note": "Paul prays that God would strengthen you with power through His Spirit in your inner being. God strengthens you from the inside out."
+        },
+        {
+          "reference": "Colossians 1:11",
+          "text": "strengthened with all power, according to the might of his glory, for all endurance and perseverance with joy,",
+          "note": "God's glorious might gives you endurance and patience, and even joy, so you can keep going through long and difficult seasons."
+        },
+        {
+          "reference": "2 Corinthians 4:16",
+          "text": "Therefore we don’t faint, but though our outward man is decaying, yet our inward man is renewed day by day.",
+          "note": "Even as your outward strength fades, God renews your inner life day by day. Do not lose heart."
+        },
+        {
+          "reference": "Psalm 138:3",
+          "text": "In the day that I called, you answered me. You encouraged me with strength in my soul.",
+          "note": "When you call on God, He answers and puts strength in your soul. Bring Him your need today and expect His help."
+        },
+        {
+          "reference": "1 Chronicles 16:11",
+          "text": "Seek Yahweh and his strength. Seek his face forever more.",
+          "note": "Keep seeking the Lord and His strength, again and again. Turning to Him daily is how you draw on His power."
         }
+      ],
+      "translation": "WEB",
+      "directAnswer": "The Bible says real strength comes from God, not from yourself. When you are tired, weak, or overwhelmed, God promises to renew you, uphold you, and be your refuge. His grace is enough, and His power shows up most clearly in your weakness. You can lean on Him and keep going one day at a time.",
+      "versesQuestion": "Which Bible verses give strength when you are weak?",
+      "versesIntro": "These Bible verses about strength remind you that God gives power to the weary and help to the weak. Read them slowly, and let them turn your eyes from your own limits to His.",
+      "questions": [
+        {
+          "q": "How do I pray for strength when I am exhausted?",
+          "a": "Be honest with God about how tired you are. You do not need polished words, because He already knows your limits. Tell Him what feels too heavy, then ask Him plainly for strength for the next step, not the whole journey. Pray a verse back to Him, such as Isaiah 40:29 or Psalm 73:26, and thank Him for being near. Then take care of yourself practically: rest, eat, and let others help carry the load. Waiting on God (Isaiah 40:31) often looks like small, daily moments of trust while He renews you."
+        },
+        {
+          "q": "What does it mean that God's strength is made perfect in weakness?",
+          "a": "In 2 Corinthians 12:9, Paul had asked God three times to remove a painful burden. God answered that His grace was enough, and that His power is seen most fully in weakness. This means your weakness is not a disqualification. When you cannot rely on your own ability, you depend on God, and His strength becomes clear in your life. It does not mean God enjoys your pain. It means He is present and at work in it, carrying you through what you could never carry alone."
+        }
+      ],
+      "prayer": "Father, I am tired, and I have come to the end of my own strength. Thank You that Your grace is enough for me. I bring You my weakness and ask You to fill it with Your power. Renew my strength as I wait on You. Lift my heart when it is heavy and steady my steps when I feel like giving up. Help me rest in You instead of striving on my own. Be my refuge today, and give me what I need for the next step. I trust You to carry me. In Jesus' name, amen.",
+      "related": [
+        "anxiety",
+        "fear",
+        "healing"
       ]
     }
   ],
@@ -786,5 +1826,10 @@
     "salvationIntro": "If you have never asked Jesus to be your Savior, you can do that right now. There is nothing magic about these words. What matters is your heart. If you mean it, pray this:",
     "salvationPrayer": "Father, I come to You as I am. I know I have sinned and I cannot fix that on my own. I believe Jesus is Your Son, that He died on the cross for my sins, and that You raised Him from the dead. Jesus, I ask You to forgive me and to be the Lord of my life. I receive Your gift of grace. Fill me with Your Holy Spirit and help me follow You every day. Thank You for loving me and bringing me home. In Jesus' name, amen.",
     "afterPrayer": "If you prayed that prayer, welcome to the family of God. Tell someone you trust, find a Bible-teaching church near you, and start reading the Gospel of John. We would love to hear from you too."
+  },
+  "needsTranslation": {
+    "code": "WEB",
+    "name": "World English Bible",
+    "notice": "Scripture on the topic pages is from the World English Bible (WEB), which is in the public domain."
   }
 }
