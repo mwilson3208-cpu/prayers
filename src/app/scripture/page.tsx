@@ -85,6 +85,26 @@ export default function ScripturePage() {
           })}
         </ul>
 
+        <section aria-labelledby="prayers-h" className="mt-16">
+          <h2 id="prayers-h" className="text-3xl">
+            Prayers you can pray today
+          </h2>
+          <ul className="mt-5 grid gap-3 sm:grid-cols-3">
+            {[
+              ["/how-to-pray", "How to Pray for the First Time", "A simple 5-step guide for beginners"],
+              ["/prayer/anxiety", "Prayer for Anxiety", "Six prayers for a worried heart"],
+              ["/prayer/sleep", "Night Prayers for Sleep", "Bedtime prayers for rest and peace"],
+            ].map(([href, title, sub]) => (
+              <li key={href}>
+                <Link href={href} className="card block h-full py-4 hover:border-accent/60">
+                  <span className="font-serif text-lg">{title}</span>
+                  <span className="mt-1 block text-sm text-muted">{sub}</span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+
         <section aria-labelledby="bible-says-h" className="mt-16">
           <h2 id="bible-says-h" className="text-3xl">
             What does the Bible say?
@@ -122,6 +142,9 @@ export default function ScripturePage() {
               <a href={youtubeLinks().firstPrayer} target="_blank" rel="noopener noreferrer" className="btn-primary">
                 <PlayIcon /> Watch: praying for the first time
               </a>
+              <Link href="/how-to-pray" className="btn-secondary">
+                Read the full guide
+              </Link>
               <Link href="/about#contact" className="btn-secondary">
                 Tell us you prayed
               </Link>

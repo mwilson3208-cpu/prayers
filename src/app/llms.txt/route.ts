@@ -1,4 +1,4 @@
-import { GUIDE, SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
+import { GUIDE, PRAYER_TOPICS, SCRIPTURE, SITE, youtubeLinks } from "@/lib/content";
 import { SITE_URL } from "@/lib/site-url";
 
 // /llms.txt in the llmstxt.org format: a short, link-rich map of the site for AI assistants.
@@ -22,6 +22,11 @@ export function GET() {
     `- [${GUIDE.title}](${u("/7days")}): A free 7-day prayer guide (PDF). Seven minutes a day, one verse, one teaching, one prayer.`,
     `- [Watch guided prayers](${u("/watch")}): Guided prayers and short devotionals from the YouTube channel.`,
     `- [About](${u("/about")}): Mission, founder, statement of faith, and contact.`,
+    "",
+    "## Prayers",
+    "",
+    `- [How to Pray for the First Time](${u("/how-to-pray")}): A simple 5-step beginner's guide to prayer, with a prayer to begin a relationship with Jesus.`,
+    ...PRAYER_TOPICS.map((t) => `- [${t.title}](${u(`/prayer/${t.id}`)}): ${t.prayers.length} short written prayers, with answers to common questions.`),
     "",
     "## Scripture by need",
     "",

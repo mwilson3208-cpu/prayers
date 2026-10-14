@@ -158,12 +158,23 @@ export default async function HomePage() {
             <p className="mt-2 text-muted">Start the day with God before the noise begins. Guided, short, and Scripture-first.</p>
             <p className="mt-4 font-semibold text-accent-ink group-hover:underline">Open the playlist</p>
           </a>
-          <a href={yt.night} target="_blank" rel="noopener noreferrer" className="card group block hover:border-accent/60">
+          <div className="card hover:border-accent/60">
             <MoonIcon className="text-accent" width={32} height={32} />
-            <h3 className="mt-3 text-2xl">Night Prayers</h3>
+            <h3 className="mt-3 text-2xl">
+              <Link href="/prayer/sleep" className="hover:underline">
+                Night Prayers
+              </Link>
+            </h3>
             <p className="mt-2 text-muted">Lay down the day, release your worries, and rest in His peace before sleep.</p>
-            <p className="mt-4 font-semibold text-accent-ink group-hover:underline">Open the playlist</p>
-          </a>
+            <p className="mt-4 flex flex-wrap gap-x-5 gap-y-1 font-semibold text-accent-ink">
+              <Link href="/prayer/sleep" className="hover:underline">
+                Read night prayers for sleep
+              </Link>
+              <a href={yt.night} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Open the playlist
+              </a>
+            </p>
+          </div>
         </div>
       </section>
 

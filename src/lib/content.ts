@@ -2,6 +2,8 @@ import scripture from "@content/scripture.json";
 import site from "@content/site.json";
 import guide from "@content/guide.json";
 import faq from "@content/faq.json";
+import prayers from "@content/prayers.json";
+import howToPray from "@content/how-to-pray.json";
 
 export type Verse = { reference: string; text: string };
 /** A topic-page verse: World English Bible text plus a one-sentence explanation. */
@@ -52,6 +54,35 @@ export const SCRIPTURE = scripture as {
 
 export const SITE = site;
 export const GUIDE = guide;
+
+export type PrayerTopic = {
+  id: string;
+  draft?: boolean;
+  title: string;
+  metaTitle: string;
+  description: string;
+  eyebrow: string;
+  directAnswer: string;
+  intro: string;
+  prayers: { title: string; text: string }[];
+  faq: { q: string; a: string }[];
+  /** Id of the matching /scripture topic. */
+  scripture: string;
+  related: { href: string; label: string }[];
+};
+
+/** Written prayers for /prayer/[topic] (content/prayers.json). */
+export const PRAYER_TOPICS: PrayerTopic[] = prayers.topics;
+export const getPrayerTopic = (id: string) => PRAYER_TOPICS.find((t) => t.id === id);
+
+/** The /how-to-pray page (content/how-to-pray.json); steps come from SCRIPTURE.firstTimePrayer. */
+export const HOW_TO_PRAY = howToPray as {
+  metaTitle: string;
+  description: string;
+  directAnswer: string;
+  stepNames: string[];
+  faq: { q: string; a: string }[];
+};
 
 /** Founder details (content/site.json). Empty bio, photo or links are simply not shown. */
 export const FOUNDER = site.founder as { name: string; jobTitle: string; bio: string; photo: string; links: { label: string; url: string }[] };

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Breadcrumbs, FOUNDER_ID, JsonLd, ORG_ID, faqLd, founderLd } from "@/components/JsonLd";
-import { FOUNDER, SCRIPTURE, getNeed } from "@/lib/content";
+import { FOUNDER, PRAYER_TOPICS, SCRIPTURE, getNeed } from "@/lib/content";
 import { clip, formatDate, nestQuotes } from "@/lib/format";
 import { pageDates } from "@/lib/page-dates";
 import { pageMetadata } from "@/lib/seo";
@@ -173,6 +173,11 @@ export default async function NeedPage({ params }: PageProps<"/scripture/[need]"
             ))}
           </ul>
           <p className="mt-6 flex flex-wrap gap-x-6 gap-y-2">
+            {PRAYER_TOPICS.filter((t) => t.id === need.id).map((t) => (
+              <Link key={t.id} href={`/prayer/${t.id}`} className="text-accent-ink underline underline-offset-4">
+                {t.title}
+              </Link>
+            ))}
             <Link href="/scripture" className="text-accent-ink underline underline-offset-4">
               All Scripture topics
             </Link>
