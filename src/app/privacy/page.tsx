@@ -4,8 +4,8 @@ import { PageHeader } from "@/components/Scripture";
 import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Privacy Policy",
-  description: "How Closer to the Father handles prayer requests, emails, and your privacy, in plain English. We never sell your information or show ads.",
+  title: "Privacy Policy for Prayer Requests",
+  description: "How Closer to the Father handles prayer requests, emails, and your privacy, in plain English. We never sell your information, use tracking cookies, or show ads.",
   path: "/privacy",
 });
 

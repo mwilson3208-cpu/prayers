@@ -1,0 +1,121 @@
+{
+  "_note": "Written prayers for /prayer/[topic] pages. DRAFT copy written for the site; Michael to review or replace (search for \"draft\": true). Keep each prayer 50 to 110 words, no em dashes.",
+  "topics": [
+    {
+      "id": "anxiety",
+      "draft": true,
+      "title": "Prayer for Anxiety",
+      "metaTitle": "Prayer for Anxiety: 6 Prayers When You Feel Anxious",
+      "description": "Six short prayers for anxiety you can pray right now: for a racing mind, for panic, for worry about tomorrow, and for peace at night. Free, with Bible verses.",
+      "eyebrow": "Prayers for when you feel anxious",
+      "directAnswer": "To pray when you feel anxious, tell God plainly what you are worried about, hand Him each concern one at a time, and thank Him for one thing He has already done. The Bible invites you to bring every worry to Him in prayer, and He promises a peace that guards your heart and mind.",
+      "intro": "Pray these slowly, out loud or in your head. Change any words so they sound like you. God is not grading your prayer. He is listening to you.",
+      "prayers": [
+        {
+          "title": "A prayer when anxiety will not let go",
+          "text": "Father, my mind will not slow down. I keep turning the same worries over and over, and I am tired. I bring every one of them to You now. Take what I cannot carry. Quiet the noise in my head and remind me that You are near. Guard my heart with Your peace, the kind that does not depend on how today goes. I trust You with what I cannot control. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer in a moment of panic",
+          "text": "Jesus, I need You right now. My heart is racing and I cannot catch my breath. Be my calm. As I breathe in, remind me that You are with me. As I breathe out, help me let go of this fear. You are bigger than this moment, and You are holding me. Stay with me until it passes. In Your name I pray, amen."
+        },
+        {
+          "title": "A prayer for worry about tomorrow",
+          "text": "Lord, I keep living in tomorrow, rehearsing problems that have not happened yet. You told us not to worry about tomorrow, because today has enough. Help me put tomorrow back in Your hands. Give me what I need for today, and the faith to trust You for the rest. You have been faithful before, and You will be faithful again. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer for an anxious heart at night",
+          "text": "Father, the house is quiet, but my mind is loud. Every worry seems bigger in the dark. I lay them down at Your feet, one by one. Watch over me and the people I love tonight. Let my body rest and my thoughts grow still. When I wake, let my first thought be that You are still here. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer when I feel anxious and alone",
+          "text": "God, I feel like no one understands what is going on inside me. But You do. You see every thought and every fear, and You have not walked away. Thank You for staying. Help me reach out to someone I trust, and to accept help when it is offered. Remind me that I am not alone, because You are with me. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer for peace today",
+          "text": "Lord Jesus, You promised Your peace to anyone who comes to You. I come to You now. I do not need every answer today. I just need You. Fill this day with Your presence. Help me notice Your goodness in small things, speak kindly to myself, and take the next right step. I receive Your peace. In Your name, amen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is it a sin to feel anxious?",
+          "a": "No. Feeling anxious is part of being human, and many people in the Bible felt deep distress. God does not shame you for it. He invites you to bring your anxiety to Him and to receive His peace."
+        },
+        {
+          "q": "What is a short prayer for anxiety?",
+          "a": "You can pray, \"Jesus, I give You this worry. Please give me Your peace.\" Short, honest prayers are just as real to God as long ones, and you can pray them as often as you need."
+        },
+        {
+          "q": "Should I see a doctor or counselor if I pray about anxiety?",
+          "a": "Yes, if anxiety is affecting your sleep, work, or relationships. Doctors, counselors, and medicine can be good gifts from God, and using them is not a lack of faith. If you are in crisis, call or text 988 in the US."
+        },
+        {
+          "q": "What Bible verses can I pray when I feel anxious?",
+          "a": "Philippians 4:6-7, 1 Peter 5:7, Matthew 6:34, and John 14:27 are good places to start. Our page of Bible verses for anxiety explains more than 20 of them in plain words."
+        }
+      ],
+      "scripture": "anxiety",
+      "related": [
+        { "href": "/prayer/sleep", "label": "Night prayers for sleep" },
+        { "href": "/scripture/fear", "label": "Bible verses about fear" },
+        { "href": "/how-to-pray", "label": "How to pray for the first time" }
+      ]
+    },
+    {
+      "id": "sleep",
+      "draft": true,
+      "title": "Night Prayers for Sleep",
+      "metaTitle": "Night Prayers for Sleep: Bedtime Prayers for Peace",
+      "description": "Short night prayers for sleep: a bedtime prayer, prayers for anxiety at night, for rest after a hard day, and for your family as they sleep. Pray and rest.",
+      "eyebrow": "Prayers for the end of the day",
+      "directAnswer": "A night prayer for sleep can be simple: thank God for the day, give Him what is still weighing on you, ask Him to watch over you and the people you love, and rest in His care. The Bible says God never sleeps, so you can lie down in peace.",
+      "intro": "Read one of these as you get into bed, or pray it quietly in the dark. If your mind wanders, start again. God is patient with you.",
+      "prayers": [
+        {
+          "title": "A simple bedtime prayer",
+          "text": "Father, thank You for carrying me through today. Thank You for the good I saw and for the hard things You helped me face. Forgive me where I fell short. I place tomorrow in Your hands. Watch over me while I sleep, and give my body and mind the rest they need. I lie down in peace because You are with me. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer for anxiety at night",
+          "text": "Lord, my body is tired but my mind will not stop. I hand You every thought that is keeping me awake. You see what I cannot fix tonight, and You are not worried. Slow my breathing. Quiet my heart. Let me trust You enough to close my eyes. You never sleep, so I can. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer for rest after a hard day",
+          "text": "Jesus, today was heavy. You invited the weary to come to You for rest, so I am coming. Take the hurt, the frustration, and the disappointment of this day. Do not let it follow me into sleep. Restore what was drained out of me, and let me wake up to Your mercy, new in the morning. In Your name, amen."
+        },
+        {
+          "title": "A prayer when you cannot fall asleep",
+          "text": "God, it is late and sleep will not come. Instead of fighting it, I turn my attention to You. Thank You for being here in the dark. Bring to mind the people I can pray for, and fill these quiet hours with Your presence. Whether I sleep soon or not, I rest in You. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer for my family tonight",
+          "text": "Father, I lift up every person in this home. Watch over us while we sleep. Protect our bodies, our minds, and our hearts. Where there is tension between us, bring peace. Where someone is afraid, bring comfort. Let this home be a place where Your love is felt. Thank You for each person here. In Jesus' name, amen."
+        },
+        {
+          "title": "A prayer to end the day with gratitude",
+          "text": "Lord, before I sleep, I want to thank You. Thank You for breath, for food, for the people who love me, and for the ways You showed up today, even the ones I almost missed. Teach me to notice Your goodness. Let gratitude be the last thing on my mind tonight and the first thing tomorrow. In Jesus' name, amen."
+        }
+      ],
+      "faq": [
+        {
+          "q": "What should I pray before bed?",
+          "a": "Thank God for the day, confess anything that is weighing on your conscience, give Him your worries about tomorrow, and ask Him to watch over you and your family. A few honest sentences are enough."
+        },
+        {
+          "q": "Can prayer help me sleep?",
+          "a": "Many people find that handing their worries to God before bed helps them settle and rest. Prayer is not a sleeping pill, but it can quiet a busy mind. If sleep problems continue, talk with a doctor as well."
+        },
+        {
+          "q": "What is a Bible verse for sleep?",
+          "a": "Psalm 4:8 says you can lie down and sleep in peace because the Lord makes you dwell in safety. Psalm 121:4 reminds you that the One who watches over you never sleeps."
+        }
+      ],
+      "scripture": "anxiety",
+      "related": [
+        { "href": "/prayer/anxiety", "label": "Prayers for anxiety" },
+        { "href": "/scripture/strength", "label": "Bible verses for strength" },
+        { "href": "/watch", "label": "Night prayer videos" }
+      ]
+    }
+  ]
+}

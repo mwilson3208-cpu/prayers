@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Lora } from "next/font/google";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { JsonLd, siteGraphLd } from "@/components/JsonLd";
 import { ServiceWorker } from "@/components/ServiceWorker";
 import { themeScript } from "@/components/ThemeToggle";
 import { SITE } from "@/lib/content";
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" data-theme="dark" className={`${lora.variable} ${inter.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <JsonLd data={siteGraphLd()} />
       </head>
       <body className="min-h-dvh">
         {isDemoMode && (

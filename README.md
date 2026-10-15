@@ -136,6 +136,13 @@ Scripture is quoted from the ESV. The ESV allows up to 1,000 verses on a site wi
 - **Emails.** Confirmation when someone submits with an email, a weekly "people prayed for you" note on Mondays (only if someone prayed that week), a welcome email with the 7-Day Prayer Guide, and admin alerts. Every email to visitors has an unsubscribe link.
 - **Daily job.** Vercel calls `/api/cron/daily` once a day. It cleans up old data, sends the Monday notes, and keeps the free Supabase project from pausing for inactivity.
 
+### SEO and structured data
+
+- **Titles and descriptions.** Each page sets its own through `pageMetadata()` in `src/lib/seo.ts`: title, description, canonical URL, Open Graph, and Twitter card with the default share image.
+- **Structured data (JSON-LD).** Organization, WebSite and the founder (Person) are in the `<head>` of every page (`siteGraphLd()` in `src/components/JsonLd.tsx`). Pages add their own: BreadcrumbList, FAQPage (homepage, Submit, Scripture hub and topics, 7-Day Guide), ItemList and Article (Scripture topics), AboutPage (About), and VideoObject once the featured video is filled in.
+- **Sitemap dates.** `content/sitemap-sources.json` lists the files behind each page; the last commit touching them is the page's `lastmod`. Vercel builds from a shallow clone, so run `npm run lastmod` before committing content changes to refresh `content/lastmod.json`.
+- **Check it.** With the site running (`npm run build && npm start`), run `npm run check:seo` (or `npm run check:seo -- https://www.closertothefather.com`). It crawls every sitemap URL and checks status, one H1, canonical, title/description length, Open Graph/Twitter tags, JSON-LD parsing and required fields, noindex on prayer detail pages, and `/llms.txt`. For Google's view, paste any URL into the [Rich Results Test](https://search.google.com/test/rich-results) and the [Schema Markup Validator](https://validator.schema.org/).
+
 ### Security model
 
 The browser never talks to the database. All reads and writes go through the site's server using the `service_role` key, which stays secret on Vercel. Row-level security is switched on for every table as a second lock: with the public key, someone could only read approved public prayers and testimonies, and only the safe columns (no emails, no IP codes, no private requests). They cannot write anything. This was tested against PostgreSQL 16 with Supabase's roles.
