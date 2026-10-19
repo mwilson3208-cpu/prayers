@@ -19,14 +19,18 @@ async function load(id: string) {
 export async function generateMetadata({ params }: PageProps<"/prayer-wall/[id]">): Promise<Metadata> {
   const prayer = await load((await params).id).catch(() => null);
   if (!prayer) return { title: "Prayer request", robots: { index: false } };
-  return pageMetadata({
-    title: prayerTitle(prayer.name, prayer.request),
+  return {
+    ...pageMetadata({
+      title: prayerTitle(prayer.name, prayer.request),
     description: clip(prayer.request, 155),
     path: `/prayer-wall/${prayer.id}`,
     shareTitle: `Will you pray for ${prayer.name === "Anonymous" ? "this request" : prayer.name}?`,
     image: false, // this route has its own opengraph-image
-    absoluteTitle: true, // already unique and descriptive; skip the site-name suffix to stay under 60 characters
-  });
+      absoluteTitle: true, // already unique and descriptive; skip the site-name suffix to stay under 60 characters
+    }),
+    // Single requests are thin, personal pages: keep them out of search results but let crawlers follow links.
+    robots: { index: false, follow: true },
+  };
 }
 
 export default async function PrayerPage({ params }: PageProps<"/prayer-wall/[id]">) {

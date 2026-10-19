@@ -7,8 +7,8 @@ import { SubmitForm } from "@/components/SubmitForm";
 import { SCRIPTURE, youtubeLinks } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Submit a Prayer Request",
-  description: "Share your prayer request and real people will pray for you. Free, private if you want, and read by a real person every time.",
+  title: "Submit a Free Prayer Request",
+  description: "Share your prayer request and real people will pray for you. It is free, can be anonymous or private, and every request is read and prayed over by our team.",
   path: "/submit",
 });
 

@@ -25,6 +25,14 @@
       "url": "https://www.youtube.com/channel/UC5INMtGtvbf34D7gkYbbmBQ"
     }
   ],
+  "founder": {
+    "_note": "Shown on the About page and as the author of the Scripture pages. TODO: add bio (2 to 4 sentences), photo (a path like /images/michael-wilson.jpg, at least 400x400), and profile links.",
+    "name": "Michael Wilson",
+    "jobTitle": "Founder",
+    "bio": "",
+    "photo": "",
+    "links": []
+  },
   "about": {
     "whoRunsIt": "Closer to the Father is run by the same small team behind the YouTube channel. We are ordinary believers who love Jesus, love prayer, and want to help people spend a few honest minutes with God every day. Every request that comes through this site is read by a real person and prayed over.",
     "whyFree": "Prayer should never have a price tag. Jesus freely gave, so we freely give. There are no ads, no paid memberships, and no selling of your information. The site runs on free tools so it can stay online for years without asking you for anything.",

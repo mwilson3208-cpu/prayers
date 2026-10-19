@@ -10,7 +10,6 @@ import { SCRIPTURE, SITE, featuredVideo, verseOfTheDay, youtubeLinks } from "@/l
 import { formatNumber } from "@/lib/format";
 import { safe } from "@/lib/safe";
 import { pageMetadata } from "@/lib/seo";
-import { SITE_URL } from "@/lib/site-url";
 import { getStore } from "@/lib/store";
 import { getLatestVideo } from "@/lib/youtube";
 
@@ -19,7 +18,7 @@ export const revalidate = 60;
 export const metadata: Metadata = pageMetadata({
   title: `${SITE.name} | Free Prayer Requests and Prayer Wall`,
   description:
-    "You were never meant to carry it alone. Share a prayer request, pray for others on our free prayer wall, and give thanks for answered prayer. Real people pray every request.",
+    "You were never meant to carry it alone. Share a prayer request, pray for others on our free prayer wall, and give thanks for answered prayer.",
   path: "/",
 });
 
@@ -34,33 +33,8 @@ export default async function HomePage() {
   const today = verseOfTheDay();
   const featured = featuredVideo();
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": `${SITE_URL}/#organization`,
-        name: SITE.name,
-        url: SITE_URL,
-        logo: `${SITE_URL}/icons/icon-512.png`,
-        description: SITE.description,
-        sameAs: Array.from(new Set([yt.channel, ...SITE.social.map((s) => s.url)])),
-      },
-      {
-        "@type": "WebSite",
-        "@id": `${SITE_URL}/#website`,
-        name: SITE.name,
-        url: SITE_URL,
-        description: SITE.description,
-        inLanguage: "en-US",
-        publisher: { "@id": `${SITE_URL}/#organization` },
-      },
-    ],
-  };
-
   return (
     <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }} />
       <FeaturedVideoJsonLd />
       {/* Hero */}
       <section className="glow">
@@ -184,12 +158,23 @@ export default async function HomePage() {
             <p className="mt-2 text-muted">Start the day with God before the noise begins. Guided, short, and Scripture-first.</p>
             <p className="mt-4 font-semibold text-accent-ink group-hover:underline">Open the playlist</p>
           </a>
-          <a href={yt.night} target="_blank" rel="noopener noreferrer" className="card group block hover:border-accent/60">
+          <div className="card hover:border-accent/60">
             <MoonIcon className="text-accent" width={32} height={32} />
-            <h3 className="mt-3 text-2xl">Night Prayers</h3>
+            <h3 className="mt-3 text-2xl">
+              <Link href="/prayer/sleep" className="hover:underline">
+                Night Prayers
+              </Link>
+            </h3>
             <p className="mt-2 text-muted">Lay down the day, release your worries, and rest in His peace before sleep.</p>
-            <p className="mt-4 font-semibold text-accent-ink group-hover:underline">Open the playlist</p>
-          </a>
+            <p className="mt-4 flex flex-wrap gap-x-5 gap-y-1 font-semibold text-accent-ink">
+              <Link href="/prayer/sleep" className="hover:underline">
+                Read night prayers for sleep
+              </Link>
+              <a href={yt.night} target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Open the playlist
+              </a>
+            </p>
+          </div>
         </div>
       </section>
 

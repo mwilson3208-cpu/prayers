@@ -1,0 +1,26 @@
+{
+  "_note": "The /how-to-pray page. The steps and salvation prayer come from firstTimePrayer in content/scripture.json (shared with the Scripture hub). The FAQ and direct answer are DRAFT copy for Michael to review or replace.",
+  "draft": true,
+  "metaTitle": "How to Pray for the First Time: A Simple 5-Step Guide",
+  "description": "New to prayer? Learn how to pray for the first time in five simple steps, with a prayer you can pray today and answers to beginner questions. Free and simple.",
+  "directAnswer": "To pray for the first time, find a quiet moment, talk to God honestly in your own words, thank Him for one thing, ask Him for what you need, and close in the name of Jesus. There are no magic words. Prayer is simply talking with God, who already knows you and wants to hear from you.",
+  "stepNames": ["Get quiet", "Be honest", "Give thanks", "Ask", "Close in Jesus' name"],
+  "faq": [
+    {
+      "q": "Do I have to use special words to pray?",
+      "a": "No. God cares about your heart, not polished language. You can pray in plain words, in a whisper, or silently in your head. Jesus even warned against piling up empty words."
+    },
+    {
+      "q": "What if I do not feel anything when I pray?",
+      "a": "That is normal, especially at first. Prayer is not measured by feelings. God hears you whether or not you feel Him close. Keep showing up, and let trust grow over time."
+    },
+    {
+      "q": "How long should a prayer be?",
+      "a": "As long or as short as you need. A one-sentence prayer is real prayer. Many people start with a few minutes a day and grow from there."
+    },
+    {
+      "q": "Why do Christians pray in Jesus' name?",
+      "a": "Jesus taught His followers to ask the Father in His name. Praying in Jesus' name means coming to God through what Jesus has done for you, not through your own goodness."
+    }
+  ]
+}

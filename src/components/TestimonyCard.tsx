@@ -11,7 +11,7 @@ export function TestimonyCard({ t }: { t: PublicTestimony }) {
   return (
     <article className="card">
       <header className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-        <h3 className="font-serif text-xl">{t.name}</h3>
+        <p className="font-serif text-xl">{t.name}</p>
         <p className="text-sm text-muted">
           <time dateTime={t.createdAt}>{formatDate(t.createdAt)}</time>
         </p>

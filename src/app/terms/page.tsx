@@ -4,8 +4,8 @@ import { PageHeader } from "@/components/Scripture";
 import { SITE } from "@/lib/content";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Terms of Use",
-  description: "The simple rules for sharing prayer requests and testimonies on Closer to the Father, in plain English.",
+  title: "Terms of Use for the Prayer Wall",
+  description: "The simple rules for sharing prayer requests and testimonies on Closer to the Father, in plain English: what we post, what we remove, and what we ask of you.",
   path: "/terms",
 });
 

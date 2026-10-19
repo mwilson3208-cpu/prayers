@@ -33,6 +33,7 @@ export function Footer() {
                 ["/prayer-wall", "Prayer Wall"],
                 ["/answered", "Give Thanks"],
                 ["/scripture", "Scripture"],
+                ["/how-to-pray", "How to Pray"],
                 ["/7days", "7-Day Prayer Guide"],
                 ["/about", "About and Contact"],
               ].map(([href, label]) => (
